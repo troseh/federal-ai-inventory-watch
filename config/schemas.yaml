@@ -12,6 +12,30 @@ schemas:
     stage: "development_stage"
     impact_status: "is_high_impact"
     description: "benefits"
+    extra:
+      topic_area: "topic_area"
+      classification: "classification"
+      vendor: "vendor_name"
+      contracting: "contracting_usage"
+      withheld: "is_withheld"
+      operational_date: "operational_date"
+      has_pii: "has_pii"
+      demographic_features: "demographic_features"
+      justification: "HI_justification"
+      hi_assessment_completed: "hi_assessment_completed"
+      hi_testing_conducted: "hi_testing_conducted"
+      hi_potential_impacts: "hi_potential_impacts"
+      hi_independent_review: "hi_independent_review"
+      hi_ongoing_monitoring: "hi_ongoing_monitoring"
+      hi_training_established: "hi_training_established"
+      hi_failsafe_presence: "hi_failsafe_presence"
+      hi_appeal_process: "hi_appeal_process"
+      hi_public_consultation: "hi_public_consultation"
+
+text_fields:
+  - "description"
+  - "justification"
+  - "hi_potential_impacts"
 
 matching:
   rename_threshold: 0.85
