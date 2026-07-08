@@ -83,6 +83,21 @@ def read_rows(text: str) -> tuple[list[str], list[dict]]:
     return headers, [dict(r) for r in reader]
 
 
+def _norm_impact(raw: str, impact_map: dict) -> str:
+    s = _collapse(raw).casefold()
+    if not s or s in ("n/a", "na"):
+        return "unstated"
+    if s in impact_map:
+        return impact_map[s]
+    if "presumed" in s:
+        return "declassified"
+    if "not high" in s or s in ("no", "false"):
+        return "not-high-impact"
+    if "high" in s or s in ("yes", "true"):
+        return "high-impact"
+    return s
+
+
 def normalize(rows: list[dict], headers: list[str], cfg: dict) -> list[dict]:
     year = str(cfg["schema_year"])
     mapping = cfg["schemas"][year]
@@ -100,8 +115,7 @@ def normalize(rows: list[dict], headers: list[str], cfg: dict) -> list[dict]:
     out = []
     for r in rows:
         rec = {f: _collapse(r.get(mapping[f], "")) for f in CANONICAL_FIELDS}
-        raw_status = rec["impact_status"].casefold()
-        rec["impact_status"] = impact_map.get(raw_status, rec["impact_status"] or "unstated")
+        rec["impact_status"] = _norm_impact(rec["impact_status"], impact_map)
         if not rec["uid"]:
             rec["uid"] = f"synth::{rec['agency']}::{rec['name']}".casefold()
         out.append(rec)
@@ -304,8 +318,13 @@ def run_pipeline(new_text: str, today: str | None = None,
         _write_provenance(snapshot_label)
         declass = [r for r in new_rows if r["impact_status"] == "declassified"]
         append_ledger(today, [], declass)
+        counts = {}
+        for r in new_rows:
+            counts[r["impact_status"]] = counts.get(r["impact_status"], 0) + 1
+        summary = ", ".join(f"{k}: {v}" for k, v in sorted(counts.items()))
         print(f"Baseline seeded: {len(new_rows)} use cases "
               f"({len(declass)} already determined out of the presumed tier).")
+        print(f"Status counts: {summary}")
         return None
 
     m = cfg["matching"]
