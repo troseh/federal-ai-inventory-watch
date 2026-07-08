@@ -1,16 +1,5 @@
-# inventory-watch configuration
-#
-# IMPORTANT FIRST STEP: the column names under `schemas` are best-guess
-# placeholders. Run `python run.py --inspect` to print the actual headers
-# from the live CSV, then edit the right-hand values here to match EXACTLY
-# (including capitalization and punctuation). The pipeline refuses to run
-# against a schema it cannot fully map, and tells you which fields failed.
-
 source:
-  # OMB's consolidated 2025 inventory. If this 404s, browse
-  # https://github.com/ombegov/2025-Federal-Agency-AI-Use-Case-Inventory
-  # for the current path and update this URL.
-  url: "https://raw.githubusercontent.com/ombegov/2025-Federal-Agency-AI-Use-Case-Inventory/main/Data/2025_individually_reported_AI_use_cases.csv"
+  url: "https://api.github.com/repos/ombegov/2025-Federal-Agency-AI-Use-Case-Inventory/contents/Data/2025_individually_reported_AI_use_cases.csv"
 
 schema_year: "2025"
 
@@ -24,20 +13,10 @@ schemas:
     impact_status: "High-Impact Status"
     description: "Intended Purpose and Expected Benefits"
 
-# When OMB publishes the 2026 inventory with a new schema, add a "2026"
-# block here, flip schema_year, and update source.url. Cross-year identity
-# matching handles the rest.
-
 matching:
-  # Name-similarity ratio (0-1) at or above which an unmatched old/new pair
-  # within the same agency is treated as the same use case, renamed.
   rename_threshold: 0.85
-  # Pairs scoring between review_threshold and rename_threshold are written
-  # to data/needs_review.csv for a human call instead of being auto-decided.
   review_threshold: 0.70
 
-# Raw impact-status strings (lowercased) -> canonical values.
-# Extend this map if --inspect reveals different wording.
 impact_normalization:
   "high-impact": "high-impact"
   "presumed high-impact, but determined not high-impact": "declassified"
