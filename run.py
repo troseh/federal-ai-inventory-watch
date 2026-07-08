@@ -1,4 +1,16 @@
 #!/usr/bin/env python3
+"""inventory-watch entry point: --inspect prints live headers, --run executes."""
+import sys
+sys.path.insert(0, "src")
+from watch import inspect, run_live
+
+if __name__ == "__main__":
+    if "--inspect" in sys.argv:
+        inspect()
+    elif "--run" in sys.argv:
+        run_live()
+    else:
+        print(__doc__)#!/usr/bin/env python3
 """inventory-watch entry point.
 
 Usage:
