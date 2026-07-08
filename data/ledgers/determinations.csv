@@ -1,1 +1,109 @@
 date,uid,agency,name,from,to
+2026-07-08,DHS-194,DHS,AI Enabled Autonomous Underwater Vehicle,"Presumed High-Impact, but Not High-impact",declassified
+2026-07-08,DHS-234,DHS,Relocatable Multi-Sensor System,"Presumed High-Impact, but Not High-impact",declassified
+2026-07-08,DHS-2363,DHS,Anomaly Detection COV Structure,"Presumed High-Impact, but Not High-impact",declassified
+2026-07-08,DHS-2365,DHS,Anomaly Detection POV Structure,"Presumed High-Impact, but Not High-impact",declassified
+2026-07-08,DHS-2565,DHS,CBP Common AI Service(CCAIS) Image Analysis and Data Correlation,"Presumed High-Impact, but Not High-impact",declassified
+2026-07-08,DHS-2568,DHS,Non-intrusive vessel and object detection tool (Tethered Aerostat Radar System (TARS)),"Presumed High-Impact, but Not High-impact",declassified
+2026-07-08,DHS-317,DHS,RAPTOR (Rapid Tactical Operations Reconnaissance),"Presumed High-Impact, but Not High-impact",declassified
+2026-07-08,DHS-2572,DHS,Acoustic Signature AI for Gunshot Detection,"Presumed High-Impact, but Not High-impact",declassified
+2026-07-08,DHS-2729,DHS,Facial Recognition for National Security and Transnational Criminal Organizations,"Presumed High-Impact, but Not High-impact",declassified
+2026-07-08,DHS-101,DHS,The Advanced Trade Analytics Platform (ATAP),"Presumed High-Impact, but Not High-impact",declassified
+2026-07-08,DHS-183,DHS,Public Information Compilation for Travel Threat Analysis (Dataminr),"Presumed High-Impact, but Not High-impact",declassified
+2026-07-08,DHS-188,DHS,Airship Outpost for Conveyance Identification,"Presumed High-Impact, but Not High-impact",declassified
+2026-07-08,DHS-2383,DHS,Unmanned Aircraft Collision Avoidance,"Presumed High-Impact, but Not High-impact",declassified
+2026-07-08,DHS-24,DHS,Entity Resolution,"Presumed High-Impact, but Not High-impact",declassified
+2026-07-08,DHS-2417,DHS,Process Efficiency Traveler Identity for Airline Check-in and Bag Drop,"Presumed High-Impact, but Not High-impact",declassified
+2026-07-08,DHS-310,DHS,Customs Broker License Exam - Proctor Support,"Presumed High-Impact, but Not High-impact",declassified
+2026-07-08,DHS-35,DHS,Autonomous Surveillance Tower,"Presumed High-Impact, but Not High-impact",declassified
+2026-07-08,DHS-37,DHS,Automated Item of Interest Detection,"Presumed High-Impact, but Not High-impact",declassified
+2026-07-08,DHS-38,DHS,Vessel Detection,"Presumed High-Impact, but Not High-impact",declassified
+2026-07-08,DHS-401,DHS,Vault Access Log (SPVAA),"Presumed High-Impact, but Not High-impact",declassified
+2026-07-08,DHS-65,DHS,Aircraft Landing Location Predictor (KESTREL),"Presumed High-Impact, but Not High-impact",declassified
+2026-07-08,DHS-81,DHS,Passport Anomaly Model,"Presumed High-Impact, but Not High-impact",declassified
+2026-07-08,DHS-86,DHS,Agriculture Commodity Model (AGC),"Presumed High-Impact, but Not High-impact",declassified
+2026-07-08,DHS-95,DHS,Trade Entity Risk Model,"Presumed High-Impact, but Not High-impact",declassified
+2026-07-08,DHS-204,DHS,Semantic Search and Summarization for Investigative Data,"Presumed High-Impact, but Not High-impact",declassified
+2026-07-08,DHS-2552,DHS,Mobile Device Forensics for Investigations,"Presumed High-Impact, but Not High-impact",declassified
+2026-07-08,DHS-2595,DHS,Open-Source Intelligence for Lead Identification and Targeting,"Presumed High-Impact, but Not High-impact",declassified
+2026-07-08,DHS-2667,DHS,Global Maritime Intelligence,"Presumed High-Impact, but Not High-impact",declassified
+2026-07-08,DHS-48,DHS,Email Analytics for Investigative Data,"Presumed High-Impact, but Not High-impact",declassified
+2026-07-08,DHS-125,DHS,Investigative Prioritization Aggregator,"Presumed High-Impact, but Not High-impact",declassified
+2026-07-08,DHS-2427,DHS,Translation and Transcription for Investigative Data,"Presumed High-Impact, but Not High-impact",declassified
+2026-07-08,DHS-2511,DHS,AI-Assisted Audio/Video Redaction,"Presumed High-Impact, but Not High-impact",declassified
+2026-07-08,DHS-2517,DHS,Dark Web Threat Intelligence for Cyber Investigations,"Presumed High-Impact, but Not High-impact",declassified
+2026-07-08,DHS-2547,DHS,Entity Resolution for Global Trade Data,"Presumed High-Impact, but Not High-impact",declassified
+2026-07-08,DHS-2575,DHS,Blockchain Analysis,"Presumed High-Impact, but Not High-impact",declassified
+2026-07-08,DHS-2578,DHS,Enhanced Lead Identification and Targeting,"Presumed High-Impact, but Not High-impact",declassified
+2026-07-08,DHS-407,DHS,Biometric Check-in for ATD-ISAP (SmartLINK),"Presumed High-Impact, but Not High-impact",declassified
+2026-07-08,DHS-123,DHS,Voice Analytics for Investigative Data,"Presumed High-Impact, but Not High-impact",declassified
+2026-07-08,DHS-49,DHS,Mobile Device Analytics for Investigative Data,"Presumed High-Impact, but Not High-impact",declassified
+2026-07-08,DHS-2434,DHS,User and Entity Behavior Analytics (UEBA),"Presumed High-Impact, but Not High-impact",declassified
+2026-07-08,DHS-417,DHS,Machine Learning Analysis Applied to Cyber Threat Hunt Data,"Presumed High-Impact, but Not High-impact",declassified
+2026-07-08,DHS-2627,DHS,Extended Automated Name Harvesting (eANH),"Presumed High-Impact, but Not High-impact",declassified
+2026-07-08,DHS-14,DHS,Biometrics Enrollment Tool (BET) Fingerprint Quality Check,"Presumed High-Impact, but Not High-impact",declassified
+2026-07-08,DHS-180,DHS,Automated Name and Date of Birth (DOB) Harvesting Service,"Presumed High-Impact, but Not High-impact",declassified
+2026-07-08,DHS-189,DHS,ELIS Card Photo Validation Service,"Presumed High-Impact, but Not High-impact",declassified
+2026-07-08,DHS-2543,DHS,AI Security and Monitoring,"Presumed High-Impact, but Not High-impact",declassified
+2026-07-08,DHS-372,DHS,User Entity and Behavior Analytics (UEBA) for Security Operations (SecOps) Anomaly Identification,"Presumed High-Impact, but Not High-impact",declassified
+2026-07-08,DHS-56,DHS,Person-Centric Identity Services Information Compilation Check,"Presumed High-Impact, but Not High-impact",declassified
+2026-07-08,DHS-57,DHS,Identity Match Option (IMO) Tool for Record Compilation,"Presumed High-Impact, but Not High-impact",declassified
+2026-07-08,DOE-574,DOE,M365 Copilot,"Presumed High-Impact, but Not High-impact",declassified
+2026-07-08,DOE-579,DOE,MR-DT,"Presumed High-Impact, but Not High-impact",declassified
+2026-07-08,DOE-588,DOE,AI-Assisted Strategies and Solutions for Environmental Technology (AI-ASSET),"Presumed High-Impact, but Not High-impact",declassified
+2026-07-08,DOE-629,DOE,Consolidated Nuclear Waste Glass Database,"Presumed High-Impact, but Not High-impact",declassified
+2026-07-08,DOE-713,DOE,Performance Monitoring at the Salt Waste Processing Facility (SWPF),"Presumed High-Impact, but Not High-impact",declassified
+2026-07-08,DOJ-0009,DOJ,CargoNet,"Presumed High-Impact, but Not High-impact",declassified
+2026-07-08,DOJ-0014,DOJ,Dun & Bradstreet Business Establishments Data,"Presumed High-Impact, but Not High-impact",declassified
+2026-07-08,DOJ-0019,DOJ,LexisNexis Accurint,"Presumed High-Impact, but Not High-impact",declassified
+2026-07-08,DOJ-0021,DOJ,Mark43 Public Safety Records,"Presumed High-Impact, but Not High-impact",declassified
+2026-07-08,DOJ-0022,DOJ,National Insurance Crime Bureau ISO ClaimSearch,"Presumed High-Impact, but Not High-impact",declassified
+2026-07-08,DOJ-0029,DOJ,Southwest Border Transaction Record Analysis Center (SWBTRAC),"Presumed High-Impact, but Not High-impact",declassified
+2026-07-08,DOJ-0030,DOJ,Spokeo,"Presumed High-Impact, but Not High-impact",declassified
+2026-07-08,DOJ-0031,DOJ,Thomson Reuters CLEAR,"Presumed High-Impact, but Not High-impact",declassified
+2026-07-08,DOJ-0032,DOJ,TransUnion TLOxp Online Investigative Services,"Presumed High-Impact, but Not High-impact",declassified
+2026-07-08,DOJ-0033,DOJ,Veritone Redact,"Presumed High-Impact, but Not High-impact",declassified
+2026-07-08,DOJ-0040,DOJ,"SAS (Forecasting, predictive analytics, data/statistical analysis)","Presumed High-Impact, but Not High-impact",declassified
+2026-07-08,DOJ-0041,DOJ,"R (Forecasting, predictive analytics, data/statistical analysis)","Presumed High-Impact, but Not High-impact",declassified
+2026-07-08,DOJ-0042,DOJ,"Stata (Forecasting, predictive analytics, data/statistical analysis)","Presumed High-Impact, but Not High-impact",declassified
+2026-07-08,DOJ-0043,DOJ,"Matlab (Forecasting, predictive analytics, data/statistical analysis)","Presumed High-Impact, but Not High-impact",declassified
+2026-07-08,DOJ-0044,DOJ,"Databricks (Forecasting, predictive analytics, data/statistical analysis)","Presumed High-Impact, but Not High-impact",declassified
+2026-07-08,DOJ-0332,DOJ,ATR Expert/Consulting with Bates White,"Presumed High-Impact, but Not High-impact",declassified
+2026-07-08,DOJ-0315,DOJ,Civil Rights Public Reporting Portal,"Presumed High-Impact, but Not High-impact",declassified
+2026-07-08,DOJ-0072,DOJ,Data & Analytics: Threat and Security Incident Monitoring,"Presumed High-Impact, but Not High-impact",declassified
+2026-07-08,DOJ-0073,DOJ,Data & Analytics: Transportation OCR,"Presumed High-Impact, but Not High-impact",declassified
+2026-07-08,DOJ-0357,DOJ,Creating and Maintaining IT Security Packages for Authorizations,"Presumed High-Impact, but Not High-impact",declassified
+2026-07-08,DOJ-0362,DOJ,Analyzing Prescription Monitoring Program Data,"Presumed High-Impact, but Not High-impact",declassified
+2026-07-08,DOJ-0363,DOJ,Analyze Financial Reports to Identify Linkages Across Investigations,"Presumed High-Impact, but Not High-impact",declassified
+2026-07-08,DOJ-0102,DOJ,eLitigation Tools,"Presumed High-Impact, but Not High-impact",declassified
+2026-07-08,DOJ-0265,DOJ,Public Comment Analysis,"Presumed High-Impact, but Not High-impact",declassified
+2026-07-08,DOJ-0153,DOJ,Google Translate,"Presumed High-Impact, but Not High-impact",declassified
+2026-07-08,DOJ-0220,DOJ,AWS Transcribe,"Presumed High-Impact, but Not High-impact",declassified
+2026-07-08,DOJ-0221,DOJ,AWS Translate,"Presumed High-Impact, but Not High-impact",declassified
+2026-07-08,DOJ-0271,DOJ,Pega GenAI,"Presumed High-Impact, but Not High-impact",declassified
+2026-07-08,DOJ-0326,DOJ,AWS Textract,"Presumed High-Impact, but Not High-impact",declassified
+2026-07-08,DOJ-0235,DOJ,Aware,"Presumed High-Impact, but Not High-impact",declassified
+2026-07-08,DOJ-0239,DOJ,Thomson Reuters CLEAR,"Presumed High-Impact, but Not High-impact",declassified
+2026-07-08,46,EPA,Briefcam,"Presumed High-Impact, but Not High-impact",declassified
+2026-07-08,synth::hhs::structuring and validating completeness of case data information,HHS,Structuring and Validating Completeness of Case Data Information,"Presumed High-Impact, but Not High-impact",declassified
+2026-07-08,synth::hhs::structuring notice of concern data,HHS,Structuring Notice of Concern Data,"Presumed High-Impact, but Not High-impact",declassified
+2026-07-08,synth::hhs::enhanced direct enrollment outlier detection,HHS,Enhanced Direct Enrollment Outlier Detection,"Presumed High-Impact, but Not High-impact",declassified
+2026-07-08,synth::hhs::agent/broker fraud analysis (abcqi),HHS,Agent/Broker Fraud Analysis (ABCQI),"Presumed High-Impact, but Not High-impact",declassified
+2026-07-08,synth::hhs::cder regulatory science research (rsr) projects ai for process control in advanced manufacturing,HHS,CDER Regulatory Science Research (RSR) Projects AI for Process Control in Advanced Manufacturing,"Presumed High-Impact, but Not High-impact",declassified
+2026-07-08,synth::hhs::developing an objective and quantitative endpoint for atopic dermatitis in pediatric and adult populations,HHS,Developing an Objective and Quantitative Endpoint for Atopic Dermatitis in Pediatric and Adult Populations,"Presumed High-Impact, but Not High-impact",declassified
+2026-07-08,synth::hhs::foia redaction (fred) tool,HHS,FOIA REDACTION (FRED) TOOL,"Presumed High-Impact, but Not High-impact",declassified
+2026-07-08,synth::hhs::ai-powered video analytics for law enforcement,HHS,AI-Powered Video Analytics for Law Enforcement,"Presumed High-Impact, but Not High-impact",declassified
+2026-07-08,synth::hhs::computer vision to translate and mine product labeling photos to analyze labeling for potential violations,HHS,Computer Vision to translate and mine Product Labeling photos to analyze labeling for potential violations,"Presumed High-Impact, but Not High-impact",declassified
+2026-07-08,synth::hhs::nichd rpab ai/ml nichd relevance model,HHS,NICHD RPAB AI/ML NICHD Relevance Model,"Presumed High-Impact, but Not High-impact",declassified
+2026-07-08,synth::hhs::internal referral module (irm),HHS,Internal Referral Module (IRM),"Presumed High-Impact, but Not High-impact",declassified
+2026-07-08,synth::hhs::nichd rpab ai/ml application referral system,HHS,NICHD RPAB AI/ML Application Referral System,"Presumed High-Impact, but Not High-impact",declassified
+2026-07-08,synth::hhs::nlp automated referral,HHS,NLP Automated Referral,"Presumed High-Impact, but Not High-impact",declassified
+2026-07-08,NASA-234,NASA,MLNav (Machine Learning Navigation),"Presumed High-Impact, but Not High-impact",declassified
+2026-07-08,NASA-487,NASA,"AI Digital Assistants (HRP) [was ""Doc in a Box"" for Earth Independent Medical Operations (EIMO)]","Presumed High-Impact, but Not High-impact",declassified
+2026-07-08,NASA-398,NASA,Autonomous WAiting Room Evaluation (AWARE),"Presumed High-Impact, but Not High-impact",declassified
+2026-07-08,TBD,STB,RelativityOne,"Presumed High-Impact, but Not High-impact",declassified
+2026-07-08,TREAS-94,TREAS,AI Contract Document Toolbox,"Presumed High-Impact, but Not High-impact",declassified
+2026-07-08,TREAS-IRS-75,TREAS,Procurement Research,"Presumed High-Impact, but Not High-impact",declassified
+2026-07-08,TREAS-IRS-9,TREAS,Vendor Risk Analytics,"Presumed High-Impact, but Not High-impact",declassified
+2026-07-08,USDA-048,USDA,Dam Inspection Report Document Processing,"Presumed High-Impact, but Not High-impact",declassified
+2026-07-08,USDA-175,USDA,AI for Environmental Permitting Review,"Presumed High-Impact, but Not High-impact",declassified
