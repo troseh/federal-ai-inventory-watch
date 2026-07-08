@@ -1,8 +1,0 @@
-Use Case ID,Agency,Bureau / Component,Use Case Name,Stage of Development,High-Impact Status,Intended Purpose and Expected Benefits
-HHS-0001,HHS,Centers for Medicare & Medicaid Services,Benefit Eligibility Screening Model,Deployed,"Presumed High-Impact, but determined not High-Impact",Screens benefit applications to prioritize adjudication and reduce processing time.
-DHS-0002,DHS,USCIS,Language Access Translation Service,Deployed,Not high-impact,Translates applicant communications to expand language access.
-VA-0088,VA,Veterans Benefits Administration,Claims Documents Classifier v2,Deployed,High-impact,Classifies incoming claims documents to route them to the correct adjudication queue with expanded document types.
-SSA-0005,SSA,Office of Operations,Disability Wait Time Forecaster,Pilot,Not high-impact,Forecasts disability determination backlogs for staffing decisions.
-DOL-0091,DOL,Employment and Training Administration,Grant Application Scoring Assistant,Pilot,Not high-impact,Scores discretionary grant applications to support reviewer assignment.
-ED-0007,ED,Federal Student Aid,Loan Servicing Chat Router,Deployed,"Presumed High-Impact, but determined not High-Impact",Routes borrower chat inquiries to servicing queues.
-USDA-0008,USDA,Food and Nutrition Service,SNAP Document Verifier,Pre-Deployment,High-impact,Verifies applicant documents submitted for SNAP eligibility.
