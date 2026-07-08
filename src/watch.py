@@ -1,31 +1,10 @@
-"""inventory-watch: semantic diffing for the federal AI use case inventory.
-
-Pipeline stages:
-  1. fetch      - download the current consolidated CSV, archive a raw snapshot
-  2. normalize  - map the year's schema onto canonical fields
-  3. match      - pair rows across snapshots (exact uid, then fuzzy within agency)
-  4. diff       - field-level changes, additions, removals, tier movements
-  5. report     - dated markdown changelog + cumulative determinations ledger
-
-Methodology (v0.1, frozen; changes require a version bump in this docstring):
-  - Exact match: identical normalized uid.
-  - Rename match: within the same agency, name similarity >= rename_threshold
-    (difflib SequenceMatcher on casefolded, whitespace-collapsed names),
-    assigned greedily from highest ratio down, one-to-one.
-  - Ambiguous: ratios in [review_threshold, rename_threshold) are never
-    auto-decided; they are written to data/needs_review.csv.
-  - A "declassification" is any matched pair whose canonical impact_status
-    moves from high-impact to any other value, or whose status is
-    "declassified" (presumed high-impact, determined not) on first appearance.
-
-Provenance: every changelog is stamped with the two snapshot files it was
-derived from, so each diff can be re-derived from its archived inputs.
-"""
+"""Semantic diffing for the federal AI use case inventory."""
 
 from __future__ import annotations
 
 import csv
 import io
+import os
 import re
 import sys
 import urllib.request
@@ -73,8 +52,14 @@ def load_config() -> dict:
 
 # ------------------------------------------------------------------ fetch --
 
-def fetch_csv(url: str, timeout: int = 60) -> str:
-    req = urllib.request.Request(url, headers={"User-Agent": "inventory-watch/0.1"})
+def fetch_csv(url: str, timeout: int = 120) -> str:
+    headers = {"User-Agent": "inventory-watch/0.1"}
+    if "api.github.com" in url:
+        headers["Accept"] = "application/vnd.github.raw+json"
+        token = os.environ.get("GITHUB_TOKEN")
+        if token:
+            headers["Authorization"] = f"Bearer {token}"
+    req = urllib.request.Request(url, headers=headers)
     with urllib.request.urlopen(req, timeout=timeout) as resp:
         return resp.read().decode("utf-8-sig", errors="replace")
 
@@ -118,7 +103,6 @@ def normalize(rows: list[dict], headers: list[str], cfg: dict) -> list[dict]:
         raw_status = rec["impact_status"].casefold()
         rec["impact_status"] = impact_map.get(raw_status, rec["impact_status"] or "unstated")
         if not rec["uid"]:
-            # Synthesize a stable uid for rows published without one.
             rec["uid"] = f"synth::{rec['agency']}::{rec['name']}".casefold()
         out.append(rec)
     return out
@@ -152,7 +136,6 @@ def match(old: list[dict], new: list[dict], rename_t: float, review_t: float) ->
     leftovers_old = [r for r in old if r["uid"] not in matched_old]
     leftovers_new = [r for r in new if r["uid"] not in matched_new]
 
-    # Fuzzy rename pass, blocked by agency, greedy best-first, one-to-one.
     candidates = []
     for o in leftovers_old:
         for n in leftovers_new:
