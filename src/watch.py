@@ -17,6 +17,9 @@ Methodology (v0.1, frozen; changes require a version bump in this docstring):
   - A "declassification" is any matched pair whose canonical impact_status
     moves from high-impact to any other value, or whose status is
     "declassified" (presumed high-impact, determined not) on first appearance.
+
+Provenance: every changelog is stamped with the two snapshot files it was
+derived from, so each diff can be re-derived from its archived inputs.
 """
 
 from __future__ import annotations
@@ -44,6 +47,21 @@ INDEX_PATH = ROOT / "CHANGELOG.md"
 
 CANONICAL_FIELDS = ["uid", "agency", "bureau", "name", "stage",
                     "impact_status", "description"]
+
+
+def _provenance_path() -> Path:
+    return CANONICAL_PATH.parent / "provenance.txt"
+
+
+def _read_provenance() -> str:
+    p = _provenance_path()
+    return p.read_text(encoding="utf-8").strip() if p.exists() else "(no prior snapshot recorded)"
+
+
+def _write_provenance(label: str) -> None:
+    p = _provenance_path()
+    p.parent.mkdir(parents=True, exist_ok=True)
+    p.write_text(label + "\n", encoding="utf-8")
 
 
 # ----------------------------------------------------------------- config --
@@ -184,9 +202,10 @@ def _row_line(r: dict) -> str:
 
 
 def write_changelog(today: str, res: MatchResult, changes, tier_moves,
-                    first_seen_declassified) -> Path:
+                    first_seen_declassified, prov_old: str, prov_new: str) -> Path:
     CHANGELOG_DIR.mkdir(parents=True, exist_ok=True)
-    lines = [f"# Inventory changes — {today}", ""]
+    lines = [f"# Inventory changes — {today}", "",
+             f"Derived from: `{prov_old}` → `{prov_new}`", ""]
 
     if tier_moves or first_seen_declassified:
         lines += ["## High-impact tier movements", ""]
@@ -288,15 +307,18 @@ def load_canonical() -> list[dict] | None:
 
 # ------------------------------------------------------------------ runs ---
 
-def run_pipeline(new_text: str, today: str | None = None) -> Path | None:
+def run_pipeline(new_text: str, today: str | None = None,
+                 snapshot_label: str | None = None) -> Path | None:
     cfg = load_config()
     today = today or date.today().isoformat()
+    snapshot_label = snapshot_label or f"data/snapshots/{today}.csv"
     headers, raw_rows = read_rows(new_text)
     new_rows = normalize(raw_rows, headers, cfg)
 
     old_rows = load_canonical()
     if old_rows is None:
         save_canonical(new_rows)
+        _write_provenance(snapshot_label)
         declass = [r for r in new_rows if r["impact_status"] == "declassified"]
         append_ledger(today, [], declass)
         print(f"Baseline seeded: {len(new_rows)} use cases "
@@ -308,11 +330,14 @@ def run_pipeline(new_text: str, today: str | None = None) -> Path | None:
     changes, tier_moves = diff_pairs(res.pairs)
     first_seen_declassified = [r for r in res.added if r["impact_status"] == "declassified"]
 
-    path = write_changelog(today, res, changes, tier_moves, first_seen_declassified)
+    prov_old = _read_provenance()
+    path = write_changelog(today, res, changes, tier_moves,
+                           first_seen_declassified, prov_old, snapshot_label)
     update_index(today, res, tier_moves)
     append_ledger(today, tier_moves, first_seen_declassified)
     write_review(res)
     save_canonical(new_rows)
+    _write_provenance(snapshot_label)
     print(f"Changelog written: {path.relative_to(ROOT)}")
     return path
 
@@ -321,8 +346,12 @@ def run_live() -> None:
     cfg = load_config()
     today = date.today().isoformat()
     text = fetch_csv(cfg["source"]["url"])
-    archive_snapshot(text, today)
-    run_pipeline(text, today)
+    snap = archive_snapshot(text, today)
+    try:
+        label = str(snap.relative_to(ROOT))
+    except ValueError:
+        label = str(snap)
+    run_pipeline(text, today, label)
 
 
 def inspect() -> None:
