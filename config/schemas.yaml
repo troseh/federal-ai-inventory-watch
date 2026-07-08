@@ -5,13 +5,13 @@ schema_year: "2025"
 
 schemas:
   "2025":
-    uid: "Use Case ID"
-    agency: "Agency"
-    bureau: "Bureau / Component"
-    name: "Use Case Name"
-    stage: "Stage of Development"
-    impact_status: "High-Impact Status"
-    description: "Intended Purpose and Expected Benefits"
+    uid: "id"
+    agency: "agency"
+    bureau: "agency_bureau"
+    name: "use_case_name"
+    stage: "development_stage"
+    impact_status: "is_high_impact"
+    description: "benefits"
 
 matching:
   rename_threshold: 0.85
