@@ -1,4 +1,4 @@
-"""Semantic diffing for the federal AI use case inventory. Methodology v0.1; code v0.2."""
+"""Semantic diffing for the federal AI use case inventory. Methodology v0.1; code v1.0."""
 
 from __future__ import annotations
 
@@ -53,7 +53,7 @@ def load_config() -> dict:
 
 
 def fetch_csv(url: str, timeout: int = 120) -> str:
-    headers = {"User-Agent": "inventory-watch/0.2"}
+    headers = {"User-Agent": "inventory-watch/1.0"}
     if "api.github.com" in url:
         headers["Accept"] = "application/vnd.github.raw+json"
         token = os.environ.get("GITHUB_TOKEN")
@@ -87,6 +87,21 @@ def schema_fields(cfg: dict) -> tuple[list[str], list[str]]:
     fields = CORE_FIELDS + [k for k in extra if k not in CORE_FIELDS]
     text_fields = list(cfg.get("text_fields") or ["description"])
     return fields, text_fields
+
+
+def _stage_bucket(raw: str) -> str:
+    s = _collapse(raw).casefold()
+    if not s:
+        return "(unstated)"
+    if "pre-deploy" in s or "predeploy" in s:
+        return "pre-deployment"
+    if "deploy" in s:
+        return "deployed"
+    if "pilot" in s:
+        return "pilot"
+    if "retire" in s:
+        return "retired"
+    return s
 
 
 def _norm_impact(raw: str, impact_map: dict) -> str:
@@ -339,12 +354,27 @@ def write_summary(today, rows, fields, snapshot_label):
              "## Status", "", "| status | count |", "| --- | --- |"]
     lines += _md_counts(_count(rows, "impact_status"))
 
+    stage_counts = {}
+    for r in rows:
+        b = _stage_bucket(r.get("stage", ""))
+        stage_counts[b] = stage_counts.get(b, 0) + 1
+    lines += ["", "## Stage (all use cases)", "", "| stage | count |", "| --- | --- |"]
+    lines += _md_counts(stage_counts)
+
     hi_rows = [r for r in rows if r["impact_status"] == "high-impact"]
     de_rows = [r for r in rows if r["impact_status"] == "declassified"]
+    hi_deployed = [r for r in hi_rows if _stage_bucket(r.get("stage", "")) == "deployed"]
 
     lines += ["", f"## High-impact use cases by agency ({len(hi_rows)} total)", "",
               "| agency | count |", "| --- | --- |"]
     lines += _md_counts(_count(hi_rows, "agency"), limit=20)
+
+    hi_stage = {}
+    for r in hi_rows:
+        b = _stage_bucket(r.get("stage", ""))
+        hi_stage[b] = hi_stage.get(b, 0) + 1
+    lines += ["", "## High-impact use cases by stage", "", "| stage | count |", "| --- | --- |"]
+    lines += _md_counts(hi_stage)
 
     if de_rows:
         lines += ["", f"## Presumed high-impact, determined not ({len(de_rows)} total)", "",
@@ -353,11 +383,15 @@ def write_summary(today, rows, fields, snapshot_label):
 
     hi_fields = [f for f in fields if f.startswith("hi_")]
     if hi_fields and hi_rows:
-        lines += ["", "## Minimum-practice reporting among high-impact use cases", "",
-                  "Value counts per reported field.", ""]
+        lines += ["", f"## Minimum-practice reporting among deployed high-impact use cases ({len(hi_deployed)} of {len(hi_rows)})", "",
+                  "Under OMB M-25-21, the minimum risk-management practices apply to "
+                  "deployed high-impact AI. Pre-existing deployed use cases had until "
+                  "April 3, 2026 to implement the practices or discontinue use, subject "
+                  "to extensions and waivers. Value counts below are restricted to "
+                  "high-impact use cases whose published stage is deployed.", ""]
         for f in hi_fields:
             lines += [f"### {f}", "", "| value | count |", "| --- | --- |"]
-            lines += _md_counts(_count(hi_rows, f), limit=6)
+            lines += _md_counts(_count(hi_deployed, f), limit=6)
             lines.append("")
 
     if "vendor" in fields and hi_rows:
@@ -423,6 +457,14 @@ def run_pipeline(new_text, today=None, snapshot_label=None):
     changes, tier_moves = diff_pairs(res.pairs, fields, text_fields)
     first_seen_declassified = [r for r in res.added if r["impact_status"] == "declassified"]
 
+    nothing = not (res.added or res.removed or changes or res.review)
+    if nothing:
+        save_canonical(new_rows, fields)
+        write_summary(today, new_rows, fields, snapshot_label)
+        _write_provenance(snapshot_label)
+        print("No field-level changes detected; state refreshed, no changelog written.")
+        return None
+
     prov_old = _read_provenance()
     path = write_changelog(today, res, changes, tier_moves,
                            first_seen_declassified, prov_old, snapshot_label, text_fields)
@@ -440,6 +482,11 @@ def run_live():
     cfg = load_config()
     today = date.today().isoformat()
     text = fetch_csv(cfg["source"]["url"])
+    prev_label = _read_provenance()
+    prev_path = ROOT / prev_label
+    if prev_path.is_file() and prev_path.read_text(encoding="utf-8") == text:
+        print("Source file unchanged since last snapshot; nothing to do.")
+        return
     snap = archive_snapshot(text, today)
     try:
         label = str(snap.relative_to(ROOT))
