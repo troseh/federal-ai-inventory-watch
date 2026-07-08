@@ -10,7 +10,7 @@ source:
   # OMB's consolidated 2025 inventory. If this 404s, browse
   # https://github.com/ombegov/2025-Federal-Agency-AI-Use-Case-Inventory
   # for the current path and update this URL.
-  url: "https://raw.githubusercontent.com/ombegov/2025-Federal-Agency-AI-Use-Case-Inventory/main/data/2025_individually_reported_AI_use_cases.csv"
+  url: "https://raw.githubusercontent.com/ombegov/2025-Federal-Agency-AI-Use-Case-Inventory/main/Data/2025_individually_reported_AI_use_cases.csv"
 
 schema_year: "2025"
 
