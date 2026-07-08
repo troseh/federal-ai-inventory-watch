@@ -1,4 +1,4 @@
-"""Semantic diffing for the federal AI use case inventory."""
+"""Semantic diffing for the federal AI use case inventory. Methodology v0.1; code v0.2."""
 
 from __future__ import annotations
 
@@ -24,12 +24,16 @@ REVIEW_PATH = ROOT / "data" / "needs_review.csv"
 CHANGELOG_DIR = ROOT / "changelogs"
 INDEX_PATH = ROOT / "CHANGELOG.md"
 
-CANONICAL_FIELDS = ["uid", "agency", "bureau", "name", "stage",
-                    "impact_status", "description"]
+CORE_FIELDS = ["uid", "agency", "bureau", "name", "stage",
+               "impact_status", "description"]
 
 
 def _provenance_path() -> Path:
     return CANONICAL_PATH.parent / "provenance.txt"
+
+
+def _summary_path() -> Path:
+    return CANONICAL_PATH.parent.parent / "SUMMARY.md"
 
 
 def _read_provenance() -> str:
@@ -43,17 +47,13 @@ def _write_provenance(label: str) -> None:
     p.write_text(label + "\n", encoding="utf-8")
 
 
-# ----------------------------------------------------------------- config --
-
 def load_config() -> dict:
     with open(CONFIG_PATH, encoding="utf-8") as fh:
         return yaml.safe_load(fh)
 
 
-# ------------------------------------------------------------------ fetch --
-
 def fetch_csv(url: str, timeout: int = 120) -> str:
-    headers = {"User-Agent": "inventory-watch/0.1"}
+    headers = {"User-Agent": "inventory-watch/0.2"}
     if "api.github.com" in url:
         headers["Accept"] = "application/vnd.github.raw+json"
         token = os.environ.get("GITHUB_TOKEN")
@@ -71,8 +71,6 @@ def archive_snapshot(text: str, today: str) -> Path:
     return path
 
 
-# -------------------------------------------------------------- normalize --
-
 def _collapse(s: str) -> str:
     return re.sub(r"\s+", " ", (s or "").strip())
 
@@ -81,6 +79,14 @@ def read_rows(text: str) -> tuple[list[str], list[dict]]:
     reader = csv.DictReader(io.StringIO(text))
     headers = reader.fieldnames or []
     return headers, [dict(r) for r in reader]
+
+
+def schema_fields(cfg: dict) -> tuple[list[str], list[str]]:
+    year = str(cfg["schema_year"])
+    extra = cfg["schemas"][year].get("extra") or {}
+    fields = CORE_FIELDS + [k for k in extra if k not in CORE_FIELDS]
+    text_fields = list(cfg.get("text_fields") or ["description"])
+    return fields, text_fields
 
 
 def _norm_impact(raw: str, impact_map: dict) -> str:
@@ -100,21 +106,29 @@ def _norm_impact(raw: str, impact_map: dict) -> str:
 
 def normalize(rows: list[dict], headers: list[str], cfg: dict) -> list[dict]:
     year = str(cfg["schema_year"])
-    mapping = cfg["schemas"][year]
-    missing = [k for k, col in mapping.items() if col not in headers]
+    schema = cfg["schemas"][year]
+    core_map = {k: v for k, v in schema.items() if k in CORE_FIELDS}
+    extra_map = schema.get("extra") or {}
+
+    missing = [k for k, col in core_map.items() if col not in headers]
     if missing:
-        wanted = {k: mapping[k] for k in missing}
+        wanted = {k: core_map[k] for k in missing}
         raise SystemExit(
             "Schema mapping failed for fields "
             f"{wanted}.\nActual headers were:\n  " + "\n  ".join(headers) +
             "\nEdit config/schemas.yaml so every mapped column matches a real "
-            "header exactly, then rerun. (`python run.py --inspect` prints "
-            "headers without running the pipeline.)"
+            "header exactly, then rerun."
         )
+    absent_extra = [k for k, col in extra_map.items() if col not in headers]
+    if absent_extra:
+        print(f"Note: extra fields not found in source and left empty: {absent_extra}")
+
     impact_map = {k.casefold(): v for k, v in cfg["impact_normalization"].items()}
     out = []
     for r in rows:
-        rec = {f: _collapse(r.get(mapping[f], "")) for f in CANONICAL_FIELDS}
+        rec = {f: _collapse(r.get(core_map[f], "")) for f in CORE_FIELDS}
+        for f, col in extra_map.items():
+            rec[f] = _collapse(r.get(col, ""))
         rec["impact_status"] = _norm_impact(rec["impact_status"], impact_map)
         if not rec["uid"]:
             rec["uid"] = f"synth::{rec['agency']}::{rec['name']}".casefold()
@@ -122,11 +136,9 @@ def normalize(rows: list[dict], headers: list[str], cfg: dict) -> list[dict]:
     return out
 
 
-# ------------------------------------------------------------------ match --
-
 @dataclass
 class MatchResult:
-    pairs: list[tuple[dict, dict, str]] = field(default_factory=list)  # (old, new, how)
+    pairs: list[tuple[dict, dict, str]] = field(default_factory=list)
     added: list[dict] = field(default_factory=list)
     removed: list[dict] = field(default_factory=list)
     review: list[tuple[dict, dict, float]] = field(default_factory=list)
@@ -175,14 +187,16 @@ def match(old: list[dict], new: list[dict], rename_t: float, review_t: float) ->
     return res
 
 
-# ------------------------------------------------------------------- diff --
-
-def diff_pairs(pairs) -> tuple[list[dict], list[dict]]:
-    """Return (field_changes, tier_moves)."""
+def diff_pairs(pairs, fields, text_fields):
     changes, tier_moves = [], []
     for old, new, how in pairs:
-        delta = {f: (old[f], new[f]) for f in CANONICAL_FIELDS
-                 if f != "uid" and old[f] != new[f]}
+        delta = {}
+        for f in fields:
+            if f == "uid":
+                continue
+            a, b = old.get(f, ""), new.get(f, "")
+            if a != b:
+                delta[f] = (a, b)
         if delta:
             changes.append({"old": old, "new": new, "how": how, "delta": delta})
         if "impact_status" in delta:
@@ -192,14 +206,13 @@ def diff_pairs(pairs) -> tuple[list[dict], list[dict]]:
     return changes, tier_moves
 
 
-# ----------------------------------------------------------------- report --
-
 def _row_line(r: dict) -> str:
-    return f"- **{r['name']}** ({r['agency']}, `{r['uid']}`) — {r['impact_status']}, {r['stage'] or 'stage unstated'}"
+    return (f"- **{r['name']}** ({r['agency']}, `{r['uid']}`) — "
+            f"{r['impact_status']}, {r.get('stage') or 'stage unstated'}")
 
 
-def write_changelog(today: str, res: MatchResult, changes, tier_moves,
-                    first_seen_declassified, prov_old: str, prov_new: str) -> Path:
+def write_changelog(today, res, changes, tier_moves, first_seen_declassified,
+                    prov_old, prov_new, text_fields):
     CHANGELOG_DIR.mkdir(parents=True, exist_ok=True)
     lines = [f"# Inventory changes — {today}", "",
              f"Derived from: `{prov_old}` → `{prov_new}`", ""]
@@ -216,6 +229,22 @@ def write_changelog(today: str, res: MatchResult, changes, tier_moves,
                          "presumed high-impact tier")
         lines.append("")
 
+    practice_changes = []
+    for c in changes:
+        hi_delta = {f: v for f, v in c["delta"].items() if f.startswith("hi_")}
+        if hi_delta:
+            practice_changes.append((c, hi_delta))
+    if practice_changes:
+        lines += [f"## Minimum-practice reporting changes ({len(practice_changes)})", ""]
+        for c, hi_delta in practice_changes:
+            lines.append(f"- **{c['new']['name']}** ({c['new']['agency']}, `{c['new']['uid']}`):")
+            for f, (a, b) in hi_delta.items():
+                if f in text_fields:
+                    lines.append(f"  - {f}: text revised")
+                else:
+                    lines.append(f"  - {f}: {a or '(empty)'} → {b or '(empty)'}")
+        lines.append("")
+
     if res.added:
         lines += [f"## Added ({len(res.added)})", ""]
         lines += [_row_line(r) for r in res.added] + [""]
@@ -223,14 +252,17 @@ def write_changelog(today: str, res: MatchResult, changes, tier_moves,
         lines += [f"## Removed ({len(res.removed)})", ""]
         lines += [_row_line(r) for r in res.removed] + [""]
 
-    other = [c for c in changes if set(c["delta"]) - {"impact_status"}]
+    other = [c for c in changes
+             if {f for f in c["delta"]} - {"impact_status"} - {f for f in c["delta"] if f.startswith("hi_")}]
     if other:
         lines += [f"## Changed ({len(other)})", ""]
         for c in other:
             lines.append(f"- **{c['new']['name']}** ({c['new']['agency']}, "
                          f"`{c['new']['uid']}`, matched by {c['how']}):")
             for f, (a, b) in c["delta"].items():
-                if f == "description":
+                if f == "impact_status" or f.startswith("hi_"):
+                    continue
+                if f in text_fields:
                     lines.append(f"  - {f}: text revised")
                 else:
                     lines.append(f"  - {f}: {a or '(empty)'} → {b or '(empty)'}")
@@ -244,7 +276,7 @@ def write_changelog(today: str, res: MatchResult, changes, tier_moves,
             lines.append(f"- {o['name']} ↔ {n['name']} ({o['agency']}, ratio {ratio:.2f})")
         lines.append("")
 
-    if len(lines) == 2:
+    if len(lines) == 4:
         lines += ["No changes detected.", ""]
 
     path = CHANGELOG_DIR / f"{today}.md"
@@ -252,7 +284,7 @@ def write_changelog(today: str, res: MatchResult, changes, tier_moves,
     return path
 
 
-def update_index(today: str, res: MatchResult, tier_moves) -> None:
+def update_index(today, res, tier_moves):
     entry = (f"- [{today}](changelogs/{today}.md) — "
              f"{len(res.added)} added, {len(res.removed)} removed, "
              f"{len(tier_moves)} tier movement(s)")
@@ -261,7 +293,7 @@ def update_index(today: str, res: MatchResult, tier_moves) -> None:
     INDEX_PATH.write_text(existing.rstrip() + "\n" + entry + "\n", encoding="utf-8")
 
 
-def append_ledger(today: str, tier_moves, first_seen_declassified) -> None:
+def append_ledger(today, tier_moves, first_seen_declassified):
     LEDGER_PATH.parent.mkdir(parents=True, exist_ok=True)
     new_file = not LEDGER_PATH.exists()
     with open(LEDGER_PATH, "a", newline="", encoding="utf-8") as fh:
@@ -275,7 +307,7 @@ def append_ledger(today: str, tier_moves, first_seen_declassified) -> None:
                         "(first appearance)", "declassified"])
 
 
-def write_review(res: MatchResult) -> None:
+def write_review(res):
     if not res.review:
         return
     with open(REVIEW_PATH, "w", newline="", encoding="utf-8") as fh:
@@ -285,42 +317,101 @@ def write_review(res: MatchResult) -> None:
             w.writerow([o["uid"], o["name"], n["uid"], n["name"], o["agency"], f"{ratio:.3f}"])
 
 
-# ------------------------------------------------------------- state io ---
+def _count(rows, key):
+    counts = {}
+    for r in rows:
+        v = r.get(key, "") or "(empty)"
+        counts[v] = counts.get(v, 0) + 1
+    return counts
 
-def save_canonical(rows: list[dict]) -> None:
+
+def _md_counts(counts, limit=None):
+    items = sorted(counts.items(), key=lambda kv: (-kv[1], kv[0]))
+    if limit:
+        items = items[:limit]
+    return [f"| {k} | {v} |" for k, v in items]
+
+
+def write_summary(today, rows, fields, snapshot_label):
+    lines = [f"# Inventory summary — {today}", "",
+             f"Source snapshot: `{snapshot_label}` · {len(rows)} use cases", "",
+             "All figures below are counts of values as published in the source file.", "",
+             "## Status", "", "| status | count |", "| --- | --- |"]
+    lines += _md_counts(_count(rows, "impact_status"))
+
+    hi_rows = [r for r in rows if r["impact_status"] == "high-impact"]
+    de_rows = [r for r in rows if r["impact_status"] == "declassified"]
+
+    lines += ["", f"## High-impact use cases by agency ({len(hi_rows)} total)", "",
+              "| agency | count |", "| --- | --- |"]
+    lines += _md_counts(_count(hi_rows, "agency"), limit=20)
+
+    if de_rows:
+        lines += ["", f"## Presumed high-impact, determined not ({len(de_rows)} total)", "",
+                  "| agency | count |", "| --- | --- |"]
+        lines += _md_counts(_count(de_rows, "agency"), limit=20)
+
+    hi_fields = [f for f in fields if f.startswith("hi_")]
+    if hi_fields and hi_rows:
+        lines += ["", "## Minimum-practice reporting among high-impact use cases", "",
+                  "Value counts per reported field.", ""]
+        for f in hi_fields:
+            lines += [f"### {f}", "", "| value | count |", "| --- | --- |"]
+            lines += _md_counts(_count(hi_rows, f), limit=6)
+            lines.append("")
+
+    if "vendor" in fields and hi_rows:
+        lines += ["## Vendors named on high-impact use cases", "",
+                  "| vendor_name value | count |", "| --- | --- |"]
+        lines += _md_counts(_count(hi_rows, "vendor"), limit=20)
+        lines.append("")
+
+    if "withheld" in fields:
+        lines += ["## is_withheld values", "", "| value | count |", "| --- | --- |"]
+        lines += _md_counts(_count(rows, "withheld"))
+        lines.append("")
+
+    path = _summary_path()
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text("\n".join(lines) + "\n", encoding="utf-8")
+    return path
+
+
+def save_canonical(rows, fields):
     CANONICAL_PATH.parent.mkdir(parents=True, exist_ok=True)
     with open(CANONICAL_PATH, "w", newline="", encoding="utf-8") as fh:
-        w = csv.DictWriter(fh, fieldnames=CANONICAL_FIELDS)
+        w = csv.DictWriter(fh, fieldnames=fields)
         w.writeheader()
-        w.writerows(rows)
+        w.writerows({f: r.get(f, "") for f in fields} for r in rows)
 
 
-def load_canonical() -> list[dict] | None:
+def load_canonical(fields):
     if not CANONICAL_PATH.exists():
         return None
     with open(CANONICAL_PATH, newline="", encoding="utf-8") as fh:
-        return [dict(r) for r in csv.DictReader(fh)]
+        rows = [dict(r) for r in csv.DictReader(fh)]
+    for r in rows:
+        for f in fields:
+            r.setdefault(f, "")
+    return rows
 
 
-# ------------------------------------------------------------------ runs ---
-
-def run_pipeline(new_text: str, today: str | None = None,
-                 snapshot_label: str | None = None) -> Path | None:
+def run_pipeline(new_text, today=None, snapshot_label=None):
     cfg = load_config()
     today = today or date.today().isoformat()
     snapshot_label = snapshot_label or f"data/snapshots/{today}.csv"
+    fields, text_fields = schema_fields(cfg)
     headers, raw_rows = read_rows(new_text)
     new_rows = normalize(raw_rows, headers, cfg)
 
-    old_rows = load_canonical()
+    old_rows = load_canonical(fields)
     if old_rows is None:
-        save_canonical(new_rows)
+        save_canonical(new_rows, fields)
         _write_provenance(snapshot_label)
         declass = [r for r in new_rows if r["impact_status"] == "declassified"]
         append_ledger(today, [], declass)
-        counts = {}
-        for r in new_rows:
-            counts[r["impact_status"]] = counts.get(r["impact_status"], 0) + 1
+        write_summary(today, new_rows, fields, snapshot_label)
+        counts = _count(new_rows, "impact_status")
         summary = ", ".join(f"{k}: {v}" for k, v in sorted(counts.items()))
         print(f"Baseline seeded: {len(new_rows)} use cases "
               f"({len(declass)} already determined out of the presumed tier).")
@@ -329,22 +420,23 @@ def run_pipeline(new_text: str, today: str | None = None,
 
     m = cfg["matching"]
     res = match(old_rows, new_rows, m["rename_threshold"], m["review_threshold"])
-    changes, tier_moves = diff_pairs(res.pairs)
+    changes, tier_moves = diff_pairs(res.pairs, fields, text_fields)
     first_seen_declassified = [r for r in res.added if r["impact_status"] == "declassified"]
 
     prov_old = _read_provenance()
     path = write_changelog(today, res, changes, tier_moves,
-                           first_seen_declassified, prov_old, snapshot_label)
+                           first_seen_declassified, prov_old, snapshot_label, text_fields)
     update_index(today, res, tier_moves)
     append_ledger(today, tier_moves, first_seen_declassified)
     write_review(res)
-    save_canonical(new_rows)
+    save_canonical(new_rows, fields)
+    write_summary(today, new_rows, fields, snapshot_label)
     _write_provenance(snapshot_label)
     print(f"Changelog written: {path.relative_to(ROOT)}")
     return path
 
 
-def run_live() -> None:
+def run_live():
     cfg = load_config()
     today = date.today().isoformat()
     text = fetch_csv(cfg["source"]["url"])
@@ -356,14 +448,13 @@ def run_live() -> None:
     run_pipeline(text, today, label)
 
 
-def inspect() -> None:
+def inspect():
     cfg = load_config()
     text = fetch_csv(cfg["source"]["url"])
     headers, rows = read_rows(text)
     print(f"Fetched {len(rows)} rows. Headers:")
     for h in headers:
         print(f"  {h!r}")
-    print("\nCopy the exact header strings into config/schemas.yaml.")
 
 
 if __name__ == "__main__":
