@@ -1,0 +1,7 @@
+id,agency,agency_bureau,use_case_name,development_stage,is_high_impact,benefits,vendor_name,hi_ongoing_monitoring,hi_appeal_process
+HHS-0001,HHS,Centers for Medicare & Medicaid Services,Benefit Eligibility Screening Model,Deployed,High-impact,Screens benefit applications to prioritize adjudication.,Acme Corp,Yes - Monitoring Established,Appeal Process Established
+DHS-0002,DHS,USCIS,Language Access Translation Service,Deployed,Not high-impact,Translates applicant communications.,,,
+VA-0003,VA,Veterans Benefits Administration,Claims Document Classifier,Pilot,High-impact,Classifies incoming claims documents.,Beta LLC,In-progress,Appeal Process In-progress
+TREAS-0004,TREAS,IRS,Refund Anomaly Detector,Deployed,High-impact,Flags anomalous refund claims.,SAS,Yes - Monitoring Established,Not Applicable
+SSA-0005,SSA,Office of Operations,Disability Wait Time Forecaster,Pre-Deployment,Not high-impact,Forecasts determination backlogs.,,,
+DOL-0006,DOL,Employment and Training Administration,Grant Review Ranking System,Pilot,Not high-impact,Ranks discretionary grant applications.,,,
