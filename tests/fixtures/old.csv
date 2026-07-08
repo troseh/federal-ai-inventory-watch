@@ -1,0 +1,7 @@
+Use Case ID,Agency,Bureau / Component,Use Case Name,Stage of Development,High-Impact Status,Intended Purpose and Expected Benefits
+HHS-0001,HHS,Centers for Medicare & Medicaid Services,Benefit Eligibility Screening Model,Deployed,High-impact,Screens benefit applications to prioritize adjudication and reduce processing time.
+DHS-0002,DHS,USCIS,Language Access Translation Service,Deployed,Not high-impact,Translates applicant communications to expand language access.
+VA-0003,VA,Veterans Benefits Administration,Claims Document Classifier,Pilot,High-impact,Classifies incoming claims documents to route them to the correct adjudication queue.
+TREAS-0004,TREAS,IRS,Refund Anomaly Detector,Deployed,High-impact,Flags anomalous refund claims for manual review before disbursement.
+SSA-0005,SSA,Office of Operations,Disability Wait Time Forecaster,Pre-Deployment,Not high-impact,Forecasts disability determination backlogs for staffing decisions.
+DOL-0006,DOL,Employment and Training Administration,Grant Review Ranking System,Pilot,Not high-impact,Ranks discretionary grant applications for reviewer assignment.
