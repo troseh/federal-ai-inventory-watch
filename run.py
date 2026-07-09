@@ -1,30 +1,17 @@
 #!/usr/bin/env python3
-"""inventory-watch entry point: --inspect prints live headers, --run executes."""
+"""inventory-watch entry point: --inspect prints headers, --run diffs the inventory, --pages watches agency pages."""
 import sys
 sys.path.insert(0, "src")
-from watch import inspect, run_live
 
 if __name__ == "__main__":
     if "--inspect" in sys.argv:
+        from watch import inspect
         inspect()
     elif "--run" in sys.argv:
+        from watch import run_live
         run_live()
-    else:
-        print(__doc__)#!/usr/bin/env python3
-"""inventory-watch entry point.
-
-Usage:
-  python run.py --inspect   Print the live CSV's headers (schema setup aid).
-  python run.py --run       Fetch, archive, diff, and write the changelog.
-"""
-import sys
-sys.path.insert(0, "src")
-from watch import inspect, run_live  # noqa: E402
-
-if __name__ == "__main__":
-    if "--inspect" in sys.argv:
-        inspect()
-    elif "--run" in sys.argv:
+    elif "--pages" in sys.argv:
+        from pages import run_live
         run_live()
     else:
         print(__doc__)
