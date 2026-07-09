@@ -1,0 +1,46 @@
+# Agency AI governance pages under watch. Add entries as more compliance
+# plans, waiver summaries, and determination pages are located.
+# kind: html | pdf | text
+
+pages:
+  - id: state-inventory
+    agency: STATE
+    label: Department of State 2025 AI Inventory (discloses waived practices)
+    url: https://www.state.gov/department-of-state-2025-ai-inventory
+    kind: html
+
+  - id: dhs-inventory
+    agency: DHS
+    label: DHS AI Use Case Inventory page
+    url: https://www.dhs.gov/ai/use-case-inventory
+    kind: html
+
+  - id: eeoc-compliance-plan
+    agency: EEOC
+    label: EEOC Compliance Plan for M-25-21
+    url: https://www.eeoc.gov/compliance-plan-omb-memorandum-m-25-21
+    kind: html
+
+  - id: ncua-compliance-plan
+    agency: NCUA
+    label: NCUA AI Compliance Plan
+    url: https://ncua.gov/ai/ncua-artificial-intelligence-compliance-plan
+    kind: html
+
+  - id: nara-compliance-plan
+    agency: NARA
+    label: NARA 2025 AI Compliance Plan (PDF)
+    url: https://www.archives.gov/files/nara-2025-ai-compliance-plan-final-v1-09-18-2025.pdf
+    kind: pdf
+
+  - id: irs-ai-policy
+    agency: TREAS
+    label: IRS IRM 10.24.1 AI Governance Policy (waiver procedures)
+    url: https://www.irs.gov/irm/part10/irm_10-024-001r
+    kind: html
+
+  - id: treasury-inventory-csv
+    agency: TREAS
+    label: Treasury agency-hosted inventory CSV
+    url: https://home.treasury.gov/system/files/136/Treasury-AI-Use-Case-Inventory.csv
+    kind: text
