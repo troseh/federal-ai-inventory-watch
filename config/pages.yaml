@@ -1,5 +1,6 @@
 # Agency AI governance pages under watch. Add entries as more compliance
 # plans, waiver summaries, and determination pages are located.
+# Per OMB guidance, compliance plans are to be posted at [agency].gov/ai.
 # kind: html | pdf | text
 
 pages:
@@ -47,3 +48,57 @@ pages:
     label: Treasury agency-hosted inventory CSV
     url: https://home.treasury.gov/system/files/136/Treasury-AI-Use-Case-Inventory.csv
     kind: text
+
+  - id: va-compliance-plan
+    agency: VA
+    label: VA Compliance Plan for M-25-21 (waiver-or-removal policy)
+    url: https://department.va.gov/ai/department-of-veterans-affairs-compliance-plan-for-omb-memorandum-m-25-21/
+    kind: html
+
+  - id: va-hi-strategy
+    agency: VA
+    label: VA High-Impact AI Strategy (100% risk-standard commitment)
+    url: https://department.va.gov/ai/building-the-future-vas-strategy-for-adopting-high-impact-artificial-intelligence-to-improve-services-for-veterans/
+    kind: html
+
+  - id: vaoig-compliance-plan
+    agency: VA-OIG
+    label: VA OIG AI Compliance Plan 2025 (PDF)
+    url: "https://www.vaoig.gov/sites/default/files/document/2025-09/VA%20OIG%20AI%20Compliance%20Plan%202025.pdf"
+    kind: pdf
+
+  - id: doj-ai-hub
+    agency: DOJ
+    label: DOJ Artificial Intelligence hub page
+    url: https://www.justice.gov/ai
+    kind: html
+
+  - id: doj-inventory
+    agency: DOJ
+    label: DOJ AI Inventory page (release protocol and consolidation notes)
+    url: https://www.justice.gov/ai/ai-inventory
+    kind: html
+
+  - id: doe-compliance-plan
+    agency: DOE
+    label: DOE AI Compliance Plan landing page
+    url: https://www.energy.gov/cio/articles/department-energy-doe-artificial-intelligence-ai-compliance-plan
+    kind: html
+
+  - id: doe-inventory
+    agency: DOE
+    label: DOE AI Use Case Inventory page
+    url: https://www.energy.gov/cet/doe-ai-use-case-inventory
+    kind: html
+
+  - id: hhs-inventory-csv
+    agency: HHS
+    label: HHS FY25 AI Use Case Inventory CSV
+    url: https://www.hhs.gov/sites/default/files/hhs-ai-use-case-inventory-fy25.csv
+    kind: text
+
+  - id: csosa-compliance-plan
+    agency: CSOSA
+    label: CSOSA M-25-21 Compliance Plan (PDF, includes OMB plan guidance)
+    url: https://www.csosa.gov/wp-content/uploads/2025/10/csosa-m-25-21-compliance-plan-Issued.pdf
+    kind: pdf
