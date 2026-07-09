@@ -3,10 +3,13 @@
 from __future__ import annotations
 
 import difflib
+import html
+import io
 import json
 import re
 import sys
 import urllib.request
+import zipfile
 from datetime import date
 from html.parser import HTMLParser
 from pathlib import Path
@@ -53,9 +56,42 @@ class _TextHTML(HTMLParser):
             self.chunks.append(data.strip())
 
 
+def _xlsx_text(raw: bytes) -> str:
+    z = zipfile.ZipFile(io.BytesIO(raw))
+    names = z.namelist()
+    shared = []
+    if "xl/sharedStrings.xml" in names:
+        s = z.read("xl/sharedStrings.xml").decode("utf-8", "replace")
+        shared = [html.unescape(re.sub(r"<[^>]+>", "", m))
+                  for m in re.findall(r"<si>(.*?)</si>", s, re.S)]
+    lines = []
+    for name in sorted(n for n in names if re.match(r"xl/worksheets/sheet\d+\.xml$", n)):
+        xml = z.read(name).decode("utf-8", "replace")
+        for row in re.findall(r"<row[^>]*>(.*?)</row>", xml, re.S):
+            vals = []
+            for cell in re.findall(r"<c\b[^>]*?(?:/>|>.*?</c>)", row, re.S):
+                t = re.search(r'\bt="([^"]+)"', cell)
+                v = re.search(r"<v>(.*?)</v>", cell, re.S)
+                if v is None:
+                    t2 = re.search(r"<t[^>]*>(.*?)</t>", cell, re.S)
+                    vals.append(html.unescape(t2.group(1)) if t2 else "")
+                    continue
+                val = html.unescape(v.group(1))
+                if t and t.group(1) == "s":
+                    try:
+                        val = shared[int(val)]
+                    except (ValueError, IndexError):
+                        pass
+                vals.append(val)
+            if any(x.strip() for x in vals):
+                lines.append(" | ".join(x.strip() for x in vals).rstrip(" |"))
+    return "\n".join(lines)
+
+
 def extract_text(raw: bytes, kind: str) -> str:
-    if kind == "pdf":
-        import io
+    if kind == "xlsx":
+        text = _xlsx_text(raw)
+    elif kind == "pdf":
         from pypdf import PdfReader
         reader = PdfReader(io.BytesIO(raw))
         text = "\n".join((page.extract_text() or "") for page in reader.pages)
@@ -146,7 +182,8 @@ def run_live(today: str | None = None) -> None:
             continue
 
         pdir.mkdir(parents=True, exist_ok=True)
-        ext = "pdf" if p.get("kind") == "pdf" else "html" if p.get("kind", "html") == "html" else "txt"
+        kind = p.get("kind", "html")
+        ext = {"pdf": "pdf", "html": "html", "xlsx": "xlsx"}.get(kind, "txt")
         (pdir / f"{today}.{ext}").write_bytes(raw)
         (pdir / f"{today}.txt").write_text(text, encoding="utf-8")
         latest_path.write_text(text, encoding="utf-8")
