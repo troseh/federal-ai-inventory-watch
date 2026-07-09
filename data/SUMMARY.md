@@ -1,6 +1,6 @@
-# Inventory summary — 2026-07-08
+# Inventory summary — 2026-07-09
 
-Source snapshot: `data/snapshots/2026-07-08.csv` · 3611 use cases
+Source snapshot: `data/snapshots/2026-07-09.csv` · 3611 use cases
 
 All figures below are counts of values as published in the source file.
 
@@ -12,6 +12,16 @@ All figures below are counts of values as published in the source file.
 | high-impact | 445 |
 | unstated | 426 |
 | declassified | 110 |
+
+## Stage (all use cases)
+
+| stage | count |
+| --- | --- |
+| pre-deployment | 1479 |
+| deployed | 1040 |
+| pilot | 440 |
+| (unstated) | 338 |
+| retired | 314 |
 
 ## High-impact use cases by agency (445 total)
 
@@ -32,6 +42,15 @@ All figures below are counts of values as published in the source file.
 | FDIC | 1 |
 | NASA | 1 |
 
+## High-impact use cases by stage
+
+| stage | count |
+| --- | --- |
+| deployed | 227 |
+| pre-deployment | 140 |
+| retired | 55 |
+| pilot | 23 |
+
 ## Presumed high-impact, determined not (110 total)
 
 | agency | count |
@@ -46,31 +65,31 @@ All figures below are counts of values as published in the source file.
 | USDA | 2 |
 | EPA | 1 |
 
-## Minimum-practice reporting among high-impact use cases
+## Minimum-practice reporting among deployed high-impact use cases (227 of 445)
 
-Value counts per reported field.
+Under OMB M-25-21, the minimum risk-management practices apply to deployed high-impact AI. Pre-existing deployed use cases had until April 3, 2026 to implement the practices or discontinue use, subject to extensions and waivers. Value counts below are restricted to high-impact use cases whose published stage is deployed.
 
 ### hi_assessment_completed
 
 | value | count |
 | --- | --- |
-| (empty) | 317 |
-| In-progress | 91 |
-| Yes | 37 |
+| (empty) | 101 |
+| In-progress | 90 |
+| Yes | 36 |
 
 ### hi_testing_conducted
 
 | value | count |
 | --- | --- |
-| (empty) | 318 |
-| In-progress | 82 |
-| Yes | 45 |
+| (empty) | 102 |
+| In-progress | 81 |
+| Yes | 44 |
 
 ### hi_potential_impacts
 
 | value | count |
 | --- | --- |
-| (empty) | 318 |
+| (empty) | 102 |
 | Consistent with Executive Orders and OMB guidance, the case owner relied on DOJ AI governance practices to evaluate impacts and risks. | 73 |
 | The key risk is the degradation of the TVS verification to degrade overtime based on the parameters of assessment for comparing images to templates. The facial recognition does not enter or retrieve data, it is only comparative. | 7 |
 | The AI-enabled facial recognition service may return too many candidates, resulting in the collection of irrelevant personal information. Mitigation: The service only returns candidates meeting a set confidence score threshold, ranking results by highest confidence. Potential matches are used as investigative leads and require full validation through the investigative process. | 4 |
@@ -81,27 +100,27 @@ Value counts per reported field.
 
 | value | count |
 | --- | --- |
-| (empty) | 318 |
-| In-progress | 90 |
+| (empty) | 102 |
+| In-progress | 89 |
 | CAIO Review | 31 |
-| Internal Independent Review | 5 |
+| Internal Independent Review | 4 |
 | Oversight Board Review | 1 |
 
 ### hi_ongoing_monitoring
 
 | value | count |
 | --- | --- |
-| (empty) | 318 |
-| In-progress | 87 |
+| (empty) | 102 |
+| In-progress | 85 |
 | Yes - Monitoring Established | 40 |
 
 ### hi_training_established
 
 | value | count |
 | --- | --- |
-| (empty) | 318 |
-| Training In-progress | 82 |
-| Training Established | 42 |
+| (empty) | 102 |
+| Training In-progress | 81 |
+| Training Established | 41 |
 | b) Development of monitoring protocols is in-progess | 2 |
 | a) Yes, sufficient monitoring protocols have been established | 1 |
 
@@ -109,18 +128,18 @@ Value counts per reported field.
 
 | value | count |
 | --- | --- |
-| (empty) | 317 |
+| (empty) | 101 |
 | In-progress | 81 |
-| Yes | 37 |
+| Yes | 35 |
 | Not Applicable | 10 |
 
 ### hi_appeal_process
 
 | value | count |
 | --- | --- |
-| (empty) | 317 |
+| (empty) | 101 |
 | Appeal Process In-progress | 78 |
-| Not Applicable | 30 |
+| Not Applicable | 28 |
 | Appeal Process Established | 16 |
 | Appeal Precluded by Law | 4 |
 
@@ -128,10 +147,10 @@ Value counts per reported field.
 
 | value | count |
 | --- | --- |
-| [] | 317 |
+| [] | 101 |
 | ['In-progress'] | 80 |
-| ['Other'] | 23 |
-| ['Usability Testing'] | 12 |
+| ['Other'] | 22 |
+| ['Usability Testing'] | 11 |
 | ['a) Direct usability testing', 'b) General solicitations of feedback and comments from the public'] | 5 |
 | ['Public Feedback Solicitations'] | 3 |
 
