@@ -115,9 +115,17 @@ pages:
 
   - id: commerce-inventory
     agency: DOC
-    label: Commerce AI Use Case Inventory page (links versioned spreadsheets)
+    label: Commerce AI Use Case Inventory (public reporting CSV, manual capture)
     url: https://www.commerce.gov/about/policies/artificial-intelligence-use-cases-inventory
-    kind: html
+    kind: text
+    manual: true
+
+  - id: commerce-cots-inventory
+    agency: DOC
+    label: Commerce COTS AI Use Case Inventory (public reporting CSV, manual capture)
+    url: https://www.commerce.gov/about/policies/artificial-intelligence-use-cases-inventory
+    kind: text
+    manual: true
 
   - id: ed-ai-guidance
     agency: ED
@@ -151,9 +159,10 @@ pages:
 
   - id: dot-ai-hub
     agency: DOT
-    label: Transportation AI page
+    label: DOT AI Use Case Alignment / Strategy (manual capture)
     url: https://www.transportation.gov/AI
-    kind: html
+    kind: pdf
+    manual: true
 
   - id: gsa-ai-hub
     agency: GSA
