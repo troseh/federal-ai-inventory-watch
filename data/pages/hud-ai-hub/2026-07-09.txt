@@ -48,7 +48,9 @@ Gold Standard Science
 News
 About
 Contact
-Search
+News
+About
+Contact
 U.S. Department of Housing and Urban Development
 Helping Americans
 HUD Partners
@@ -91,6 +93,7 @@ U.S. Department of Housing and Urban Development
 451 7th Street, S.W., Washington, DC 20410
 T: (202) 402-3815
 Find a HUD office near you
+Search
 Office of Inspector General
 |
 No Fear Act

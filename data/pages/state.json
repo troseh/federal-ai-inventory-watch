@@ -1,56 +1,66 @@
 {
   "commerce-ai-hub": {
-    "fail_streak": 2
+    "fail_streak": 3,
+    "manual": false
   },
   "commerce-inventory": {
-    "fail_streak": 2,
+    "fail_streak": 3,
     "manual": false
   },
   "csosa-compliance-plan": {
     "fail_streak": 0,
-    "last_changed": "2026-07-09"
+    "last_changed": "2026-07-09",
+    "manual": false
   },
   "dhs-full-inventory": {
     "fail_streak": 0,
     "manual": true
   },
   "dhs-inventory": {
-    "fail_streak": 5,
+    "fail_streak": 6,
     "manual": false
   },
   "doe-compliance-plan": {
     "fail_streak": 0,
-    "last_changed": "2026-07-09"
+    "last_changed": "2026-07-09",
+    "manual": false
   },
   "doe-inventory": {
     "fail_streak": 0,
-    "last_changed": "2026-07-09"
+    "last_changed": "2026-07-09",
+    "manual": false
   },
   "doi-ai-hub": {
     "fail_streak": 0,
-    "last_changed": "2026-07-09"
+    "last_changed": "2026-07-09",
+    "manual": false
   },
   "doj-ai-hub": {
     "fail_streak": 0,
-    "last_changed": "2026-07-09"
+    "last_changed": "2026-07-09",
+    "manual": false
   },
   "doj-inventory": {
     "fail_streak": 0,
-    "last_changed": "2026-07-09"
+    "last_changed": "2026-07-09",
+    "manual": false
   },
   "dol-ai-hub": {
-    "fail_streak": 2
+    "fail_streak": 3,
+    "manual": false
   },
   "dol-inventory": {
-    "fail_streak": 2,
+    "fail_streak": 3,
     "manual": false
   },
   "dot-ai-hub": {
-    "fail_streak": 2
+    "fail_streak": 3,
+    "manual": false
   },
   "ed-ai-guidance": {
     "fail_streak": 0,
-    "last_changed": "2026-07-09"
+    "last_changed": "2026-07-09",
+    "manual": false
   },
   "eeoc-compliance-plan": {
     "fail_streak": 0,
@@ -59,18 +69,22 @@
   },
   "epa-compliance-plan": {
     "fail_streak": 0,
-    "last_changed": "2026-07-09"
+    "last_changed": "2026-07-09",
+    "manual": false
   },
   "gsa-ai-hub": {
     "fail_streak": 0,
-    "last_changed": "2026-07-09"
+    "last_changed": "2026-07-09",
+    "manual": false
   },
   "hhs-inventory-csv": {
-    "fail_streak": 2
+    "fail_streak": 3,
+    "manual": false
   },
   "hud-ai-hub": {
     "fail_streak": 0,
-    "last_changed": "2026-07-09"
+    "last_changed": "2026-07-09",
+    "manual": false
   },
   "irs-ai-policy": {
     "fail_streak": 0,
@@ -84,7 +98,8 @@
   },
   "nasa-ai-hub": {
     "fail_streak": 0,
-    "last_changed": "2026-07-09"
+    "last_changed": "2026-07-09",
+    "manual": false
   },
   "ncua-compliance-plan": {
     "fail_streak": 0,
@@ -93,22 +108,27 @@
   },
   "nrc-ai-hub": {
     "fail_streak": 0,
-    "last_changed": "2026-07-09"
+    "last_changed": "2026-07-09",
+    "manual": false
   },
   "nsf-ai-policy": {
     "fail_streak": 0,
-    "last_changed": "2026-07-09"
+    "last_changed": "2026-07-09",
+    "manual": false
   },
   "opm-ai-hub": {
     "fail_streak": 0,
-    "last_changed": "2026-07-09"
+    "last_changed": "2026-07-09",
+    "manual": false
   },
   "sba-m2410-plan": {
     "fail_streak": 0,
-    "last_changed": "2026-07-09"
+    "last_changed": "2026-07-09",
+    "manual": false
   },
   "ssa-ai-hub": {
-    "fail_streak": 2
+    "fail_streak": 3,
+    "manual": false
   },
   "ssa-inventory-csv": {
     "fail_streak": 0,
@@ -125,20 +145,25 @@
     "manual": false
   },
   "usda-compliance-plan": {
-    "fail_streak": 2
+    "fail_streak": 3,
+    "manual": false
   },
   "usda-inventory": {
-    "fail_streak": 2
+    "fail_streak": 3,
+    "manual": false
   },
   "va-compliance-plan": {
     "fail_streak": 0,
-    "last_changed": "2026-07-09"
+    "last_changed": "2026-07-09",
+    "manual": false
   },
   "va-hi-strategy": {
     "fail_streak": 0,
-    "last_changed": "2026-07-09"
+    "last_changed": "2026-07-09",
+    "manual": false
   },
   "vaoig-compliance-plan": {
-    "fail_streak": 2
+    "fail_streak": 3,
+    "manual": false
   }
 }
