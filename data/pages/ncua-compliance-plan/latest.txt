@@ -1,0 +1,233 @@
+NCUA Artificial Intelligence Compliance Plan | NCUA
+Skip to main content
+An official website of the United States government
+Here’s how you know
+Help With My Credit Union
+Español
+Contact Us
+About
+About
+Created by the U.S. Congress in 1970, the National Credit Union Administration is an independent federal agency that insures deposits at federally insured credit unions, protects the members who own credit unions, and charters and regulates federal credit unions.
+Mission & Values
+Leadership
+Reports to Congress
+NCUA Board Speaker Request Form
+Staff Speaker Request Form
+Historical Timeline
+Workplace Resolutions
+Careers
+Doing Business with the NCUA
+Doing Business with Credit Unions
+Open Government
+Inspector General
+Budget & Performance
+AskNCUA
+Regulation & Supervision
+Regulation & Supervision
+The NCUA protects the safety and soundness of the credit union system by identifying, monitoring and reducing risks to the National Credit Union Share Insurance Fund. Backed by the full faith and credit of the United States, the Share Insurance Fund provides up to $250,000 of federal share insurance to millions of account holders in all federal credit unions and the overwhelming majority of state-chartered credit unions.
+Letters to Credit Unions & Other Guidance
+Examination Program
+Rulemakings & Proposals for Comment
+Legal Opinions
+Rules & Regulations
+Regulatory & Compliance Resources
+Supervisory Review Committee
+Board Appeals
+Corporate Credit Unions
+Regulatory Reporting
+Manuals & Guides
+Examination Modernization Initiatives
+CUSO Activities
+Analysis
+Analysis
+The NCUA’s economists and analysts compile data on the credit union system’s financial performance, merger activity, changes in credit union chartering and fields of membership, as well as broader economic trends affecting credit unions. Users can find information on a single credit union or analyze broader nation-wide trends.
+Credit Union & Corporate Call Report Data
+Chartering & Mergers
+CUSO & Economic Data
+Research a Credit Union
+National Credit Union Share Insurance Fund Financial Overview and Performance
+Support Services
+Support Services
+The NCUA provides a number of support services to the credit union system, such as providing training, grants and loans, chartering, and field-of-membership services; maintaining the health and stability of Share Insurance Fund; managing the assets of failed credit unions; and providing emergency liquidity.
+Credit Union Resources & Expansion
+Credit Union Merger & Acquisition Resources
+Share Insurance Fund
+ACCESS
+Central Liquidity Facility
+Conservatorships & Liquidations
+Corporate System Resolution
+Guaranteed Notes Program
+Consumers
+Consumers
+The NCUA works to protect credit union members and consumers, raise awareness of potential frauds, facilitate access to affordable financial services, and educate consumers on the importance of savings and how they can improve their financial well-being.
+Consumer Assistance Center
+Fraud Prevention Center
+Share Insurance Coverage
+MyCreditUnion.gov
+Credit Union Locator
+News
+News
+Stay up to date on the NCUA's activities by subscribing to the NCUA's Express messages. Read press releases, speeches, testimony, and Annual Reports. Register for upcoming conferences and events.
+Press Releases
+Speeches & Testimonies
+Deregulation Project
+Publications & Reports
+Board Meetings, Agendas, & Results
+Events
+Enforcement Actions
+Budget & Supplementary Materials
+Downloadable Graphics
+Cybersecurity Resources
+Cybersecurity Resources
+Cyberattacks and cybersecurity vulnerabilities pose significant risks to the financial system. Because of vulnerabilities within the credit union industry and the broader financial system to potential cyberattacks, cybersecurity is one of the NCUA’s top supervisory priorities and a top-tier risk under the agency’s enterprise risk-management program.
+NCUA’s Information Security Examination and Cybersecurity Assessment Program
+ACET and Other Assessment Tools
+Supply Chain Risk Management (SCRM)
+Cyber Incident Reporting Guide
+Report a Cybersecurity Incident
+NCUA’s Regulations and Guidance
+References & Resources
+Search
+Breadcrumb
+Home
+>
+Artificial Intelligence
+>
+NCUA Artificial Intelligence Compliance Plan
+NCUA Artificial Intelligence Compliance Plan
+In This Publication
+September 2025
+Introduction
+Created by the U.S. Congress in 1970, NCUA is an independent federal agency that insures deposits at federally insured credit unions, protects the members who own credit unions, and charters and regulates federal credit unions.
+NCUA protects the safety and soundness of the credit union system by identifying and managing risks to the National Credit Union Share Insurance Fund (Share Insurance Fund). The Share Insurance Fund provides up to $250,000 in federal share insurance to more than 143 million members
+1
+in all federal credit unions and most state-chartered credit unions.
+NCUA’s Artificial Intelligence Compliance Plan (plan) outlines our approach to managing the use of artificial intelligence (AI), as required by the AI in Government Act of 2020
+2
+and Office of Management and Budget (OMB) Memorandum M-25-21,
+Accelerating Federal Use of AI through Innovation, Governance, and Public Trust
+.
+3
+The plan was developed under the direction of the NCUA’s Chief Artificial Intelligence Officer (CAIO), Amber Gravius.
+Driving AI Innovation
+Removing Barriers to the Responsible Use of AI
+NCUA approaches AI methodically, focusing on the use cases with the greatest potential to increase operational efficiency. Our evaluation methodology prioritizes opportunities that will make us more effective in meeting our mission. Finally, we evaluate investments in new technologies with an eye to the future, assessing whether the agency has the financial and operational capacity to capitalize on and sustain such investment(s).
+NCUA recognizes several barriers to the responsible use of AI:
+Limited staffing with specialized AI skills;
+Concerns about risk management and data privacy;
+Limited AI transparency from vendors on how AI is being implemented; and
+Financial constraints for new technology investments and reliability of acquired AI tools.
+To address these barriers, NCUA is evaluating its staffing needs and assessing its processes and policies to optimize the ethical and responsible use of AI. We will comply with OMB Memorandum M-25-22
+Driving Efficient Acquisition of Artificial Intelligence in Government
+4
+and use the annual budget process to request funding for software tools and information technology developments as we address the challenges related to vendor transparency and financial constraints.
+Sharing and Reuse
+NCUA promotes the sharing and reuse of AI among all offices through its centralized AI Use Case Inventory, which is accessible to all NCUA staff and the public via
+NCUA.gov
+. The Office of Business Innovation (OBI) is responsible for managing the AI Use Case Inventory and coordinating the sharing and reuse of AI codes, models, and data assets.
+AI Talent
+AI starts with people: we are evaluating and determining staffing and training needs to ensure the agency has the necessary skills and knowledge to make the most of AI technologies. We are also fostering a culture that supports innovation and forward-thinking to attract and retain top AI talent, such as providing opportunities for professional growth, collaboration, and creativity.
+Improving AI Governance
+AI Governance
+To support staff in the responsible use of AI, NCUA has internal governance bodies comprised of senior executives and management that manage risks, monitor data management practices, and provide transparency and accountability in AI implementations. These include:
+An
+Information Technology Oversight Council
+, responsible for setting the direction for information technology by prioritizing projects and ensuring alignment with NCUA’s mission;
+A
+Data Governance Council
+, responsible for establishing data standards, facilitating the development of strategic objectives, and championing prudent data management practices;
+A
+Cybersecurity Council
+, responsible for evaluating internal and external information security risks to NCUA and credit unions; and
+An
+Enterprise Risk Management Council
+, responsible for oversight of NCUA’s risk management framework and functions.
+NCUA also employs a rigorous review and approval process for all guidance and instructions issued to staff. We continue to seek guidance from external experts, as appropriate.
+Sharing lessons learned and best practices with our colleagues at other financial regulators helps us adapt and evolve with the ever-changing AI landscape. NCUA actively participates in several interagency working groups,
+5
+where we share our experiences and capitalize on the experiences of other agencies that face similar statutory and financial constraints.
+Our engagement with external stakeholders isn’t limited to others in government. The agency encourages open discussions with the credit union industry and has regular meetings with industry trade organizations. We also participate in roundtables and panels on AI, as appropriate.
+Agency Policies
+NCUA is developing AI-specific guidelines and policies to ensure we are consistent with the requirements and standards set forth in OMB Memorandums M-25-21 and M-25-22. This includes aligning with Executive Order 14179
+6
+, the Advancing American AI Act
+7
+, America’s AI Action Plan
+8
+, and our information technology policies as we foster responsible use and governance of AI.
+Thus far, our guidance to staff about the responsible use of AI focuses on risk management, data privacy, and ethical considerations. Additionally, the agency is updating its procedures to facilitate a sound governance framework.
+AI Use Case Inventory
+To establish a centralized process for gathering and updating AI use cases, the agency asks for input from across the organization. Annually, each office must provide detailed information about current and proposed AI applications for security, privacy, and technical reviews by the Chief AI Officer, the Chief Information Officer, Senior Agency Information System Risk Officer, and Senior Agency Officer for Privacy. This is intended to minimize the risk of duplicative initiatives and verify that office initiatives comply with agency policies.
+The Chief AI Officer also views all use cases and coordinates with offices, as needed, to ensure the inventory documentation is comprehensive, complete, and updated.
+Fostering Public Trust in Federal Use of AI
+Determinations of Presumed High-Impact AI
+NCUA reviews each current and planned use of AI to identify high-impact opportunities based on the definition in Section 5 of the Appendix to M-25-21. While we have not created additional criteria for when an AI use case is considered high-impact, the agency will implement the minimum risk management practices as outlined in M-25-21.
+In certain circumstances, it may be necessary to issue waivers for one or more of the minimum risk management practices. We are developing internal criteria to guide decisions on whether to waive one or more of the minimum risk management practices for specific AI use cases. These criteria will be designed to ensure that any waiver is necessary, justified, and consistent with the agency’s risk tolerance and mission objectives. NCUA is also establishing a formal process for issuing, denying, revoking, certifying, and tracking waivers, which will include oversight by the Chief AI Officer and relevant governance bodies.
+Implementation of Risk Management Practices and Termination of Non-Compliant AI
+When developing and using AI tools, key risk management practices include documenting and validating minimum risk management practices, establishing controls to prevent non-compliant high-impact AI, and creating termination processes. NCUA plans to document and validate the implementation of minimum risk management practices for AI tools through existing IT, security, privacy, and governance procedures. Further, we intend to establish specific, augmented procedures for high-impact AI use cases.
+To prevent the deployment of non-compliant high-impact AI, NCUA aligns the risk management practices in M-25-21 with the security and privacy safeguards detailed in NIST Special Publication 800-53 Rev. 5,
+Security and Privacy Controls for Information Systems and Organizations
+9
+and NIST frameworks. We also leverage role-based access controls and various multi-step approval processes when deploying systems and tools to prevent non-compliant high-impact AI from being deployed. Currently, the agency has not deployed public AI use cases.
+AI systems that do not meet operational, ethical, or regulatory requirements will be terminated. Upon detection of a non-compliant AI system, NCUA will assess the severity of the violation and scope of the potential impact. The termination process for non-compliant systems will involve:
+Restricting access to the data and operational environment immediately;
+Isolating or shutting down the system completely;
+Archiving associated data and assets securely, in accordance with data retention policies;
+Drafting detailed documentation, including termination rationale and executed procedures; and
+Notifying all relevant stakeholders including system owners and governance councils.
+Footnotes
+1
+As of March 31, 2025.
+2
+Pub. L. No. 116-260, div. U, title 1, § 104 (40 United States Code § 11301 note),
+https://www.congress.gov/116/plaws/publ260/PLAW-116publ260.pdf
+.
+3
+OMB Memorandum M-25-21, Accelerating Federal Use of AI through Innovation, Governance, and Public Trust (April 3, 2025),
+M-25-21-Accelerating-Federal-Use-of-AI-through-Innovation-Governance-and-Public-Trust.pdf
+.
+4
+OMB Memorandum M-25-22 Driving Efficient Acquisition of Artificial Intelligence in Government, (April 3, 2025),
+https://www.whitehouse.gov/wp-content/uploads/2025/02/M-25-22-Driving-Efficient-Acquisition-of-Artificial-Intelligence-in-Government.pdf
+5
+These include the Financial Stability Oversight Council, the Federal Financial Institutions Examination Council, the Financial and Banking Information and Infrastructure Committee, the Federal Chief Data Officer Council, the Federal Chief Information Officer Council, the Federal Privacy Council, the Chief Human Capital Officer Council, and the Chief AI Officer Council.
+6
+https://www.federalregister.gov/documents/2025/01/31/2025-02172/removing-barriers-to-american-leadership-in-artificial-intelligence
+7
+Public Law 117-263
+8
+https://www.whitehouse.gov/wp-content/uploads/2025/07/Americas-AI-Action-Plan.pdf
+9
+NIST SP 800-53:
+https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf
+Last modified on
+09/30/25
+Was this page useful?
+Stay Informed
+Get Started
+Our Sites
+MyCreditUnion.gov
+Trusted resource for consumer financial protection information.
+Share Insurance
+Learn about credit union fund insurance.
+Research a Credit Union
+View information for a specific credit union, download Call Reports, and request Financial Performance Reports.
+Credit Union Locator
+Find a credit union by address, credit union name, or charter number.
+About NCUA
+Accessibility
+AskNCUA
+Careers
+FOIA
+Inspector General
+No Fear Act
+Privacy
+USA.gov
+Vulnerability Disclosure
+Website Feedback
+Back to Top
+(Opens new window)
+This is an external link to a website belonging to another federal agency, private organization, or commercial entity.
+> See more
+< See less
+Open/Close Alternative Text

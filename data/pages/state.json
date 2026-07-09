@@ -1,0 +1,29 @@
+{
+  "dhs-inventory": {
+    "fail_streak": 1
+  },
+  "eeoc-compliance-plan": {
+    "fail_streak": 0,
+    "last_changed": "2026-07-09"
+  },
+  "irs-ai-policy": {
+    "fail_streak": 0,
+    "last_changed": "2026-07-09"
+  },
+  "nara-compliance-plan": {
+    "fail_streak": 0,
+    "last_changed": "2026-07-09"
+  },
+  "ncua-compliance-plan": {
+    "fail_streak": 0,
+    "last_changed": "2026-07-09"
+  },
+  "state-inventory": {
+    "fail_streak": 0,
+    "last_changed": "2026-07-09"
+  },
+  "treasury-inventory-csv": {
+    "fail_streak": 0,
+    "last_changed": "2026-07-09"
+  }
+}
