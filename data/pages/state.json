@@ -2,12 +2,15 @@
   "commerce-ai-hub": {
     "fail_streak": 2
   },
+  "commerce-inventory": {
+    "fail_streak": 1
+  },
   "csosa-compliance-plan": {
     "fail_streak": 0,
     "last_changed": "2026-07-09"
   },
   "dhs-inventory": {
-    "fail_streak": 3
+    "fail_streak": 4
   },
   "doe-compliance-plan": {
     "fail_streak": 0,
@@ -31,6 +34,9 @@
   },
   "dol-ai-hub": {
     "fail_streak": 2
+  },
+  "dol-inventory": {
+    "fail_streak": 1
   },
   "dot-ai-hub": {
     "fail_streak": 2
