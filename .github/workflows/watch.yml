@@ -18,14 +18,16 @@ jobs:
           python-version: "3.12"
       - name: Install dependencies
         run: pip install -r requirements.txt
-      - name: Run pipeline
+      - name: Run inventory pipeline
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python run.py --run
+      - name: Watch agency pages
+        run: python run.py --pages
       - name: Commit results
         run: |
           git config user.name "inventory-watch bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -A data changelogs CHANGELOG.md
-          git diff --cached --quiet || git commit -m "watch: $(date -u +%F) inventory update"
+          git diff --cached --quiet || git commit -m "watch: $(date -u +%F) update"
           git push
