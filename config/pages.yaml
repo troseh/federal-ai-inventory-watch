@@ -1,8 +1,3 @@
-# Agency AI governance pages under watch. Add entries as more compliance
-# plans, waiver summaries, and determination pages are located.
-# Per OMB guidance, compliance plans are to be posted at [agency].gov/ai.
-# kind: html | pdf | text | xlsx
-
 pages:
   - id: state-inventory
     agency: STATE
@@ -15,9 +10,6 @@ pages:
     label: DHS AI Use Case Inventory page
     url: https://www.dhs.gov/ai/use-case-inventory
     kind: html
-    # dhs.gov rejects automated clients at the network edge; this entry is
-    # retained so the block is recorded in PAGES.md. DHS use-case data is
-    # captured through the OMB consolidated inventory pipeline.
 
   - id: eeoc-compliance-plan
     agency: EEOC
@@ -210,11 +202,6 @@ pages:
     label: EPA AI Compliance Plan page (posted off-convention path)
     url: https://www.epa.gov/data/ai-compliance-plan
     kind: html
-
-  # Manual-capture entries: the bot cannot fetch these domains, so files are
-  # ingested from data/manual/<id>/ instead. Download in a browser, name the
-  # file YYYY-MM-DD-originalname, upload via GitHub to data/manual/<id>/,
-  # and the next run diffs it against the prior capture.
 
   - id: dhs-full-inventory
     agency: DHS
