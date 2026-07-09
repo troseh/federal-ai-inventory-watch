@@ -14,6 +14,9 @@ pages:
     label: DHS AI Use Case Inventory page
     url: https://www.dhs.gov/ai/use-case-inventory
     kind: html
+    # dhs.gov rejects automated clients at the network edge; this entry is
+    # retained so the block is recorded in PAGES.md. DHS use-case data is
+    # captured through the OMB consolidated inventory pipeline.
 
   - id: eeoc-compliance-plan
     agency: EEOC
