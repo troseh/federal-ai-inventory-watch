@@ -1,5 +1,6 @@
 # Agency AI governance pages under watch. Add entries as more compliance
 # plans, waiver summaries, and determination pages are located.
+# Per OMB guidance, compliance plans are to be posted at [agency].gov/ai.
 # kind: html | pdf | text | xlsx
 
 pages:
@@ -14,6 +15,9 @@ pages:
     label: DHS AI Use Case Inventory page
     url: https://www.dhs.gov/ai/use-case-inventory
     kind: html
+    # dhs.gov rejects automated clients at the network edge; this entry is
+    # retained so the block is recorded in PAGES.md. DHS use-case data is
+    # captured through the OMB consolidated inventory pipeline.
 
   - id: eeoc-compliance-plan
     agency: EEOC
@@ -45,16 +49,166 @@ pages:
     url: https://home.treasury.gov/system/files/136/Treasury-AI-Use-Case-Inventory.csv
     kind: text
 
-  - id: dol-inventory
-    agency: DOL
-    label: DOL AI Use Case Inventory page
-    url: https://www.dol.gov/agencies/oasam/centers-offices/ocio/ai-inventory
+  - id: va-compliance-plan
+    agency: VA
+    label: VA Compliance Plan for M-25-21 (waiver-or-removal policy)
+    url: https://department.va.gov/ai/department-of-veterans-affairs-compliance-plan-for-omb-memorandum-m-25-21/
+    kind: html
+
+  - id: va-hi-strategy
+    agency: VA
+    label: VA High-Impact AI Strategy (100% risk-standard commitment)
+    url: https://department.va.gov/ai/building-the-future-vas-strategy-for-adopting-high-impact-artificial-intelligence-to-improve-services-for-veterans/
+    kind: html
+
+  - id: vaoig-compliance-plan
+    agency: VA-OIG
+    label: VA OIG AI Compliance Plan 2025 (PDF)
+    url: "https://www.vaoig.gov/sites/default/files/document/2025-09/VA%20OIG%20AI%20Compliance%20Plan%202025.pdf"
+    kind: pdf
+
+  - id: doj-ai-hub
+    agency: DOJ
+    label: DOJ Artificial Intelligence hub page
+    url: https://www.justice.gov/ai
+    kind: html
+
+  - id: doj-inventory
+    agency: DOJ
+    label: DOJ AI Inventory page (release protocol and consolidation notes)
+    url: https://www.justice.gov/ai/ai-inventory
+    kind: html
+
+  - id: doe-compliance-plan
+    agency: DOE
+    label: DOE AI Compliance Plan landing page
+    url: https://www.energy.gov/cio/articles/department-energy-doe-artificial-intelligence-ai-compliance-plan
+    kind: html
+
+  - id: doe-inventory
+    agency: DOE
+    label: DOE AI Use Case Inventory page
+    url: https://www.energy.gov/cet/doe-ai-use-case-inventory
+    kind: html
+
+  - id: hhs-inventory-csv
+    agency: HHS
+    label: HHS FY25 AI Use Case Inventory CSV
+    url: https://www.hhs.gov/sites/default/files/hhs-ai-use-case-inventory-fy25.csv
+    kind: text
+
+  - id: csosa-compliance-plan
+    agency: CSOSA
+    label: CSOSA M-25-21 Compliance Plan (PDF, includes OMB plan guidance)
+    url: https://www.csosa.gov/wp-content/uploads/2025/10/csosa-m-25-21-compliance-plan-Issued.pdf
+    kind: pdf
+
+  - id: usda-compliance-plan
+    agency: USDA
+    label: USDA AI Compliance Plan page
+    url: https://www.usda.gov/ai/compliance
+    kind: html
+
+  - id: usda-inventory
+    agency: USDA
+    label: USDA AI Inventory page
+    url: https://www.usda.gov/ai/inventory
+    kind: html
+
+  - id: commerce-ai-hub
+    agency: DOC
+    label: Commerce AI page
+    url: https://www.commerce.gov/ai
     kind: html
 
   - id: commerce-inventory
     agency: DOC
     label: Commerce AI Use Case Inventory page (links versioned spreadsheets)
     url: https://www.commerce.gov/about/policies/artificial-intelligence-use-cases-inventory
+    kind: html
+
+  - id: ed-ai-guidance
+    agency: ED
+    label: Education AI guidance page (posted off-convention path)
+    url: https://www.ed.gov/about/ed-overview/artificial-intelligence-ai-guidance
+    kind: html
+
+  - id: hud-ai-hub
+    agency: HUD
+    label: HUD AI page
+    url: https://www.hud.gov/ai
+    kind: html
+
+  - id: doi-ai-hub
+    agency: DOI
+    label: Interior AI page
+    url: https://www.doi.gov/ai
+    kind: html
+
+  - id: dol-ai-hub
+    agency: DOL
+    label: Labor AI page
+    url: https://www.dol.gov/ai
+    kind: html
+
+  - id: dol-inventory
+    agency: DOL
+    label: DOL AI Use Case Inventory page
+    url: https://www.dol.gov/agencies/oasam/centers-offices/ocio/ai-inventory
+    kind: html
+
+  - id: dot-ai-hub
+    agency: DOT
+    label: Transportation AI page
+    url: https://www.transportation.gov/AI
+    kind: html
+
+  - id: gsa-ai-hub
+    agency: GSA
+    label: GSA Artificial Intelligence page
+    url: https://www.gsa.gov/artificial-intelligence
+    kind: html
+
+  - id: nasa-ai-hub
+    agency: NASA
+    label: NASA Artificial Intelligence page (posted off-convention path)
+    url: https://www.nasa.gov/artificial-intelligence/
+    kind: html
+
+  - id: nsf-ai-policy
+    agency: NSF
+    label: NSF AI policies page (posted off-convention path)
+    url: https://www.nsf.gov/policies/ai
+    kind: html
+
+  - id: nrc-ai-hub
+    agency: NRC
+    label: NRC AI page
+    url: https://www.nrc.gov/ai
+    kind: html
+
+  - id: opm-ai-hub
+    agency: OPM
+    label: OPM AI page
+    url: https://www.opm.gov/ai
+    kind: html
+
+  - id: sba-m2410-plan
+    agency: SBA
+    label: SBA AI Compliance Plan document page (M-24-10 era; no M-25-21 plan located)
+    url: https://www.sba.gov/document/report-artificial-intelligence-compliance-plan-omb-memorandum-m-24-10
+    kind: html
+
+  - id: ssa-ai-hub
+    agency: SSA
+    label: SSA AI page
+    url: https://www.ssa.gov/ai
+    kind: html
+
+  - id: epa-compliance-plan
+    agency: EPA
+    label: EPA AI Compliance Plan page (posted off-convention path)
+    url: https://www.epa.gov/data/ai-compliance-plan
     kind: html
 
   # Manual-capture entries: the bot cannot fetch these domains, so files are
