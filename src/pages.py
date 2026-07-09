@@ -8,10 +8,11 @@ import io
 import json
 import re
 import sys
+import time
 import urllib.parse
 import urllib.request
 import zipfile
-from datetime import date
+from datetime import date, datetime, timezone
 from html.parser import HTMLParser
 from pathlib import Path
 
@@ -20,13 +21,30 @@ import yaml
 ROOT = Path(__file__).resolve().parent.parent
 PAGES_CONFIG = ROOT / "config" / "pages.yaml"
 PAGES_DIR = ROOT / "data" / "pages"
-MANUAL_DIR = ROOT / "data" / "manual"
+
+
+def _resolve_manual_dir() -> Path:
+    """Return the manual-capture base dir, tolerating a nested data/data path."""
+    candidates = [ROOT / "data" / "manual", ROOT / "data" / "data" / "manual"]
+    for cand in candidates:
+        if cand.is_dir() and any(cand.iterdir()):
+            return cand
+    for match in sorted(ROOT.glob("**/manual")):
+        if match.is_dir() and match.parent.name == "data":
+            return match
+    return candidates[0]
+
+
+MANUAL_DIR = _resolve_manual_dir()
 STATE_PATH = ROOT / "data" / "pages" / "state.json"
 STATUS_PATH = ROOT / "data" / "PAGES.md"
 CHANGELOG_DIR = ROOT / "changelogs"
 
 TOOL_UA = ("inventory-watch-pages/1.1 "
            "(+https://github.com/troseh/federal-ai-inventory-watch)")
+
+WAYBACK_STALE_DAYS = 45
+WAYBACK_SAVE_RECHECK_SECONDS = 25
 
 
 def load_pages_config() -> list[dict]:
@@ -73,31 +91,61 @@ def trigger_wayback_save(url: str) -> None:
         pass
 
 
-def wayback_latest(url: str) -> tuple[str, bytes]:
-    """Return (timestamp, original bytes) of the newest Wayback snapshot; id_ = raw page."""
+def wayback_available(url: str) -> str | None:
+    """Return the newest Wayback snapshot timestamp for url, or None."""
     q = ("https://archive.org/wayback/available?url="
          + urllib.parse.quote(url, safe=""))
     data = json.loads(_wayback_get(q, timeout=60).decode("utf-8"))
     snap = (data.get("archived_snapshots") or {}).get("closest") or {}
-    if not snap.get("available"):
-        raise RuntimeError("no Wayback snapshot available")
-    ts = snap["timestamp"]
-    raw = _wayback_get(f"https://web.archive.org/web/{ts}id_/{url}")
-    return ts, raw
+    return snap["timestamp"] if snap.get("available") else None
+
+
+def wayback_read(url: str, ts: str) -> bytes:
+    """Return the original bytes of a specific Wayback snapshot; id_ = raw page."""
+    return _wayback_get(f"https://web.archive.org/web/{ts}id_/{url}")
+
+
+def _snapshot_age_days(ts: str) -> float:
+    captured = datetime.strptime(ts, "%Y%m%d%H%M%S").replace(tzinfo=timezone.utc)
+    return (datetime.now(timezone.utc) - captured).total_seconds() / 86400
 
 
 def fetch_page(url: str) -> tuple[bytes, str]:
-    """Direct fetch, then Wayback fallback. Returns (raw, "direct" | "wayback:<ts>")."""
+    """Direct fetch, then Wayback. Returns (raw, "direct" | "wayback:<ts>").
+
+    Reads an existing snapshot before requesting a new Save Page Now crawl,
+    so the shared SPN rate budget is spent only on pages that lack a fresh
+    capture. When no fresh snapshot exists, a save is requested and the
+    availability endpoint is polled once after a short wait; a stale
+    snapshot is used as a fallback rather than failing outright.
+    """
     try:
         return fetch_direct(url), "direct"
     except Exception as exc_direct:
-        trigger_wayback_save(url)
-        try:
-            ts, raw = wayback_latest(url)
-            return raw, f"wayback:{ts}"
-        except Exception as exc_wb:
-            raise RuntimeError(
-                f"direct: {exc_direct}; wayback: {exc_wb}") from exc_wb
+        direct_err = exc_direct
+
+    try:
+        ts = wayback_available(url)
+    except Exception:
+        ts = None
+
+    if ts is not None and _snapshot_age_days(ts) <= WAYBACK_STALE_DAYS:
+        return wayback_read(url, ts), f"wayback:{ts}"
+
+    trigger_wayback_save(url)
+    time.sleep(WAYBACK_SAVE_RECHECK_SECONDS)
+    try:
+        ts2 = wayback_available(url)
+    except Exception:
+        ts2 = None
+    if ts2 is not None:
+        return wayback_read(url, ts2), f"wayback:{ts2}"
+
+    if ts is not None:
+        return wayback_read(url, ts), f"wayback:{ts}"
+
+    raise RuntimeError(
+        f"direct blocked and no Wayback snapshot yet (save requested): {direct_err}")
 
 
 def _source_label(source: str | None) -> str:
@@ -291,10 +339,12 @@ def run_live(today: str | None = None) -> None:
             text = extract_text(raw, p.get("kind", "html"))
         except Exception as exc:
             pstate["fail_streak"] = pstate.get("fail_streak", 0) + 1
+            pending = "save requested" in str(exc)
             if pstate["fail_streak"] == 1:
-                events.append(f"## {p['agency']} — {p['label']} (`{pid}`)\n\n"
-                              f"Unreachable: `{exc}`\n")
-            print(f"{pid}: unreachable ({exc})")
+                note = ("Direct fetch blocked; Wayback save requested, snapshot "
+                        "expected on the next run.") if pending else f"Unreachable: `{exc}`"
+                events.append(f"## {p['agency']} — {p['label']} (`{pid}`)\n\n{note}\n")
+            print(f"{pid}: {'save requested' if pending else 'unreachable'} ({exc})")
             continue
 
         was_failing = pstate.get("fail_streak", 0) > 0
