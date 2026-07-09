@@ -3,14 +3,20 @@
     "fail_streak": 2
   },
   "commerce-inventory": {
-    "fail_streak": 1
+    "fail_streak": 2,
+    "manual": false
   },
   "csosa-compliance-plan": {
     "fail_streak": 0,
     "last_changed": "2026-07-09"
   },
+  "dhs-full-inventory": {
+    "fail_streak": 0,
+    "manual": true
+  },
   "dhs-inventory": {
-    "fail_streak": 4
+    "fail_streak": 5,
+    "manual": false
   },
   "doe-compliance-plan": {
     "fail_streak": 0,
@@ -36,7 +42,8 @@
     "fail_streak": 2
   },
   "dol-inventory": {
-    "fail_streak": 1
+    "fail_streak": 2,
+    "manual": false
   },
   "dot-ai-hub": {
     "fail_streak": 2
@@ -47,7 +54,8 @@
   },
   "eeoc-compliance-plan": {
     "fail_streak": 0,
-    "last_changed": "2026-07-09"
+    "last_changed": "2026-07-09",
+    "manual": false
   },
   "epa-compliance-plan": {
     "fail_streak": 0,
@@ -66,11 +74,13 @@
   },
   "irs-ai-policy": {
     "fail_streak": 0,
-    "last_changed": "2026-07-09"
+    "last_changed": "2026-07-09",
+    "manual": false
   },
   "nara-compliance-plan": {
     "fail_streak": 0,
-    "last_changed": "2026-07-09"
+    "last_changed": "2026-07-09",
+    "manual": false
   },
   "nasa-ai-hub": {
     "fail_streak": 0,
@@ -78,7 +88,8 @@
   },
   "ncua-compliance-plan": {
     "fail_streak": 0,
-    "last_changed": "2026-07-09"
+    "last_changed": "2026-07-09",
+    "manual": false
   },
   "nrc-ai-hub": {
     "fail_streak": 0,
@@ -99,13 +110,19 @@
   "ssa-ai-hub": {
     "fail_streak": 2
   },
+  "ssa-inventory-csv": {
+    "fail_streak": 0,
+    "manual": true
+  },
   "state-inventory": {
     "fail_streak": 0,
-    "last_changed": "2026-07-09"
+    "last_changed": "2026-07-09",
+    "manual": false
   },
   "treasury-inventory-csv": {
     "fail_streak": 0,
-    "last_changed": "2026-07-09"
+    "last_changed": "2026-07-09",
+    "manual": false
   },
   "usda-compliance-plan": {
     "fail_streak": 2
