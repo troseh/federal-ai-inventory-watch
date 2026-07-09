@@ -19,6 +19,7 @@ import yaml
 ROOT = Path(__file__).resolve().parent.parent
 PAGES_CONFIG = ROOT / "config" / "pages.yaml"
 PAGES_DIR = ROOT / "data" / "pages"
+MANUAL_DIR = ROOT / "data" / "manual"
 STATE_PATH = ROOT / "data" / "pages" / "state.json"
 STATUS_PATH = ROOT / "data" / "PAGES.md"
 CHANGELOG_DIR = ROOT / "changelogs"
@@ -140,7 +141,10 @@ def write_status(pages: list[dict], state: dict) -> None:
         s = state.get(p["id"], {})
         last = s.get("last_changed", "(no capture yet)")
         fails = s.get("fail_streak", 0)
-        status = f"unreachable ×{fails}" if fails else "ok"
+        if s.get("manual"):
+            status = "manual (file unreadable)" if fails else "manual"
+        else:
+            status = f"unreachable ×{fails}" if fails else "ok"
         lines.append(f"| {p['id']} | {p['agency']} | [{p['label']}]({p['url']}) "
                      f"| {last} | {status} |")
     text = "\n".join(lines) + "\n"
@@ -157,8 +161,50 @@ def run_live(today: str | None = None) -> None:
     for p in pages:
         pid = p["id"]
         pstate = state.setdefault(pid, {})
+        pstate["manual"] = bool(p.get("manual"))
         pdir = PAGES_DIR / pid
         latest_path = pdir / "latest.txt"
+        if p.get("manual"):
+            mdir = MANUAL_DIR / pid
+            files = sorted(f for f in mdir.glob("*") if f.is_file()) if mdir.exists() else []
+            if not files:
+                pstate["fail_streak"] = 0
+                print(f"{pid}: no manual capture yet")
+                continue
+            try:
+                raw = files[-1].read_bytes()
+                text = extract_text(raw, p.get("kind", "html"))
+            except Exception as exc:
+                pstate["fail_streak"] = pstate.get("fail_streak", 0) + 1
+                if pstate["fail_streak"] == 1:
+                    events.append(f"## {p['agency']} — {p['label']} (`{pid}`)\n\n"
+                                  f"Manual file unreadable: `{files[-1].name}`: `{exc}`\n")
+                print(f"{pid}: manual file unreadable ({exc})")
+                continue
+            pstate["fail_streak"] = 0
+            old = latest_path.read_text(encoding="utf-8") if latest_path.exists() else None
+            if old == text:
+                print(f"{pid}: unchanged (manual)")
+                continue
+            pdir.mkdir(parents=True, exist_ok=True)
+            (pdir / f"{today}-{files[-1].name}").write_bytes(raw)
+            (pdir / f"{today}.txt").write_text(text, encoding="utf-8")
+            latest_path.write_text(text, encoding="utf-8")
+            pstate["last_changed"] = today
+            if old is None:
+                events.append(f"## {p['agency']} — {p['label']} (`{pid}`)\n\n"
+                              f"First manual capture archived (`{files[-1].name}`, "
+                              f"{len(text)} chars of text).\n")
+                print(f"{pid}: first manual capture")
+            else:
+                delta = len(text) - len(old)
+                excerpt = "\n".join(_diff_excerpt(old, text))
+                events.append(f"## {p['agency']} — {p['label']} (`{pid}`)\n\n"
+                              f"Manual capture changed ({delta:+d} chars, `{files[-1].name}`). "
+                              f"Archived versions in `data/pages/{pid}/`.\n\n"
+                              f"```diff\n{excerpt}\n```\n")
+                print(f"{pid}: manual capture changed ({delta:+d} chars)")
+            continue
         try:
             raw = fetch_bytes(p["url"])
             text = extract_text(raw, p.get("kind", "html"))
