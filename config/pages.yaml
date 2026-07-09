@@ -56,3 +56,22 @@ pages:
     label: Commerce AI Use Case Inventory page (links versioned spreadsheets)
     url: https://www.commerce.gov/about/policies/artificial-intelligence-use-cases-inventory
     kind: html
+
+  # Manual-capture entries: the bot cannot fetch these domains, so files are
+  # ingested from data/manual/<id>/ instead. Download in a browser, name the
+  # file YYYY-MM-DD-originalname, upload via GitHub to data/manual/<id>/,
+  # and the next run diffs it against the prior capture.
+
+  - id: dhs-full-inventory
+    agency: DHS
+    label: DHS Full AI Use Case Inventory spreadsheet (manual capture)
+    url: https://www.dhs.gov/publication/ai-use-case-inventory-library
+    kind: xlsx
+    manual: true
+
+  - id: ssa-inventory-csv
+    agency: SSA
+    label: SSA Individual AI Inventory CSV (manual capture)
+    url: https://www.ssa.gov/ai
+    kind: text
+    manual: true
