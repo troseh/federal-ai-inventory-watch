@@ -1,6 +1,6 @@
 {
   "commerce-ai-hub": {
-    "fail_streak": 1,
+    "fail_streak": 0,
     "last_changed": "2026-07-09",
     "manual": false,
     "source": "wayback:20260507180805"
@@ -11,6 +11,7 @@
   },
   "commerce-inventory": {
     "fail_streak": 0,
+    "last_changed": "2026-07-09",
     "manual": true
   },
   "csosa-compliance-plan": {
@@ -21,10 +22,11 @@
   },
   "dhs-full-inventory": {
     "fail_streak": 0,
+    "last_changed": "2026-07-09",
     "manual": true
   },
   "dhs-inventory": {
-    "fail_streak": 0,
+    "fail_streak": 1,
     "last_changed": "2026-07-09",
     "manual": false,
     "source": "wayback:20260709185151"
@@ -60,19 +62,20 @@
     "source": "direct"
   },
   "dol-ai-hub": {
-    "fail_streak": 2,
+    "fail_streak": 0,
     "last_changed": "2026-07-09",
     "manual": false,
-    "source": "wayback:20260216144941"
+    "source": "wayback:20260709185645"
   },
   "dol-inventory": {
-    "fail_streak": 0,
+    "fail_streak": 1,
     "last_changed": "2026-07-09",
     "manual": false,
     "source": "wayback:20260709185701"
   },
   "dot-ai-hub": {
     "fail_streak": 0,
+    "last_changed": "2026-07-09",
     "manual": true
   },
   "ed-ai-guidance": {
@@ -100,7 +103,7 @@
     "source": "direct"
   },
   "hhs-inventory-csv": {
-    "fail_streak": 2,
+    "fail_streak": 3,
     "last_changed": "2026-07-09",
     "manual": false,
     "source": "wayback:20260511112141"
@@ -160,13 +163,14 @@
     "source": "direct"
   },
   "ssa-ai-hub": {
-    "fail_streak": 0,
+    "fail_streak": 1,
     "last_changed": "2026-07-09",
     "manual": false,
     "source": "wayback:20260514101118"
   },
   "ssa-inventory-csv": {
     "fail_streak": 0,
+    "last_changed": "2026-07-09",
     "manual": true
   },
   "state-inventory": {
@@ -182,11 +186,13 @@
     "source": "direct"
   },
   "usda-compliance-plan": {
-    "fail_streak": 6,
-    "manual": false
+    "fail_streak": 0,
+    "last_changed": "2026-07-09",
+    "manual": false,
+    "source": "wayback:20260709174031"
   },
   "usda-inventory": {
-    "fail_streak": 2,
+    "fail_streak": 3,
     "last_changed": "2026-07-09",
     "manual": false,
     "source": "wayback:20260709154407"
@@ -204,7 +210,7 @@
     "source": "direct"
   },
   "vaoig-compliance-plan": {
-    "fail_streak": 6,
+    "fail_streak": 7,
     "manual": false
   }
 }

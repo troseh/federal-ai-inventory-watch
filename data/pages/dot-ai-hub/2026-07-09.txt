@@ -1,0 +1,490 @@
+U.S. DEPARTMENT OF TRANSPORTATION 1
+PART I-AI USE CASE STRATEGIC ALIGNMENT
+The United States Department of Transportation (Department or DOT ) stands at a pivotal moment, tasked with
+advancing safety, rebuilding national infrastructure, and ushering in a new era of American transportation
+leadership. The scale, complexity, and dynamism of the modern transportation ecosystem demand a technological
+and strategic evolution beyond incremental improvements. This report establishes that Artificial Intelligence (AI)
+is a critical enabling capability for DOT. AI offers the potential to fundamentally transform of the Department’s
+operations, moving it from a reactive to a proactive and predictive posture across its core mission areas. This is a
+living document and will be updated as DOT continues to evolve through the 1DOT technology modernization
+initiative.
+This framework outlines how a portfolio of AI capabilities can be leveraged to meet the Department’s four draft
+strategic goals: Safety, Infrastructure, Innovation, and Efficiency 1. For Safety, AI can enable tools to anticipate
+and prevent incidents before they occur by analyzing vast datasets to identify latent risks. For Infrastructure, AI
+can enable the optimization of the entire asset lifecycle, from intelligent design and predictive maintenance to
+enhanced operational reliability. In Innovation, AI serves a dual role, acting as a transformative technology for
+direct investment while also acce lerating the development, validation, and regulatory process for of other new
+technologies. Finally, for Efficiency, AI-driven automation can streamline internal bureaucracy, accelerate project
+delivery, and modernize the Department ’s own operations, ensuring taxpayer dollars are used with maximum
+effect.
+1 Draft, subject to change pending publication of the DOT Strategic Plan for Fiscal Years 2026-2030
+2 AI STRATEGY | FY 2026-2027
+INTRODUCTION
+The Department pursues goals across a vast and intricate network of aviation, highway, rail, transit, maritime, and
+pipeline systems that form the circulatory system of the American economy and way of life. However, the sheer
+volume of data, the speed of operations, and the interconnectedness of this national system have reached a scale
+that challenges the limits of traditional management, oversight, and planning methods.
+To meet the demands of the 21st century and achieve its strategic goals, the Department must embrace a
+foundational technological shift. Artificial Intelligence represents this shift. It is not merely a collection of discrete
+software tools but a new parad igm for decision-making and operations, akin to the transformative impact of the
+internet or the Global Positioning System (GPS). The core power of AI lies in its ability to process immense and
+diverse datasets, recognize complex patterns invisible to human analysts, and generate predictive judgments with
+accuracy at a scale and speed that is otherwise unattainable. All this while maintaining strong safeguards for civil
+rights, civil liberties, and privacy.
+This AI Use Case Alignment provides a strategic framework for aligning AI capabilities with the Department's
+mission. It is organized around the four draft strategic goals DOT anticipated to be included in the Department’s
+Strategic Plan for FY2026-2030: Safety, Infrastructure, Innovation, and Efficiency. For each goal, the AI strategy
+articulates a clear vision for how a portfolio of AI capabilities, abstracted from detailed, mode-specific use cases,
+can directly support the achievement of the goal and its underlying strategic objec tives and demonstrate how a
+cohesive, department-wide AI strategy is the essential ingredient for ensuring the United States has the safest,
+most modern, and most efficient transportation system in the world.
+U.S. DEPARTMENT OF TRANSPORTATION 3
+CONTENTS
+INTRODUCTION .................................................................................................................................. 2
+SAFETY ................................................................................................................................................ 4
+ILLUSTRATIVE USE CASES ............................................................................................................. 6
+INFRASTRUCTURE ............................................................................................................................. 7
+ILLUSTRATIVE USE CASES ............................................................................................................. 9
+INNOVATION ...................................................................................................................................... 10
+ILLUSTRATIVE USE CASES ........................................................................................................... 12
+EFFICIENCY ....................................................................................................................................... 13
+ILLUSTRATIVE USE CASES ........................................................................................................... 15
+CONCLUSION .................................................................................................................................... 16
+4 AI STRATEGY | FY 2026-2027
+SAFETY
+Reaffirming the Commitment to Safety Through Proactive,
+Data-Driven Insights
+Safety continues to be the Department’s highest priority. AI capabilities, such as predictive analytics, computer
+vision, and Natural Language Processing (NLP) , will empower the Department to identify latent risks buried
+within operational data, maintenance logs, and millions of words of narrative safety reports long before they
+escalate into catastrophic failures. This technology will create a holistic, system-of-systems view of risk by fusing
+data from across aviation, surface, and maritime transportation, breaking down the organizational silos that
+currently ob scure correlated threats and prevent a comprehensive understanding of safety challenges. By
+leveraging AI to monitor the health of physical infrastructure, study t he onset of fatigue in critical personnel,
+detect emerging cyber and physical threats in real -time, and automate hazardous inspection and maintenance
+tasks, the Department can build multiple, overlapping layers of defense and should also ensure safeguards for
+civil rights, civil liberties and privacy.
+Proactive Risk Identification
+Historically, safety improvements have often been driven by forensic analysis of incidents. AI enables a transition
+to a predictive approach by identifying leading indicators of risk. Machine learning and NLP algorithms can be
+deployed to analyze millions of unstructured and semi -structured documents, such as voluntary safety reports,
+confidential close -call narratives, and maintenance logs. These systems can detect subtle patterns, recurring
+themes, and correlations that are impossible for human analysts to find at scale, flagging latent risks . This
+capability provides a constant stream of data -driven intelligence that directly enhances the Safety Risk
+Management (SRM) and Safety Assurance (SA) pillars of a modern Safety Management System (SMS),
+supporting the objective to develop improved SMS across all modes. By identifying emerging threats from global
+research and technical forums, the Department can also proactively develop policy and guidance for new
+technologies like advanced air mobility, ensuring safety is built-in from the start.
+Predictive Maintenance and Anomaly Detection
+Mechanical failure remains a significant causal factor in transportation incidents. AI -powered predictive
+maintenance systems for aircraft, commercial vehicles, rail rolling stock, and transit buses can analyze flight data,
+sensor readings, and maintenance histories to forecast component failures before they happen. This allows for
+U.S. DEPARTMENT OF TRANSPORTATION 5
+maintenance to be scheduled proactively, preventing in- flight emergencies or on-road breakdowns that can lead
+to incidents and system disruptions. This innovation directly supports the objectives to improve aviation and
+surface transportation safety.
+Simultaneously, AI-powered monitoring systems enhance operational safety in real -time. Computer vision can
+analyze airport surveillance data to predict and prevent runway incursions, a critical aviation risk. On the surface,
+similar systems can detect wron g-way drivers on highways, monitor for unsafe vehicle speeds in airport
+environments, and identify trespassing on high- risk rail corridors. For infrastructure, automated systems using
+drones, robotics, and sensors can continuously inspect runways, bridges, and tracks for subtle signs of degradation
+or foreign object debris, providing alerts that enable preemptive repairs. This constant, data -rich vigilance
+provides a layer of safety that is more comprehensive and consistent than periodic manual inspections alone.
+Human Factors and Workforce Safety
+Human error is a contributing factor in a large percentage of transportation incidents. The AI strategy directly
+addresses this through several avenues. AI systems can analyze scheduling data, workload metrics, and even
+communication patterns to predict periods of high fatigue risk for air traffic controllers, pilots, and commercial
+drivers, allowing for proactive adjustments to staffing and rest periods to prevent fatigue -induced errors. To
+enhance competency, AI-driven adaptive training platforms can create personalized learning programs for pilots,
+mechanics, and other safety-critical personnel. These platforms identify and address individual knowledge gaps
+in real-time, ensuring a higher and more consistent level of proficiency across the workforce.
+To directly protect workers, AI offers transformative solutions. Robotics and drones powered by AI can be
+deployed to conduct inspections in hazardous environments —such as at height on bridges or in confined
+tunnels—removing humans from harm's way. In dynamic work zones, computer vision and connected vehicle
+technology can create a digital safety net, providing real -time alerts to workers and vehicle operators when a
+collision is imminent. This directly supports the strategic objective to improve transportation worker safety by
+addressing key risks like work zone intrusions and exposure to hazardous tasks.
+6 AI STRATEGY | FY 2026-2027
+SAFETY
+ILLUSTRATIVE USE CASES
+Cooperative Perception for Highway Traffic System Operations
+Highways present persistent safety risks where curves, congestion, and large vehicles obscure hazards and reduce
+reaction time. This Cooperative Perception for Highway Traffic System Operations project applied AI-powered
+cooperative perception, integrating roadside and vehicle-based sensors with machine learning, computer vision,
+and predictive modeling, to create a shared, real -time object map of the freeway environment. The results
+were: improved situational awareness, faster operator and vehicle response to hidden hazards, and safer, more
+efficient highway operations that lay the groundwork for connected and automated driving. More details can be
+found here: https://rosap.ntl.bts.gov/view/dot/72302
+Aviation Safety Information Analysis and Sharing (ASIAS)
+To assist the work done by FAA, t he Aviation Safety Information Analysis and Sharing (ASIAS) program
+aggregates and analyzes large volumes of operational, maintenance, and environmental data spanning the entire
+aviation life cycle to identify emerging safety risks. By applying AI-driven predictive analytics, ASIAS can detect
+latent hazards and emerging risk patterns within its datasets before they lead to safety events. This capability
+enables earlier identification of systemic safety issues, allowing for targeted mitigations, reducing the likelihood
+of accidents, and strengthening the FAA’s ability to uphold the highest levels of aviation safety.
+NAS Safety Anomaly Metric with Safety Trend Analytics Dashboard integration
+The Spatio-Temporal Anomaly Detection and Situational Awareness Module (STAD SAM) is an unsupervised
+anomaly detection capability with continuous learning, designed to forecast both anomalous and non-anomalous
+conditions in the National Airspace System (NAS) at the District and facility levels. By generating forward -
+looking forecasts, STAD SAM equips headquarters leadership and field decision- makers with enhanced
+situational awareness of conditions for the day ahead. Leveraging contributing factors behind the forecast, leaders
+can propagate awareness across the system and proactively take action on potential drivers of safety risk,
+ultimately strengthening operational safety and resilience in the NAS.
+Automatic Speech Recognition (Voice Transcription) – VTACT
+V oice communication remains the primary method of exchanging information between pilots and air traffic
+controllers, yet it creates challenges for analysis and data-driven insights. The V oice Transcription for Air Traffic
+Communications (VTACT) initiative addresses this gap by transcribing audio recordings of radio transmissions
+into text across the entire national airspace. By converting these communications into an accessible, analyzable
+textual dataset, VTACT will provide a rich new source of information . This capability is expected to enhance
+aviation safety significantly by enabling deeper analysis, trend detection, and insight generation that were
+previously difficult to achieve with voice-only records.
+U.S. DEPARTMENT OF TRANSPORTATION 7
+INFRASTRUCTURE
+Investing in World-Class Infrastructure with Intelligent
+Systems
+Investing in high-quality transportation infrastructure is central to the vision of unlocking American prosperity
+and achieving economic dominance. Artificial Intelligence provides the means to transform infrastructure from a
+collection of static, physical assets into a dynamic, intelligent, and responsive system. The application of AI shifts
+from a simple build more mentality to a more sophisticated approach of building smarter, maintaining
+predictively, and operating at maximum efficiency. AI -powered demand forecasting and generative design
+algorithms can ensure that new capacity is constructed in the most economically significant locations and with
+optimal, resilient designs. Crucially, enterprise-wide predictive maintenance platforms, fed by a constant stream
+of data from automated inspections, will allow the Department and its partners to move from a costly reactive
+repair cycle to a proactive state of good repair, enhancing reliability and extending the lifecycle of critical assets.
+This approach directly addresses freight and passenger bottlenecks by maximizing the performance of the existing
+network while strategically planning for its expansion. By enabling the creation of digital twins, dynamic virtual
+models of the N ation’s transportation system, AI will provide a transformative tool for lifecycle management,
+allowing planners to simulate, analyze, and optimize the country ’s most vital assets to ensure their long -term
+condition and reliability.
+Intelligent Asset Management
+AI can help to change fundamentally how infrastructure is maintained .. AI-powered predictive maintenance
+platforms can be deployed at an enterprise scale to ingest and analyze a wide array of data, including real -time
+sensor readings, historical inspection reports, traffic loads, and environmental conditions. By identifying subtle
+patterns that precede failure, these systems can forecast when a specific asset , a bridge girder, a segment of
+pavement, a rail switch, or a lock gate, for example, is at high risk of deterioration. This allows maintenance
+resources to be deployed proactively and precisely where they are needed most, preventing unplanned outages,
+reducing long-term lifecycle costs, and keeping the system in a state of good repair.
+This predictive capability is fueled by advances in automated inspection. The use of drones, robotics, and vehicles
+equipped with computer vision, lidar, and other advanced sensors enables more frequent, consistent, and data -
+rich assessments of infrastructure condition than are possible with manual methods. These automated systems can
+8 AI STRATEGY | FY 2026-2027
+detect hairline cracks in bridges, subsurface defects in pavement, and alignment issues in rail lines with a high
+degree of accuracy, providing the steady stream of high-quality data that predictive models require to be effective.
+Strategic Capacity Expansion
+AI offers tools to ensure that investments are both strategic and efficient. AI-powered demand forecasting models
+can analyze complex economic, demographic, and logistics data to produce granular forecasts of future travel and
+freight patterns. This innovation allows planners to identify emerging bottlenecks and prioritize investments in
+the highway corridors, rail lines, ports, and airports where new capacity will deliver the greatest economic benefit
+and best serve growing communities.
+Once a project is identified, generative AI can accelerate the design phase. Engineers can input project constraints,
+material properties, and performance goals, and the AI system can generate hundreds of validated design options
+for assets like bridges or highway interchanges. This process not only reduces engineering costs and timelines but
+also allows planners to explore more innovative, resilient, and aesthetically pleasing designs. This move s
+transportation planning from simply optimizing a human-generated design to having AI co-create the design itself.
+Digital Twins as a Core Unifying Capability
+The concept of the digital twin emerges as a central, unifying technology for modern infrastructure management.
+A digital twin is a dynamic, virtual model of a physical asset or an entire network, continuously updated with
+real-time data. At an enterprise level, a national digital twin of the transportation system would provide a
+transformative capability. Planners could use it to simulate the system -wide impacts of a proposed capacity
+expansion project, such as a new high -speed rail line or port terminal, before committing billions of dollars to
+construction, leading to better investment decisions. For operations, the digital twin can be used to monitor the
+health of critical infrastructure in real-time, optimize maintenance schedules across an entire network, and model
+the system's resilience to disruptions like extreme weather events or security threats. This ability to test virtually
+before implementing physically i s a powerful strategy for de -risking massive capital investments and major
+operational changes, ultimately saving taxpayer dollars and improving outcomes.
+Transformative Research for Future Infrastructure
+Beyond optimizing the infrastructure of today, the Department’s AI strategy includes investing in research that
+could revolutionize the infrastructure of tomorrow. This change includes funding high- risk, high- reward
+initiatives to develop novel materials. Using AI for materials science discovery, researchers can simulate and
+invent new forms of concrete or asphalt that can autonomously repair their own cracks, for example, dramatically
+reducing long- term maintenance needs. Another transformative research area is the development of fully
+autonomous robotic systems for infrastructure construction. These systems could operate 24/7 with minimal
+human oversight, dramatically accelerating the construction of new capacity while removing human workers from
+hazardous environments. These forward-looking investments show a long- term vision that moves beyond mere
+optimization to the fundamental reinvention of how infrastructure is designed, built, and maintained.
+U.S. DEPARTMENT OF TRANSPORTATION 9
+INFRASTRUCTURE
+ILLUSTRATIVE USE CASES
+Advancing Data Access for Multimodal Transportation Infrastructure
+Safe and accessible transportation infrastructure is critical for multimodal mobility, yet data on many features are
+often poorly mapped, inconsistently documented, or missing from digital networks , leaving agencies, industry
+and the traveling public without reliable information. The University of Washington’s Transportation Data
+Exchange Initiative (TDEI), funded under DOT ’s ITS4US program, transforms how we map and share critical
+transportation infrastructure by using AI and high- resolution imagery to generate comprehensive, standardized
+maps of multimodal networks and accessibility features. By pairing these data products with open standards, this
+project offers a repeatable framework for transportation agencies nationwide.
+AI-Enabled Winter Road Maintenance Decision-Making
+Winter weather causes roadway crashes in the U.S. with agency costs in snow and ice control. The AI-Enabled
+Winter Road Maintenance project applies AI to fuse roadway sensor, vehicle, and weather data with predictive
+modeling to forecast conditions and recommend optimized plowing, treatment, and routing strategies. The result
+will be safer winter travel, more efficient and cost-effective maintenance operations.
+AI to Enhance Non-Destructive Evaluation (NDE) Techniques
+Maintaining the Nation’s aging bridges and tunnels requires faster and more reliable ways to detect hidden defects
+such as delamination and corrosion. This AI to Enhance NDE Techniques project will apply AI, including
+computer vision, signal processing, and multi -sensor data fusion, to interpret complex (NDE) methods and data
+with greater accuracy and consistency. By automating analysis and delivering unified condition maps, the NDE
+AI project will enable earlier detection of structural issues, reduce inspection time and costs, and improve asset
+management and safety planning.
+10 AI STRATEGY | FY 2026-2027
+INNOV ATION
+Leading Global Transportation Innovation by Accelerating the
+Technology Lifecycle
+DOT has a significant role to play in positioning the United States to lead the world in transportation technology
+and innovation. Artificial Intelligence plays a unique and powerful dual role in achieving this goal: it is both a
+transformative technology that warrants direct investment and the primary accelerator for the development and
+adoption of other critical technologies, such as automated vehicles, Unmanned Aircraft Systems (UAS), and
+advanced air mobility. AI will create a more efficient, predictable, and agile innovation ecosystem. AI- assisted
+rulemaking, self-certification and certification processes will help reduce regulatory burden and uncertainty by
+analyzing complex technical data and public feedback, providing innovators with a faster and clearer path to
+market. Enterprise-scale digital twin environments will serve as virtual sandboxes, allowing for the safe, rapid,
+and low -cost testing and validation of new technologies before real -world deployment. Furthermore, by
+establishing national open data platforms and investing in foundational AI research, from quantum sensing to AI-
+driven scientific discovery, the Department will provide the essential fuel and foundational breakthroughs needed
+to power the next generation of transportation solutions. This comprehensive strategy ensures that the Department
+not only keeps pace with innovation but actively shapes i ts direction, securing America ’s position as the
+undisputed global leader in advanced transportation technology.
+The Department's innovation strategy, powered by AI, is designed to foster a dynamic environment where new
+technologies can be developed, tested, and deployed safely and efficiently while ensuring safeguards for civil
+rights, civil liberties and privacy. This strategy involves both direct investment in transformative technologies and
+the creation of systems that accelerate the entire innovation lifecycle for the private sector.
+De-Risking Innovation through Virtualization
+The creation of a multi-modal digital twin of the national transportation system can serve as a virtual sandbox. In
+this hyper-realistic simulated environment, technology developers can new technologies under a wide range of
+conditions. This use of virtualization allows both innovators and regulators to gather extensive safety and
+performance data at low cost and with low public risk, dramatically accelerating the validation process and
+building confidence in new technologies before they are deployed on public roads or in the national airspace.
+U.S. DEPARTMENT OF TRANSPORTATION 11
+Fueling Innovation with Data
+Data is the essential raw material for modern innovation, particularly for the development of AI and machine
+learning applications. Data collection and use must ensure appropriate safeguards are in place to protect privacy,
+civil rights, and civil liberties, and to mitigate any unlawful discrimination. The AI strategy recognizes the value
+of data by prioritizing initiatives that make high -quality transportation data more accessible. The establishment
+of a National Transportation Open Data Platform will provide a centralized, secure, and user -friendly portal for
+researchers, startups, and the publi c to access non -sensitive government data via standardized Application
+Programming Interfaces (APIs). In addition, the creation of curated, analysis -ready data sandboxes will provide
+the high- quality, labeled datasets that innovators need to train and test new AI models. By providing this
+foundational resource, the Department acts as a catalyst, unleashing American innovation from the private sector
+to solve pressing transportation challenges.
+Strategic Investment in Moonshot Technologies
+In addition to enabling private sector innovation, the Department will make direct, strategic investments in
+transformative technologies that have the potential for massive long -term impact. This is the core mission of
+Department entities like the Advanced Research Projects Agency - Infrastructure (ARPA-I), which is designed to
+fund high-risk, high-reward research into game-changing ideas that are unlikely to be funded by the private sector
+alone.
+Beyond this entity, the AI strategy calls for forward-looking investments at the frontiers of science and technology.
+This prioritization includes initiatives to use AI to accelerate fundamental scientific discovery that can underpin
+transportation innovation, such as designing novel materials. It also includes exploratory investments in nascent
+fields like quantum computing and quantum sensing, which could one day solve currently intractable problems
+in logistics optimization or hazard detection. These moonshot investments will ensure that the U.S. remains the
+global leader in the foundational breakthroughs that will enable the next generation of transportation systems.
+12 AI STRATEGY | FY 2026-2027
+INNOVATION
+ILLUSTRATIVE USE CASES
+AI for Transportation Planning and Design (AI TPD)
+State and local transportation agencies often lack the comprehensive data needed to plan, design and implement
+multimodal projects that serve all users safely and efficiently. AI TPD, funded in phases under DOT’s Small
+Business Innovation Research (SBIR) program applies AI and advanced analytics to generate and integrate
+infrastructure, traveler behavior, and contextual data into practical decision -support tools. By enabling agencies
+to identify network gaps and system needs, to test design solutions, and t o measure impacts on mobility, safety,
+and system performance this initiative will deliver scalable, AI-enabled resources that transportation agencies can
+use nationwide.
+Incorporating AI in National Intelligent Transportation System (ITS) Deployments
+ITS is the integrated application of electronics, communications, data, and all advanced information technologies
+in communication, control, and information processing to the entire transportation network. This includes all
+modes of transportation and users. This project will advance AI-enabled ITS through deployments of high priority
+use cases defined within the service packages of the Architecture Reference for Cooperative and Intelligent
+Transportation (ARC-IT), the national ITS reference architecture.
+Enterprise AI Public Comment Processing Analyzer
+AI can accelerate the processing and evaluation of public comments for regulatory and agency actions by quickly
+categorizing and synthesizing large volumes of feedback for agency review. This use of AI enables faster, more
+comprehensive assimilation of every stakeholder’s input, reduces delays in regulatory decision-making.
+U.S. DEPARTMENT OF TRANSPORTATION 13
+EFFICIENCY
+Enhancing System and Departmental Efficiency Through
+Intelligent Automation
+The Department’s focus on efficiency includes efforts to improve both the performance of the national
+transportation system and the internal accountability of the Department. Artificial Intelligence and intelligent
+automation are the keys to modernizing the Department's 20th-century processes to meet 21st-century challenges.
+This goal will be achieved through a comprehensive, three-pronged approach. First, AI will help to automate the
+analysis of regulatory code to assist with the identification and elimination of outdated rules, and streamline
+complex and time -consuming processes like environmental reviews and permitting. Second, AI will accelerate
+the delivery of critical infrastructure projects from conception to completion by enabling digital construction
+management, optimizing project schedules, and promoting the use of innovative, time -saving contracting
+methods. Third, AI will fundamentally modernize the Department's own internal operations by automating high-
+volume, repetitive administrative tasks in finance, human resources, and procurement; streamlining the entire
+grants management lifecycle; and providing leadership with real-time, data-driven performance dashboards. This
+comprehensive application of AI will create a more agile, data-driven, and efficient Department, freeing valuable
+human capital to focus on high- value, mission-critical work and ensuring that taxpayer dollars are used more
+effectively to deliver transportation services to the American people.
+The pursuit of efficiency through AI is not about incremental cost-cutting but about a fundamental re-engineering
+of core government processes. The strategy addresses bottlenecks in regulatory processes, project delivery, and
+internal administration, all o f which are interconnected while ensuring safeguards for civil rights, civil liberties
+and privacy
+Accelerating Project Delivery
+The time and cost overruns associated with major infrastructure projects are a persistent challenge. AI can help
+to accelerate project delivery through improvements at every phase of the project lifecycle. Beyond streamlining
+environmental reviews, AI tools can analyze project characteristics to recommend the most effective and time -
+saving contracting methods, such as Design- Build. During construction, "intelligent cons truction management"
+systems using computer vision and drones can automate the monitoring of project progress against digital plans,
+14 AI STRATEGY | FY 2026-2027
+track the quality of materials, and ensure site safety in real- time. This application allows project managers to
+identify and resolve potential delays or defects instantly, reducing the need for costly rework and preventing
+schedule slippages. This entire process, from planning to completion, can be managed on a unified "digital twin"
+platform, ensuring all stakeholders are working from the same data and improving overall coordination.
+Modernizing Internal Operations
+To be an effective and efficient organization, the Department must modernize its own internal business processes.
+The AI strategy calls for a comprehensive digital transformation of the Department's administrative functions.
+Robotic Process Automation (RPA) and machine learning can be deployed to automate high -volume, repetitive
+tasks in areas like finance, procurement, and human resources, freeing employees to focus on more complex,
+analytical work.
+AI-powered strategic workforce planning can analyze HR data to forecast retirement waves and future skills gaps,
+allowing the Department to recruit and train the talent needed for emerging fields proactively like data science
+and cybersecurity, ensuring the agency has the human capital required to execute its 21st -century mission. The
+modernization of the Department's own IT infrastructure, assisted by AI tools that can analyze legacy code and
+predict system failures, provides the secure and reliable foundation upon which all these other efficiencies
+depend.
+U.S. DEPARTMENT OF TRANSPORTATION 15
+EFFICIENCY
+ILLUSTRATIVE USE CASES
+Model Minimum Uniform Crash Criteria (MMUCC)
+Model Minimum Uniform Crash Criteria provides intelligent automation that involves mapping S tates’ police
+crash report data elements and attributes to MMUCC guidelines, ensuring efficiency, consistency and accuracy.
+Current manual processes are labor intensive, time -consuming, and prone to error ., AI-powered solution can
+automate MMUCC mapping, and reduce manual labor by approximately 95 percent and reducing error . This
+solution provides enhanced transparency, accuracy, future-proofing, and efficient information retrieval, resulting
+in improved compliance and decision- making. The improved uniformity of crash data uniformity and accuracy
+of crash data collection will ultimately lead to improved public safety outcomes central to the National Highway
+Traffic Safety Administration’s mission.
+AI for DOT Assistant for Policies and Procedures
+The AI assistant helps agency personnel with effectively creating and updating documentation, processes, and
+generating workflows by utilizing templates with AI capabilities. The assistant tool helps create SOPs, processes,
+and diagrams more efficiently to assist with drafts, comments, and accelerating completion. The assistant tool
+will save DOT personnel time for agency personal to focus on more mission-critical work.
+Command Center Voice Data Analytics
+Adoption of a n AI-embedded audio processing pipeline with an intuitive web interface enables the Air Traffic
+Control System Command Center (ATCSCC) to search, retrieve, and analyze voice communication recordings
+efficiently. To the benefit of the FAA, this capability reduces the manual workload of locating and retrieving audio
+by up to 90 percent, saving personnel approximately a dozen hours each week. The efficiency gains free staff to
+focus on higher-priority tasks while minimizing errors and delays in responding to stakeholder inquiries. Beyond
+workload reduction, this capability unlocks new opportunities for advanced AI-driven analytics, allowing the FAA
+to extract patterns, trends, and actionable intelligence from voice communications that were previously
+inaccessible. These insights enhance decision -making, streamline coordination workflows, and support more
+optimized operational strategies across the National Airspace System.
+16 AI STRATEGY | FY 2026-2027
+CONCLUSION
+The analysis presented in this section of the DOT AI Strategy for FY2026-2027 demonstrates that Artificial
+Intelligence is not a peripheral technology but a foundational, cross -cutting capability essential to achieving the
+U.S. Department of Transportation's core strategic goals. The diverse applications of AI, while tailored to specific
+objectives in Safety, Infrastructure, Innovation, and Efficiency, are all driven by a common strategic imperative:
+to transform the Department from a reactive to a proactive, predictive, and data -driven organization. The shift
+from investigating incidents to preventing them, from repairing failed infrastructure to predicting its needs, from
+cumbersome regulation to agile governance, and from manual processes to intelligent automation is the consistent
+thread that runs through the entire AI strategy. This represents a holistic vision for a more effective and modern
+Department. This document shows illustrative examples how AI supports the DOT mission, and a complete set
+of DOT public AI U se Cases can be found here: https://data.transportation.gov/Administrative/Department -of-
+Transportation-Inventory-of-Artifici/anj8-k6f5/.
+Cross-Cutting Capabilities and Foundational Investments
+The success of this vision hinges on recognizing that certain enterprise-level AI capabilities provide value across
+multiple strategic goals. These cross- cutting platforms are therefore the highest- priority investments, as they
+create a foundation upon which numerous modal-specific applications can be built. Key foundational capabilities
+include:
+● Enterprise Digital Twin: A dynamic, virtual model of the national transportation system serves the
+Infrastructure goal by enabling advanced planning and lifecycle modeling. It serves the Innovation goal by
+providing a virtual sandbox for testing new technologies. It also serves the Safety goal by allowing for the
+simulation of complex incident scenarios and emergency response plans.
+● Predictive Analytics Platforms: A common platform for predictive modeling serves the Safety goal by
+forecasting incident risk. It serves the Infrastructure goal by predicting asset failures and maintenance needs.
+It also serves the Efficiency goal by enabling strategic workforce and budget forecasting.
+● Automated Data Ingestion & Natural Language Processing: An enterprise capability to ingest and analyze
+unstructured data serves the Safety goal by extracting insights from incident and safety culture reports. It
+serves the Efficiency goal by automating the analysis of regulations and environmental reviews. It also serves
+the Innovation goal by enabling technology scouting through the analysis of research and patent databases.
+The synergistic nature of these foundational investments is best illustrated by mapping their contributions across
+the Department's strategic goals.
+U.S. DEPARTMENT OF TRANSPORTATION 17
+CORE AI
+CAPABILITY SAFETY INFRASTRUCTURE INNOVATION EFFICIENCY
+Predictive
+Analytics
+Proactive
+incident & risk
+prediction
+Predictive
+maintenance &
+failure
+forecasting
+Modeling
+technology
+adoption &
+impact
+Forecasting
+workforce &
+budget needs
+Computer Vision
+Automated
+hazard &
+compliance
+monitoring
+Automated
+infrastructure &
+vehicle
+inspection
+Validating
+autonomous
+system
+perception
+Automating
+progress tracking
+on projects
+Natural
+Language
+Processing
+(NLP)
+Analyzing safety
+reports & culture
+surveys
+Extracting data
+from
+maintenance
+logs
+Accelerating
+regulatory &
+comment
+analysis
+Streamlining
+environmental
+reviews
+Simulation &
+Digital Twins
+Testing safety
+scenarios &
+procedures
+Modeling
+infrastructure
+lifecycle &
+capacity
+Providing virtual
+sandboxes for
+new tech
+Simulating
+project delivery
+timelines
+Robotics &
+Process
+Automation
+Automating
+hazardous tasks
+& inspections
+Automating
+construction &
+maintenance
+Automating
+research data
+collection and
+analysis
+Automating
+administrative &
+grant processes
+This mapping demonstrates that an investment in a core capability like a computer vision platform is not merely
+a "safety" expense but also a strategic investment in "infrastructure" and "efficiency," creating a more robust and
+compelling business case for these foundational technologies.

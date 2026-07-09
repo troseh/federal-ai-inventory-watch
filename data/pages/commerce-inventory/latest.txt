@@ -1,0 +1,15 @@
+Commercial Examples,AI Use Case
+"Calendly, Reclaim.AI",Scheduling internal-to-government meetings or appointments or setting reminders using AI.
+"Timely, Asana",Logging and analyzing time spent on tasks using AI-powered time management tools.
+"ContentStudio, Sprout Social",Scheduling and managing social media posts using AI.
+"ChatGPT, Gemini, Claude","Generating first drafts of documents, briefing, or communication materials using AI."
+"ChatGPT, Perplexity",Summarizing the key points of a lengthy report using AI.
+"Grammarly, Microsoft Copilot",Using AI-assisted tools in word processors.
+"Poolside, GitHub Copilot",Generating code using AI.
+"ChatGPT, Gemini, Claude",Searching for agency information using a knowledge retrieval system.
+"Crowdstrike Falcon, Microsoft Defender","Managing or implementing security controls for information systems (e.g., cybersecurity) using AI."
+"Supportbench, ServiceDesk Plus",Managing and prioritizing internal service or help desk tickets using AI.
+"MediaViz AI, Google News Brief",Curating news articles and updates based on user preferences using AI.
+"Google Maps, Apple Maps",Planning travel routes using AI-driven map applications.
+Hololens,"Using AI-enabled augmented reality to train inspectors to visually assess unsafe environments from a safe location, significantly reducing training time, costs, and staffing needs while maintaining inspection effectiveness."
+Prism Ally,Answering federal regulatory and agency policy questions related to acquisition using a generative AI tool.
