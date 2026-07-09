@@ -91,7 +91,6 @@ U.S. Department of Housing and Urban Development
 T: (202) 402-3815
 Find a HUD office near you
 Search
-Changes from what you have: dropped class="text-right" on the outer div, and float:right on .searchboxblock2 — now it just sits in normal block flow, left-edge aligned with the icon images above it. One thing worth ruling out given the pattern we've hit before: if you already tried a fix like this and it still shows no visible change at all, that's worth checking against Varnish caching again — a hard refresh only clears your browser, not HUD's cache layer. If you make this edit and still see zero difference (not even a shift), grab me a fresh screenshot and we can check response headers for Age/X-Cache to rule that out before chasing more CSS changes that may already be "correct" but just not visible yet.
 Office of Inspector General
 |
 No Fear Act
