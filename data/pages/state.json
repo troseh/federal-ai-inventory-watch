@@ -1,6 +1,6 @@
 {
   "commerce-ai-hub": {
-    "fail_streak": 0,
+    "fail_streak": 1,
     "last_changed": "2026-07-09",
     "manual": false,
     "source": "wayback:20260507180805"
@@ -60,14 +60,16 @@
     "source": "direct"
   },
   "dol-ai-hub": {
-    "fail_streak": 1,
+    "fail_streak": 2,
     "last_changed": "2026-07-09",
     "manual": false,
     "source": "wayback:20260216144941"
   },
   "dol-inventory": {
-    "fail_streak": 5,
-    "manual": false
+    "fail_streak": 0,
+    "last_changed": "2026-07-09",
+    "manual": false,
+    "source": "wayback:20260709185701"
   },
   "dot-ai-hub": {
     "fail_streak": 0,
@@ -98,7 +100,7 @@
     "source": "direct"
   },
   "hhs-inventory-csv": {
-    "fail_streak": 1,
+    "fail_streak": 2,
     "last_changed": "2026-07-09",
     "manual": false,
     "source": "wayback:20260511112141"
@@ -158,8 +160,10 @@
     "source": "direct"
   },
   "ssa-ai-hub": {
-    "fail_streak": 5,
-    "manual": false
+    "fail_streak": 0,
+    "last_changed": "2026-07-09",
+    "manual": false,
+    "source": "wayback:20260514101118"
   },
   "ssa-inventory-csv": {
     "fail_streak": 0,
@@ -178,11 +182,11 @@
     "source": "direct"
   },
   "usda-compliance-plan": {
-    "fail_streak": 5,
+    "fail_streak": 6,
     "manual": false
   },
   "usda-inventory": {
-    "fail_streak": 1,
+    "fail_streak": 2,
     "last_changed": "2026-07-09",
     "manual": false,
     "source": "wayback:20260709154407"
@@ -200,7 +204,7 @@
     "source": "direct"
   },
   "vaoig-compliance-plan": {
-    "fail_streak": 5,
+    "fail_streak": 6,
     "manual": false
   }
 }
