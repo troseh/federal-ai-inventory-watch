@@ -1,0 +1,240 @@
+ai - OPM.gov
+Skip to page navigation
+An official website of the United States government
+Here's how you know
+Here's how you know
+Official websites use .gov
+A
+.gov
+website belongs to an official government
+organization in the United States.
+Secure .gov websites use HTTPS
+A
+lock
+(
+Lock
+A locked padlock
+) or
+https://
+means you’ve safely connected to
+the .gov website. Share sensitive information only on official,
+secure websites.
+Menu
+Search all of OPM
+Submit
+Sections
+About
+Toggle submenu
+Our Agency
+Who We Are
+Our Work
+Mission & History
+Careers at OPM
+Doing Business with OPM
+Reports & Publications
+Open Government
+Get Help
+Contact Us
+News
+Data
+2023 Agency Financial Report
+Combined Federal Campaign
+2023 Annual Performance Report
+FY 2025 Congressional Budget Justification
+2024 Agency Financial Report
+2024 Agency Financial Report
+2024 Annual Performance Report
+FY 2026 Congressional Budget Justification
+Fork
+HR Career Compass
+Executive Summary
+Organizational Framework
+Revolving Funds Activities
+Earned Benefits Trust Funds
+Office of the Inspector General
+Appendix: GAO-IG Act Reporting for Budget Fiscal Year 2026
+List of Acronyms
+Office of Equal Employment Opportunity
+Policy
+Toggle submenu
+CHCO Council
+Reductions in Force
+Assessment & Selection
+Classification & Qualifications
+Data, Analysis & Documentation
+Disability Employment
+Employee Relations
+Enterprise Risk Management Program
+Hiring Information
+Human Capital Management
+Human Capital Framework
+Labor Management Relations
+Pandemic Information
+Pay & Leave
+Performance Management
+Senior Executive Service
+Settlement Guidelines
+Snow & Dismissal Procedures
+Training & Development
+Tribal Consultation
+Veterans Services
+Work-Life
+Workforce Restructuring
+Policy FAQs
+Contact Policymakers
+FY 2023 Human Capital Reviews
+Career Paths for Federal Program and Project Management Guide
+FY 2024 Human Capital Reviews
+Federal Hiring and Selection Outcome Dashboard
+Compliance
+Toggle submenu
+Adjudications
+Oversight Activities
+Insurance
+Toggle submenu
+Open Season
+Healthcare
+FEHB Plan Comparison Tool
+Tribal Employers
+Postal Service Health Benefits Program
+Medicare
+Dental & Vision
+FEDVIP Plan Comparison Tool
+Carriers
+Flexible Spending Accounts
+Life Insurance
+Long Term Care
+Insurance Glossary
+Insurance FAQs
+Contact Healthcare & Insurance
+Special Initiatives
+Changes in Health Coverage
+Issuer
+Life Events
+The Affordable Care Act
+Retirement
+Toggle submenu
+Apply for Retirement
+My Annuity and Benefits
+CSRS Information
+FERS Information
+Phased Retirement
+Retirement Statistics
+Special Notices
+Calculators
+Tax Information for Annuitants
+Publications & Forms
+Benefits Officers Center
+Retirement FAQs
+Survivor Benefits
+How to Make a Payment
+Contact Retirement
+Retirement Information Center
+Suitability
+Toggle submenu
+Suitability Executive Agent
+Position Designation Tool
+Suitability Adjudications
+Suitability Training
+Oversight
+Policy
+Frequently Asked Questions
+Contact SuitEA
+Agency Services
+Toggle submenu
+Talent Management Services
+Talent Systems
+Training and Development
+HR Governance
+Workforce Data
+Contact
+News
+Toggle submenu
+Secrets of OPM
+News Releases
+From the Director’s Desk
+In this section
+Facebook
+Twitter
+A–Z Index
+Contact Us
+Forms
+FAQs
+Operating Status:
+Loading
+Search for
+U.S. Office of Personnel Management
+About
+Open "About" Submenu
+Close Menu
+Policy
+Open "Policy" Submenu
+Close Menu
+Compliance
+Open "Compliance" Submenu
+Close Menu
+Insurance
+Open "Insurance" Submenu
+Close Menu
+Retirement
+Open "Retirement" Submenu
+Close Menu
+Suitability
+Open "Suitability" Submenu
+Close Menu
+Agency Services
+Open "Agency Services" Submenu
+Close Menu
+News
+Open "News" Submenu
+Close Menu
+☰
+About
+Open "About" Submenu
+Close Menu
+Policy
+Open "Policy" Submenu
+Close Menu
+Compliance
+Open "Compliance" Submenu
+Close Menu
+Insurance
+Open "Insurance" Submenu
+Close Menu
+Retirement
+Open "Retirement" Submenu
+Close Menu
+Suitability
+Open "Suitability" Submenu
+Close Menu
+Agency Services
+Open "Agency Services" Submenu
+Close Menu
+News
+Open "News" Submenu
+Close Menu
+OPM.gov
+/
+Artificial Intelligence
+/
+OPM Artificial Intelligence
+The Office of Personnel Management (OPM) is committed to the secure, ethical, and mission-aligned adoption of artificial intelligence (AI) technologies. In accordance with OMB Memorandum M-25-21, this compliance plan outlines how OPM is building the infrastructure, governance, and workforce needed to responsibly deploy AI across the enterprise. This document reflects our current posture and outlines the steps we’re taking to ensure AI is used to enhance service delivery, protect individual rights, and earn public trust.
+Skip to main content
+In this section
+2026 AI Training
+Artificial Intelligence Policy
+OPM’s approach is grounded in transparency, accountability, and innovation. We are building a scalable AI ecosystem that supports experimentation while enforcing guardrails that ensure compliance with federal policy and public expectations. This plan is a living document and will evolve as our capabilities mature and as new guidance emerges.
+AI Compliance Plan
+AI Strategy
+Artificial Intelligence Inventory
+Executive Order 13960, “Promoting the Use of Trustworthy Artificial Intelligence in the Federal Government,” requires agencies to prepare an inventory of non-classified and non-sensitive current and planned Artificial Intelligence (AI) use cases. Agencies must share their inventories with the public and other agencies to the extent practicable.
+The OPM Office of the Chief Information Officer (OCIO) has created an inventory of OPM AI use cases that satisfies the executive order requirements and increases awareness of AI initiatives. Below, we highlight some AI use cases and provide the complete inventory.
+OPM Artificial Intelligence Inventory (CSV File)
+About OPM
+FOIA
+No FEAR Act
+Inspector General
+Privacy Program
+USA.gov
+Accessibility
+Control Panel

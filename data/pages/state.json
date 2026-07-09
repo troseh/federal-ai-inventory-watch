@@ -1,8 +1,60 @@
 {
-  "dhs-inventory": {
+  "commerce-ai-hub": {
     "fail_streak": 1
   },
+  "csosa-compliance-plan": {
+    "fail_streak": 0,
+    "last_changed": "2026-07-09"
+  },
+  "dhs-inventory": {
+    "fail_streak": 2
+  },
+  "doe-compliance-plan": {
+    "fail_streak": 0,
+    "last_changed": "2026-07-09"
+  },
+  "doe-inventory": {
+    "fail_streak": 0,
+    "last_changed": "2026-07-09"
+  },
+  "doi-ai-hub": {
+    "fail_streak": 0,
+    "last_changed": "2026-07-09"
+  },
+  "doj-ai-hub": {
+    "fail_streak": 0,
+    "last_changed": "2026-07-09"
+  },
+  "doj-inventory": {
+    "fail_streak": 0,
+    "last_changed": "2026-07-09"
+  },
+  "dol-ai-hub": {
+    "fail_streak": 1
+  },
+  "dot-ai-hub": {
+    "fail_streak": 1
+  },
+  "ed-ai-guidance": {
+    "fail_streak": 0,
+    "last_changed": "2026-07-09"
+  },
   "eeoc-compliance-plan": {
+    "fail_streak": 0,
+    "last_changed": "2026-07-09"
+  },
+  "epa-compliance-plan": {
+    "fail_streak": 0,
+    "last_changed": "2026-07-09"
+  },
+  "gsa-ai-hub": {
+    "fail_streak": 0,
+    "last_changed": "2026-07-09"
+  },
+  "hhs-inventory-csv": {
+    "fail_streak": 1
+  },
+  "hud-ai-hub": {
     "fail_streak": 0,
     "last_changed": "2026-07-09"
   },
@@ -14,9 +66,32 @@
     "fail_streak": 0,
     "last_changed": "2026-07-09"
   },
+  "nasa-ai-hub": {
+    "fail_streak": 0,
+    "last_changed": "2026-07-09"
+  },
   "ncua-compliance-plan": {
     "fail_streak": 0,
     "last_changed": "2026-07-09"
+  },
+  "nrc-ai-hub": {
+    "fail_streak": 0,
+    "last_changed": "2026-07-09"
+  },
+  "nsf-ai-policy": {
+    "fail_streak": 0,
+    "last_changed": "2026-07-09"
+  },
+  "opm-ai-hub": {
+    "fail_streak": 0,
+    "last_changed": "2026-07-09"
+  },
+  "sba-m2410-plan": {
+    "fail_streak": 0,
+    "last_changed": "2026-07-09"
+  },
+  "ssa-ai-hub": {
+    "fail_streak": 1
   },
   "state-inventory": {
     "fail_streak": 0,
@@ -25,5 +100,22 @@
   "treasury-inventory-csv": {
     "fail_streak": 0,
     "last_changed": "2026-07-09"
+  },
+  "usda-compliance-plan": {
+    "fail_streak": 1
+  },
+  "usda-inventory": {
+    "fail_streak": 1
+  },
+  "va-compliance-plan": {
+    "fail_streak": 0,
+    "last_changed": "2026-07-09"
+  },
+  "va-hi-strategy": {
+    "fail_streak": 0,
+    "last_changed": "2026-07-09"
+  },
+  "vaoig-compliance-plan": {
+    "fail_streak": 1
   }
 }

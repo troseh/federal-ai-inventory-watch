@@ -1,0 +1,244 @@
+Building the Future: VA’s Strategy for Adopting High-Impact Artificial Intelligence to Improve Services for Veterans - VA Artificial Intelligence
+Skip to main content
+Skip to footer
+Talk to the
+Veteran Crisis Line
+now
+An official website of the United States government
+Here's how you know
+Official websites use .gov
+A
+.gov
+website belongs to an official government organization in the United States.
+Secure .gov websites use HTTPS
+A
+lock
+(
+Lock
+A locked padlock
+) or
+https://
+means you’ve safely connected to the .gov website. Share sensitive information only on official, secure websites.
+VA.gov
+Contact VA
+VA Resources
+VA News
+VA Careers
+VA Locations
+VA Forms
+About VA
+Search VA
+VA
+|
+AI
+VA
+| Artificial Intelligence
+Home
+AI Inventory
+Trustworthy AI
+CAIO
+NAII
+Search
+Search
+Building the Future: VA’s Strategy for Adopting High-Impact Artificial Intelligence to Improve Services for Veterans
+VA Artificial Intelligence
+Home
+Building the Future: VA’s Strategy for Adopting High-Impact ...
+Share this
+Facebook
+Linkedin
+X
+Email
+Print
+On this page
+Building the Future: VA’s Strategy for Adopting High-Impact Artificial Intelligence to Improve Services for Veterans
+Background
+We are in the early stages of one of the most significant technological transformations in our lifetimes. Advances in artificial intelligence (AI) are enabling computers to perform increasingly complex tasks, from summarizing documents and drafting clinical notes to assisting with claims processing. These tools are real, effective, and ready to be used to improve how the Department of Veterans Affairs (VA) delivers care and benefits.
+The nature of knowledge work is shifting. AI allows organizations to reimagine how services are delivered, not by layering new tools on legacy processes, but by simplifying workflows, accelerating access, and reducing administrative burdens. At VA, we believe AI is a mission-enabling technology to make our systems more Veteran-centered, responsive and efficient.
+At the same time, VA is also undergoing a major transformation through the Federal Electronic Health Record (EHR) update and increased enterprise standardization. These efforts are essential, but with AI, the use cases are still emerging, and we often do not yet know what should be standardized. The VA must prioritize and enable innovation and agility while also rapidly scaling and standardizing successful innovations. VA is taking a dual-track approach by enabling early AI experimentation while allowing those lessons to inform future standards. As AI tools are validated and show worth, they will be incorporated into the EHR and many other information technology platforms through coordination between innovators and the teams managing those systems today.
+Within the next few years, many routine, computer-based tasks, such as summarizing documents, routing information and responding to routine inquiries, will be automatable. VA is preparing by investing in high-impact AI use cases, building modern infrastructure, training the workforce and implementing governance to support responsible AI deployment. When used thoughtfully, AI can enable VA’s world-class staff to practice at the top of their craft and focus on high-impact work, which might mean providing timely clinical care, helping a Veteran navigate benefits or solving a complex customer service need.
+Vision
+VA aims to be an industry leader in its use of effective, reliable, and safe AI tools. We will deliver measurable improvements in speed, quality, efficiency and accuracy, fundamentally transforming the delivery of healthcare and benefits for Veterans. VA will deliver more and better health care, faster benefits and memorial services, and streamlined support services with a degree of operational efficiency previously unimaginable.
+For VA, this means:
+Veteran-facing digital services:
+Veterans will engage with AI-powered digital assistants to complete most benefit and health care transactions (e.g., appointment scheduling, form submissions), improving the experience and decreasing the time needed to receive VA services. Existing VA applications will be enhanced and may be replaced by systems that optimize such assistants.
+Clinical software:
+AI agents will assist in real-time transcription of clinician-patient interactions, auto-generate structured notes, suggest billing codes, and recommend evidence-informed treatment options. These capabilities will begin to reframe the EHR as a more adaptive, context-aware copilot, which will reduce administrative burden and enable providers to focus more on patient care and less on paperwork. They will enable interoperable applications that supplement EHR native capabilities, integrating with legacy and new EHRs to facilitate smooth transition.
+Claims processing:
+AI will be capable of further automating tasks such as document intake, classification, and preliminary adjudication, making it more feasible than ever for VA to deliver benefits in ‘minutes not months.’
+Customer support:
+AI copilots and agents will be able to handle all routine inquiries and administrative tasks. This will provide Veterans with instant resolutions to simple inquiries and allow VA staff to focus on complex, high-value interactions.
+Information management:
+AI will autonomously retrieve, discretize, summarize, and synthesize information across diverse data sources, enabling staff to quickly access relevant insights across all operational areas. AI tools will augment and accelerate the advanced analytics capabilities already being developed in VA’s enterprise data management platforms.
+VA AI Priority Areas
+To position VA to execute on the AI opportunity, VA is focusing on the following priorities:
+Expand employee access to useful, cost-effective AI tools
+Reimagine major workflows using AI and automation
+Invest in foundational data and infrastructure for AI
+Establish an AI-ready workforce with both deep technical experts and widespread AI literacy
+Increase Veterans’ trust and confidence in VA’s utilization of AI with transparent and effective governance and use case management
+Priority Area 1: Expand employee access to useful, cost-effective AI tooling
+Current State:
+VA employees currently have limited access to general-purpose AI tools to assist with their work, such as generative AI chat, meeting note summarization, and AI-assisted software development. Early pilots, including VA GPT, Teams Premium, and GitHub Copilot, show promising results in improving efficiency and job satisfaction. For example, the VA GPT pilot saves approximately 10 hours per month per user at a cost of just $1.25 per user per month.
+Future State:
+Employees across VA are supported by useful AI copilots integrated into their daily workflows and current technology platforms. VA has the infrastructure and procurement pathways in place to support fast, responsible adoption of common AI tooling.
+Steps VA is taking to get there:
+Rapidly expand access to cost-effective general-purpose internal AI tools, such as no-code agent builders and AI-enabled Customer Relationship Managers (CRM) tools.
+Pilot and, if successful, scale clinical ambient scribe tools to reduce documentation burden for providers.
+Promote local experimentation with registered AI pilots while aligning to enterprise governance.
+Local sites may use approved tools when VA Central Office cannot yet provide similar functionality. Sites will register pilots centrally and report outcomes to inform future enterprise-wide adoption. Local pilots will be allocated space on VA’s enterprise data management platforms to ensure shared data governance and a smooth pathway to scale applications of proven use to enterprise adoption.
+Use the accelerated Authority to Operate (ATO) process to bring AI tools online more quickly. This new ATO pathway enables IT products, including AI products, to receive an initial VA ATO within 60 days, meaning products can be piloted more quickly.
+Default to buying general-use AI tools that VA expects will become commodity software, rather than building bespoke tools when off-the-shelf solutions meet our needs.
+Continue experimenting with how to best integrate AI across VA’s broader software portfolio. This includes testing different tooling methods and frameworks, from commercial and open-source models to Model Context Protocols (MCPs) and AI-driven Robotic Process Automation (RPA).
+Priority Area 2: Reimagine Major Workflows Using AI and Automation
+Current State:
+Some workflows, such as disability claims processing, already use AI techniques like optical character recognition (OCR) and natural language processing (NLP) to extract information from documents; however, across the VA the majority of operational workflows remain manual, multi-step, and time-intensive.
+Future State:
+Every major operational area incorporates AI and automation to simplify workflows, eliminate repetitive tasks, and improve accuracy and turnaround times. Automation is embedded as a core part of service delivery, not as a bolt-on.
+Steps VA is taking to get there:
+Each administration (Veterans Health Administration (VHA), Veteran Benefits Administration (VBA), National Cemetery Administration (NCA)) and the Veterans Experience Office (VEO) identified major workflows to reimagine with AI and automation. These pilots are designed to improve high-priority Veteran outcomes with an aim to demonstrate measurable metrics and outcomes over the next year.
+The goal of these pilots is not only to retrofit AI into current processes, but to redesign workflows in ways that unlock AI-enabled efficiencies. This includes identifying areas where current policies or operational constraints limit automation and then making the necessary changes.
+VHA Top Workflows:
+AI assisted care in the community document retrieval and processing, including data discretization and summarization.
+AI assisted clinical documentation generation, including outpatient and inpatient settings.
+AI assisted surveillance and identification of latent health status changes associated with actionable evaluation and treatment options. Patients with unmet health care needs will be identified, with clinical workflows designed to provide follow-up care.
+Clinician-facing AI assisted information retrieval, decreasing the time clinicians spend looking for information during chart review workflows and increasing the time spent on clinical decision making.
+VBA Top Workflows:
+AI-assisted eligibility determination for VBA programs can enhance the processes of document retrieval and processing. This includes the capabilities of data discretization and summarization. Furthermore, the collected data can be utilized by advanced analytics tools to derive insights and promote ongoing program improvements, ensuring more efficient and effective delivery of benefits.
+NCA Top Workflows:
+AI assistant that provides knowledge support and interprets regulations to improve decision-making during burial scheduling.
+AI-assisted automatic retrieval and summarization of Veteran burial eligibility documents to improve determination accuracy.
+VEO Top Workflows:
+Veteran Experience:
+AI-powered virtual assistants, voicebots, chatbots, and self-service features provide Veterans with immediate, accurate responses to routine inquiries using natural language, such as claim status.
+AI-assisted identity verification streamlines authentication and protects against identity theft and fraud, enhancing Veteran trust and providing faster, smoother access to services.
+Call Center Employee Efficiency:
+AI automation supports quality assurance and monitoring, reducing administrative burdens for supervisors and improving agent performance.
+AI-powered automation of documentation processes reduces administrative burdens, allowing agents to focus on delivering high-quality service and care.
+Priority Area 3: Invest in Foundational Data and Infrastructure to Enable AI
+Current State:
+VA supports several enterprise data platforms and is building out new capabilities to support responsible and scalable AI. This includes the implementation of an enterprise data catalog to support in-house AI system development. One example is the Summit Data Platform (SDP), which provides cloud-based access to authoritative and refined data from across VA. These platforms also support modern data science and engineering workflows, including AI and generative AI services. VA’s cloud environments include tools for monitoring, model testing, and deployment, as the foundational infrastructure necessary for innovation, experimentation, and reuse across the enterprise. VA also has dedicated research computing environments, such as VINCI, where Institutional Review Board governed research is conducted. Where relevant, VA shares data and AI assets across government through VA’s Open Data portal and open-source software repositories. Overall, VA has a limited but growing user base leveraging these platforms and a few production AI use cases that have been built with them.
+Future State:
+VA has a flexible and modern AI infrastructure that enables safe experimentation, rapid scaling when successful, and alignment with broader enterprise data modernization. High-quality data and infrastructure power AI across the agency, from early pilots to scaled implementations.
+Steps VA is taking to get there:
+Improve onboarding and access for data scientists, engineers and product teams to use VA’s enterprise data science environments, such as the SDP. Reduce turnaround time to access provisioning to less than one week.
+Expand reuseable tooling and shared services that support responsible AI development and monitoring (e.g., model auditability, deployment pipelines) with a goal of launching 10 more AI use cases into production using VA’s enterprise data platforms in FY 2026.
+Use real-world AI use cases to shape standards. Given how quickly AI is evolving, VA will continue allowing real-world practice to inform infrastructure standardization versus the other way around.
+Identify business and technical data stewards for all data domains and systems that provide data to AI tools, establishing clear stewardship responsibilities.
+Use the enterprise data catalog to register new data products developed with AI and other advanced analytics tools and communicate across the data stewardship programs.
+Define and enforce data stewardship roles and accountability specific to AI data needs.
+Ensure core, authoritative data on all Veterans is securely maintained and made available to the enterprise for consistency across AI use cases.
+Priority Area 4: Establish an AI-ready workforce with both deep technical experts and widespread AI literacy
+Current State:
+VA has a small number of AI experts across a 400,000+ person workforce. AI literacy is uneven, though interest and exposure are growing. VA offers some AI training and support, including a few pre-recorded training courses and AI community of practices.
+Future State:
+VA has a capable, AI-ready workforce with both deep technical experts and widespread AI literacy. AI-powered tools and processes are part of routine work, and employees feel equipped and empowered to use it.
+Steps VA is taking to get there:
+VA is creating a hub-and-spoke model for AI expertise and upskilling. This includes two central AI ‘hub’ teams – the Chief AI Officer (CAIO) team in the Office of Information and Technology (OIT) and the National Artificial Intelligence (NAII) in the Digital Health Office (DHO) in VHA. This also includes ‘spokes’ of AI and contextual expertise that exist across VISNs and program offices. This model will support the development of an AI-ready workforce.
+The CAIO team has a goal of creating an AI Corps of at least 10 AI experts through a combination of direct hiring and Federal technology programs, such as the Presidential Innovation Fellowship. These experts will lead efforts across AI product development, data science, AI model development, AI standards development, and AI literacy.
+Create a clinician AI innovators program to directly support, resource, and coordinate front line AI innovation. The central AI hub will partner with the national VA innovation program and directly with innovators to identify, mature and deploy AI innovations.
+Continue to leverage fellowship programs, such as the U.S. Digital Corps, as a pathway for early career data and AI practitioners to join VA.
+Develop a general-purpose training course on how to use generative AI at VA and launch to 100% of computer-based employees.
+Expand and publicize VA’s AI and Data Communities of Practices to reach more employees, share learnings, and build capacity across the enterprise.
+Create an ‘AI incubator’ program that provides VA innovators with access and guidance on using AI tools, such as generative AI APIs, for their projects.
+Priority Area 5: Increase Veterans’ trust and confidence in VA with transparent and effective AI governance and use case management
+Current State:
+VA has a nascent but growing AI governance and management process. We are beginning to assess how effectively AI is used across the enterprise. Compliance with Federal AI policies, such as M-25-21 and M-25-22, is currently managed in parallel with other IT processes, but integration is increasing. While AI investments occur across the enterprise, VA tracks these through the AI inventory process, which users are directed to at several points in the procurement and development pathway, including FITARA acquisition compliance and ATOs. VA has an AI executive group that coordinates efforts across administrations and staff offices.
+VA places high importance on Veteran trust. We are committed to using AI in a way that is transparent, safe, secure, and understandable to the people we serve. As part of this, VA publishes an annual public inventory of all AI use cases. All high-impact AI use cases also undergo review to ensure they meet baseline risk management and governance requirements. All AI systems are also subject to the same strong privacy and security requirements of other IT systems at VA ensuring that Veteran data is kept safe, private and secure. VA also conducts outreach and user research with Veterans to understand how they experience and perceive AI. For example, a recent user research visit with 75 Veterans found that 71% had no fears about Ambient AI Scribe technology, while the minority had some concerns, primarily around privacy.
+Future State:
+As VA’s use of AI scales, responsible AI practices are embedded into core VA processes. VA has federated governance integrated with delivery that reduces bureaucracy and empowers VA experts. Veterans have trust and visibility into how VA uses AI.
+Steps VA is taking to get there:
+Complete updates to VA’s AI management framework to align with the administration’s Federal AI goals and requirements, including full implementation of OMB M-25-21 and M-25-22.
+Ensure 100% of VA’s high impact AI use cases meet the Administration’s new risk management standards.
+Provide resources, guides, and trainings to increase AI literacy and promote the use of best practices in the development of AI solutions.
+Establish VISN-level AI governance across VHA to manage high-impact healthcare AI use cases and ensure clinical safety and accountability.
+Continue to maintain and update a comprehensive public-facing AI use case inventory.
+Formalize an intra-agency AI governance collaboration, through an AI governance council or similar mechanism, to coordinate efforts across program offices and administrations.
+Include AI specific recommendations as components of the guidance developed by the VA’s data governance structures and implemented by its data stewardship programs.
+Conclusion
+VA has a pivotal opportunity to use AI and automation to improve the lives of Veterans, their families, caregivers, and survivors, as well as support a more effective, responsive workforce. These tools are here today and are already helping us deliver faster benefits, better care, and more accessible services. This strategy reflects VA’s ambition to scale AI in ways that are safe, impactful, and measurable. It lays out how we will invest in what works, build trust through transparency, and empower our workforce to deliver results.
+Now is the time to accelerate.
+Appendix
+Early examples of AI’s impact at VA
+Department
+Pilot/Initiative
+Details
+OIT
+Generative AI Chat Pilot (VA GPT)
+Scale: 100,000+ employee users onboarded to the tool
+Time savings: Based on user feedback, an average of 2-3 hours per week per user with some users seeing even higher gains
+Satisfaction: 70% of respondents agreed or strongly agreed that it improved their overall job satisfaction
+AI-Assisted Software Development Pilot
+Scale: 2,000+ developers
+Time savings: Survey results show over 8 hours saved per user per week.
+Satisfaction: 74% of respondents agree or strongly agree that they are able to focus their time on work that is more satisfying to them.
+VBA
+Identifying Potentially Fraudulent Changes Related to Payments
+Most direct deposit changes at VA are safe, but 1-2 out of 1,000 are fraudulent changes to steal Veterans’ benefit payments. The Payment Redirect Fraud (PRF) model is using AI to identify which changes are likely to be fraudulent and refer those incidents to team investigators for review and remediation.
+VHA
+Opioid Overdose Risk Model (STORM)
+Stratification Tool for Opioid Risk Mitigation (STORM) is an AI-driven clinical decision support system designed to help mitigate risk factors for overdose and suicide among Veterans who are prescribed opioids and/or with opioid use disorder. The implementation of this system is associated with a 22% decrease in mortality.
+AI-Assisted Colonoscopy
+VHA has deployed several FDA-approved devices that use computer vision to enhance clinician performance, which has resulted in significantly improved detection of tumors. A VA study demonstrated that the provision of colonoscopy AI devices resulted in a statistically significant 21% increase in the odds of adenoma detection and an absolute increase in the detection rate of approximately 4% compared to colonoscopy without the device. Increased adenoma detection rates are associated with lower late-stage cancer incidence and reduced mortality.
+VA
+| VA Artificial Intelligence
+An official website of the
+U.S. Department of Veterans Affairs
+VA.gov
+ChooseVA
+DiscoverVA
+DigitalVA
+VA Outreach Events
+VA Forms
+VA Publications
+About VA
+VA mobile apps
+Accessibility at VA
+No FEAR Act data
+Whistleblower Protection
+Office of the Inspector General
+VA plans, budget, finances, and performance
+Agency Financial Report
+Privacy policy
+FOIA requests
+Disclaimers
+Open data
+Vulnerability disclosure policy
+Copyright policy
+All VA Social Media
+U.S. Department of Veterans Affairs
+810 Vermont Ave., NW
+Washington, DC 20420
+1-800-698-2411
+Looking for U.S. government information and services?
+Visit USA.gov
+OPR
+: VA Central Office –
+AI Working Group
+Last updated January 6, 2026
+TOP
+Close
+Your feedback matters
+Is this website or content helpful? Please let us know. This is anonymous and not stored. Please
+do not
+provide personal information — it will not be acted upon. Use
+Ask VA
+for questions related to services and benefits. If you or someone you know is in crisis, do not use this form, but connect with the Veterans Crisis Line —
+Call
+988 and press 1
+or visit
+VeteransCrisisLine.net
+.
+Close
+We’re here anytime, day or night - 24/7
+If you are a Veteran in crisis or concerned about one, connect with our caring, qualified responders for confidential help. Many of them are Veterans themselves.
+Call
+988 and press 1
+Text
+838255
+Start a confidential chat
+For TTY, call
+711 then 988
+Get more resources at
+VeteransCrisisLine.net
+.

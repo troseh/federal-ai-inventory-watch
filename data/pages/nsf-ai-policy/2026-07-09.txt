@@ -1,0 +1,446 @@
+Artificial Intelligence Policy and Strategy - Policies | NSF - U.S. National Science Foundation
+Skip to main content
+An official website of the United States government
+Here's how you know
+Here's how you know
+Official websites use .gov
+A
+.gov
+website belongs to an official government organization in the United States.
+Secure .gov websites use HTTPS.
+A
+lock
+(
+Lock
+Locked padlock
+)
+or
+https://
+means you've safely connected to the .gov website. Share sensitive information only on official, secure websites.
+All NSF IT systems, including NSF.gov, may be intermittently unavailable from Tuesday, July 14 at 11 p.m. EDT to Wednesday, July 15 at 3 a.m. EDT. We apologize for any inconvenience.
+Search
+Menu
+Search
+search
+Find Funding
+Funding Search
+Award Search
+NSF-wide Initiatives
+Research Experiences for Undergraduates
+Where to Start
+For Everyone
+For Early-Career Researchers
+For Postdoctoral Fellows
+For Graduate Students
+For Undergraduates
+For Industry
+For Entrepreneurs
+How to Apply
+Preparing Your Proposal
+Submitting Your Proposal
+Proposal & Award Policies & Procedures Guide (PAPPG)
+Additional Resources
+Research.gov
+Grants.gov
+How We Make Funding Decisions
+Manage Your Award
+Getting Started
+Request a Change to Your Award
+Report Your Outcomes
+Proposal & Award Policies & Procedures Guide (PAPPG)
+Additional Resources
+Research.gov
+NSF Public Access Repository
+Who to Contact With Questions
+Focus Areas
+Major Initiatives
+Artificial Intelligence
+Biotechnology
+Quantum
+STEM Workforce
+Focus Areas
+Explore All Focus Areas
+Arctic and Antarctic
+Astronomy and Space
+Biology
+Chemistry
+Computing
+Earth and Environment
+Education and Training
+Engineering
+Facilities and Infrastructure
+Materials Research
+Mathematics
+People and Society
+Physics
+Research Partnerships
+Technology
+News & Events
+News & Announcements
+NSF Impacts
+Science Matters Blog
+For the Press
+Upcoming Events
+About
+About NSF
+Careers at NSF
+Updates on NSF Priorities
+Contact Us
+Our Directorates & Offices
+How NSF Is Organized
+Biological Sciences (BIO)
+Computer & Information Science & Engineering (CISE)
+Engineering (ENG)
+Geosciences (GEO)
+Integrative Activities (OIA)
+International Science & Engineering (OISE)
+Mathematical & Physical Sciences (MPS)
+Social, Behavioral & Economic Sciences (SBE)
+STEM Education (EDU)
+Technology, Innovation & Partnerships (TIP)
+National Center for Science & Engineering Statistics (NCSES)
+National Science Board (NSB)
+Artificial Intelligence Policy and Strategy
+View image credit & caption
+Home
+Policies
+Artificial Intelligence Policy and Strategy
+Skip to content body
+Policies
+Accessibility
+Artificial Intelligence
+Brand Standards
+Conflicts of Interest
+Controlled Unclassified Information
+Freedom of Information Act and Privacy Act
+Gold Standard Science
+Information Quality
+Plain Language
+Privacy
+Proposal and Award Policies and Procedures Guide
+Research Security
+Responsible and Ethical Conduct of Research
+Scientific Integrity
+Social Media
+Vulnerability Disclosure
+Web
+As part of a commitment to responsible innovation, the U.S. National Science Foundation is advancing the use of Artificial Intelligence (AI) to support its mission in science and technology. This page serves as a central hub for agency-wide AI efforts, including strategic direction and compliance guidance.
+On this page
+NSF's approach to AI
+AI strategy
+AI compliance plan
+AI use case inventory
+NSF's approach to AI
+NSF is focused on deploying AI in ways that are ethical, transparent and aligned with our core values. The agency's AI initiatives are designed to enhance operational efficiency, improve service delivery and ensure equitable outcomes for all stakeholders.
+Below you will find key documents that guide NSF's work with AI.
+AI strategy
+Office of Management and Budget (OMB) Memorandum M-25-21,
+Accelerating Federal Use of AI through Innovation, Governance, and Public Trust
+, directs each Chief Financial Officers Act (CFO Act) agency to develop an AI Strategy and post it publicly on the agency’s website.
+The NSF AI strategy outlines the agency’s vision, goals and priorities for the development and use of AI technologies in satisfaction of the requirements of Section 2(a) of the Appendix to M-25-21. It provides a roadmap for integrating AI into NSF operations while ensuring alignment with both federal mandates and scientific integrity.
+NSF AI Strategy
+(PDF, 4.35 MB)
+AI compliance plan
+The AI in Government Act of 2020 and U.S. Office of Management and Budget (OMB) Memorandum M-25-21,
+Accelerating Federal Use of AI through Innovation, Governance, and Public Trust
+,
+direct each agency to submit to OMB and post publicly on the agency’s website a plan to achieve consistency with M-25-21, unless the agency makes and posts a written determination that the agency does not use and does not anticipate using AI.
+NSF's AI compliance plan satisfies the requirements of Section 3(b)(ii) of the Appendix to M-25-21 and Section 104(c) of the AI in Government Act. The agency will report on compliance with the case-specific practices mandated in Section 4 of the M-25-21 Appendix separately, through its annual AI use case inventory, included below.
+NSF AI Compliance Plan
+(PDF, 601.02 KB)
+AI use case inventory
+Executive Order 14179, "Removing Barriers to American Leadership in Artificial Intelligence," requires agencies to publish annual inventories of nonclassified and nonsensitive artificial intelligence use cases.
+In compliance with this executive order and
+further guidance
+provided by the Chief Information Officer Council, this page lists AI use cases that the U.S. National Science Foundation uses to advance its mission, enhance decision making or otherwise benefit the public. This list is also linked in a
+tabular format
+.
+NSF has developed an
+AI compliance plan
+and an
+AI strategy
+to comply with the Office of Management and Budget Memorandum 25-21.
+For more information, please contact NSF Chief Information Officer Clyde Richards at
+clyde.richards@nsf.gov
+or (703) 292-7011.
+NSF's 2024/2025 AI use case inventory
+Updated December 2025
+ServiceNow GenAI "Now Assist"
+Use Case ID:
+AII-7
+Agency:
+NSF
+Bureau / Department:
+Office of Information and Resource Management (OIRM)
+Summary of Use Case:
+ServiceNow GenAI is a FedRAMP High certified system to accelerate digital transformation using Now Assist. Automatically generate content such as responses, work notes, and knowledge base articles related to customer service experience. Increase productivity and speed of delivery with intelligent recommendations. Resolve issues swiftly with chatbots that understand human language.
+Stage of System Development Life Cycle:
+Deployed – The use case is being actively authorized or utilized to support the functions or mission of an agency.
+Date Implemented:
+2025
+Budget Area Topic Classification Tool
+Use Case ID:
+AII-8
+Agency:
+NSF
+Bureau / Department:
+Directorate for Computer and Information Science and Engineering (CISE)
+Summary of Use Case:
+The Budget Area Topic Classification Tool uses a pre-trained Bidirectional Encoder Representations from Transformers (BERT) model ('bert-base-uncased') to classify proposals into 1 of 8 budget areas: Advanced Manufacturing, Artificial Intelligence, Advanced Wireless, Clean Energy, Microelectronics & Semiconductors, Quantum, or Trustworthy AI. This approach is semi-supervised in nature as the training data is comprised of pre-tagged Computer and Information Science and Engineering (CISE proposals from prior years. Upon training the model to learn the multi-label structure of the underlying data, the model's accuracy and discriminatory power was tested using a hold-out sample (i.e., 80/20 split). The model outputs a numerical vector of probabilities representing the likelihood that a given proposal belongs to 1 or more categories. A cut-off value can then be set for determining the final classification for a given proposal.
+Stage of System Development Life Cycle:
+Pre-deployment – The use case is in a development or acquisition status.
+Date Implemented:
+2023
+AI voice over
+Use Case ID:
+AII-9
+Agency:
+NSF
+Bureau / Department:
+Office for Legislative and Public Affairs (OLPA)
+Summary of Use Case:
+The AI system generates temporary synthetic voice-over using text-to-speech services (e.g., Eleven Labs, WellSaid Labs) to convert scripts into placeholder audio for video drafts. These AI-generated voice-overs are used solely for timing and content review during production and are replaced with professional human voice-over before public release.
+Stage of System Development Life Cycle:
+Pilot – The use case has been deployed in a limited test or pilot capacity.
+Date Implemented:
+2023
+Adobe Photoshop
+Use Case ID:
+AII-10
+Agency:
+NSF
+Bureau / Department:
+Office for Legislative and Public Affairs (OLPA)
+Summary of Use Case:
+Office for Legislative and Public Affairs (OLPA Creative Services team will use Photoshop's AI-powered tools to refine edits of photos and graphics, particularly the retouching of portraits.
+Stage of System Development Life Cycle:
+Pre-deployment – The use case is in a development or acquisition status.
+Date Implemented:
+2023
+Resubmit Checker
+Use Case ID:
+AII-19
+Agency:
+NSF
+Bureau / Department:
+Directorate for STEM Education (EDU)
+Summary of Use Case:
+The resubmit checker takes a list of proposal IDs and returns a list of similar proposals submitted to NSF in the past, scored by their similarity. This is useful for identifying resubmitted proposals for several purposes: evaluating whether to return without review for lack of revision, ensuring continuity of merit review, and the analysis of broader resubmission trends.
+Stage of System Development Life Cycle:
+Pre-deployment – The use case is in a development or acquisition status.
+Date Implemented:
+2024
+Amazon Web Services (AWS) Assisted Software Development (DIS AI Assisted Development)
+Use Case ID:
+AII-22
+Agency:
+NSF
+Bureau / Department:
+Office of Information and Resource Management (OIRM)
+Summary of Use Case:
+Within software development, AI-driven tools, such as Amazon Web Services (AWS) CodeWhisperer, Amazon Q and Bedrock, and integration with development workflow, promise to elevate developer productivity and refine code quality. The objective of this pilot is to explore potential integration of these AWS services with the Division of Information Systems (DIS) Developers Integrated Development Environments (IDEs), Jenkins automation, Bitbucket, laying the groundwork for secure AI Assisted Development at NSF.
+Stage of System Development Life Cycle:
+Pre-deployment – The use case is in a development or acquisition status.
+Date Implemented:
+2024
+Mine Potential Reviewer's areas of expertise
+Use Case ID:
+AII-24
+Agency:
+NSF
+Bureau / Department:
+Directorate for Technology, Innovation, and Partnership (TIP)
+Summary of Use Case:
+Airtable is a low-code platform that incorporates OpenAI services and the data is kept private to Airtable. NSF TIP has been approved to use Airtable for several use cases, and Airtable has been certified as secure by the NSF OCIO security team. TIP Team would like to get approval to use Airtable to trial Airtable's AI's ability to match potential reviewer expertise to the reviewer.
+Stage of System Development Life Cycle:
+Pre-deployment – The use case is in a development or acquisition status.
+Date Implemented:
+2024
+Use AI to populate reviewer "areas of expertise" and state of potential Regional Engines submitters (members of organizations)
+Use Case ID:
+AII-25
+Agency:
+NSF
+Bureau / Department:
+Directorate for Technology, Innovation, and Partnership (TIP)
+Summary of Use Case:
+TIP is authorized to use Airtable for project management, including reviewer volunteers and recruitment. Airtable is a no-code platform that includes a built-in database. This system does not store any PII in the database except for "public PII" such as name, position, work email address, areas of professional expertise, etc. We have two specific use-cases for which we would like to employ Airtable AI:
+People who volunteer sometimes do not list all areas of their expertise, or expertise becomes stale. We have been able to do a proof of concept where Airtable AI is prompted to look at the potential reviewer's LinkedIn profile and identify or update the potential reviewer's expertise in its database based on recent updates to professional experience in LinkedIn. We would like permission to have AI complete this work. Typically, an admin person or Program Director will do this work and it is time-consuming and burdensome. AI can do it much faster and a member of the staff can check it rather than complete it for 400-500 reviewers
+We also have a database of potential Engines submitters in Airtable -- people who have attended a webinar, roadshow, or submitted at an earlier time and asked to be contacted when new funding opportunities are available. We track very similar information in the potential submitters data base as we do for reviewers who volunteer to review for the program. The information is used to support outreach to these potential submitters when new funding opportunities are announced, or a new Engines event is announced. We need to know the state associated with the particular submitters institution to determine which regional Engine they should be mapped to geographically (state in the U.S.). We have found that we can prompt the AI to look at the potential submitter's institution, and the AI can locate the state 100% of the time to identify the region that the submitter would be associated with if they were accepted to the program. Currently, a staff person does this work, and it is burdensome. The AI can do this work much faster, so that a member of the staff can redirect their time to more value-added work and then go back and validate the AI's work. This permits the NSF Regional Innovation Engines program to segment outreach by event and regional engine.
+The Airtable AI is an Airtable private instance of OpenAI.
+Stage of System Development Life Cycle:
+Pre-deployment – The use case is in a development or acquisition status.
+Date Implemented: 2024
+Enhancing Technology, Innovation and Partnerships (TIP) Awards: Efficient Tagging for the 10 Key Technology Areas (KTAs)
+Use Case ID:
+AII-26
+Agency:
+NSF
+Bureau / Department:
+Directorate for Technology, Innovation, and Partnership (TIP)
+Summary of Use Case:
+Per the "CHIPS and Science Act” mandate, TIP needs to know the investment portfolio based on the 10 KTAs.
+Stage of System Development Life Cycle:
+Pre-deployment – The use case is in a development or acquisition status.
+Date Implemented:
+2024
+Open-source topic identification for the Public Engagement with Science Initiative data analysis.
+Use Case ID:
+AII-35
+Agency:
+NSF
+Bureau / Department:
+Office of Integrative Activities (OIA)
+Summary of Use Case:
+OIA team proposes using unsupervised Natural Language Processing (NLP) to identify topical themes within responses submitted to the NSF public engagement questionnaire. The AI system will include multiple open-source techniques used together to achieve this goal. Details of the system are as follows:
+To ensure high-quality topics, the system will first programmatically remove responses that are blank or noninformative. The National Center for Health Statistics (NCHS) Semi-Automated Non-Response Detection for Surveys (SANDS) model will be used to filter out nonresponse responses (e.g., "sdfsdfa,"" ""idkkkkk"). To reduce duplicate responses potentially caused by bots or submitted to boost relative importance, responses with the exact duplicate question wording will be removed over a threshold of three responses per IP address. If an individual has several different questions they would like to submit, all of their questions will be included. The system will use an open-source profanity filter such as Python's profanity-filter to identify toxic language. Any responses that are primarily toxic language will be dropped from analysis.
+To group questions into themes, we will use a word-embedding model to convert text responses into multidimensional space for topic modeling. Because we anticipate responses in multiple languages, the system will use a multilingual will use a multilingual word-embedding model, such as "paraphrase-multilingual-MiniLM-L12-v2" or the most up-to-date version of this model at the time of analysis. Embeddings will be reduced in dimensions using a dimension reduction algorithm such as t-SNE (t-distributed Stochastic Neighbor Embedding) to prepare for clustering.
+Reduced response embeddings will be clustered into groups using the ClassTfidfTransformer clustering algorithm from the Python package BertTopic. The algorithm will be seeded with words corresponding to a list of NSF programs corresponding to different research areas to map the clusters to these established categorizations.
+To aid in the review of topics generated by the clustering algorithm, an open-source large language model (LLM), such as Meta Llama, will be used to summarize the responses grouped within a cluster. Using a prompt like the example below, this strategy will produce a plain language summary and title of each of the clusters of responses.
+The clusters produced will be reviewed by Research Triangle Institute (RTI) staff for accuracy and appropriateness of naming. Staff will make edits to the LLM-generated summaries as necessary and note any clusters that are candidates for merging with other clusters into a single topic. The topics will then be validated by NSF experts and the advisory committee.
+Once the existing cluster model has been finalized, the cluster model will be applied to all responses. Where feasible, the RTI Science, Technology, Engineering, and Mathematics (STEM) education experts/analysts will manually map the research topics to NSF research programs.
+Stage of System Development Life Cycle:
+Pre-deployment – The use case is in a development or acquisition status.
+Date Implemented:
+2025
+Hand-written text extraction using Textract for the Public Engagement with Science Initiative
+Use Case ID:
+AII-38
+Agency:
+NSF
+Bureau / Department:
+Office of Integrative Activities (OIA)
+Summary of Use Case:
+OIA Team proposes using a Commercial Off the Shelf Amazon Web Services (AWS) product, Textract, as a character recognition tool to convert handwritten text into machine-encoded text for a postcard. Handwritten text will be an open format question for science and engineering, and some optional checkboxes for demographic and other data questions.
+Stage of System Development Life Cycle:
+Pilot – The use case has been deployed in a limited test or pilot capacity.
+Date Implemented:
+2025
+NSF AI-Ready Research Performance Progress Reports (RPPR) Data
+Use Case ID:
+AII-48
+Agency:
+NSF
+Bureau / Department:
+Office of Chief Information Officer (OCIO)
+Summary of Use Case:
+OCIO is working to provide AI-ready RPPR data – a key component for determining outcomes of NSF investments.
+Note: Information in the RPPR may be used to identify outputs and be linked to other data sets (e.g., NSF PAR, Patent, etc.) to assess NSF's "broader impacts"; however, it is not currently available in an accessible format.
+Problem Statement:
+RPPR data, a critical resource for tracking the outcomes of NSF-funded projects.
+Data are currently stored in various formats across multiple locations, making it inaccessible for analytic purposes and difficult to reach without impact to current operations.
+The lack of centralized, accessible data limits NSF's ability to assess impacts, make informed decisions, and fully leverage data for insights.
+Request approval to use AWS Bedrock, AWS SageMaker, AWS Neptune & AWS Comprehend from AIDG (AI Data Governance).
+Stage of System Development Life Cycle:
+Pre-deployment – The use case is in a development or acquisition status.
+Date Implemented:
+2025
+Technology, Innovation and Partnerships (TIP) Microsoft (MS) Copilot Pilot
+Use Case ID:
+AII-49
+Agency:
+NSF
+Bureau / Department:
+Directorate for Technology, Innovation, and Partnership (TIP)
+Summary of Use Case:
+Copilot can be used to rewrite and generate text based on user prompts in Microsoft 365 services, including Microsoft Word, Microsoft Excel, and PowerPoint. Copilot for Microsoft 365 uses Microsoft Graph, an API, to evaluate context and available Microsoft 365 user data before modifying and sending user prompts to the language model. After receiving its output, Microsoft Graph performs additional context-specific processing before sending the response to Microsoft 365 apps to generate content.
+Stage of System Development Life Cycle:
+Pilot – The use case has been deployed in a limited test or pilot capacity.;
+Date Implemented:
+2025
+A document summarizer via Natural Language Processing (NLP)
+Use Case ID:
+AII-51
+Agency:
+NSF
+Bureau / Department:
+Directorate of Engineering (ENG)
+Summary of Use Case:
+The AI system utilizes state-of-the-art transformer-based models (e.g., BART, Pegasus, T5, SciBERT) to perform text summarization. These models are deployed entirely within the agency's secure firewalls, ensuring no external data exposure and no external access. BART, Pegasus, T5 and SciBERT are state-of-the-art, open-source AI models designed for Natural Language Processing (NLP) tasks. The model will be able to summarize lengthy internal documents, helping employees quickly extract key insights from a large volume of information. This tool automates summarization, reducing the time employees spend reading lengthy documents, enhancing productivity by accurately identifying key points in such documents. The traditional extractive summarization (e.g., via Term Frequency-Inverse Document Frequency TF-IDF) selects key sentences verbatim from the source, often misses several key elements of the document, and results in an inaccurate representation of the content. Unlike traditional extractive summarization, generative summarization (used by BART, Pegasus and T5) creates modified sentences that better capture the meaning and context of the document. This leads to more natural, coherent and concise summaries which enhance readability and contextual accuracy.
+Stage of System Development Life Cycle:
+Pre-deployment – The use case is in a development or acquisition status.
+Date Implemented:
+2025
+Document similarity analysis via Natural Language Processing (NLP)
+Use Case ID:
+AII-52
+Agency:
+NSF
+Bureau / Department:
+Directorate of Engineering (ENG)
+Summary of Use Case:
+The AI system utilizes a sentence-transformer model (all-mpnet-base-v2) and a statistical keyword method (TF-IDF) to perform document similarity tasks. These models are deployed entirely within the agency's secure firewalls, ensuring no external data exposure and no external access. These AI models are designed for Natural Language Processing (NLP) tasks. Via all-mpnet-base-v2, the model will use utilize deep learning models to capture semantic meaning, ideal for conceptual similarity beyond exact wording. Via Term Frequency-Inverse Document Frequency (TF-IDF), the model will focus on lexical overlap and is effective for direct technical document comparison. Both models calculate Cosine similarity, with scores ranging from -1 to 1. Scores can be interpreted as follows: identical (1), highly similar (0.8-0.99), somewhat similar (~0.5), mostly dissimilar (0.1-0.3), completely dissimilar (0) and opposite (-1 to 0). Document similarity analysis can significantly boost productivity since a large volume of documents can quickly and efficiently be analyzed for the extent of contextual or lexical similarity and can aid in routine planning for proposal administration. Cosine similarity is also a well-established method to quantify similarity and is already used within NSF tools.
+Stage of System Development Life Cycle:
+Pre-deployment – The use case is in a development or acquisition status.
+Date Implemented:
+2025
+Microsoft 365 (M365) AI Builder pre-built Generative Pre-trained Transformer (GPT) for Summarization
+Use Case ID:
+AII-53
+Agency:
+NSF
+Bureau / Department:
+Office of Integrative Activities (OIA)
+Summary of Use Case:
+OIA team requests to use the existing AI Builder pre-built Generative Pre-Trained Transformer (GPT) functions within Microsoft Power Platform to perform summarization tasks on text and tag data in Microsoft 365 (M365) to support:
+Creation of Planner tasks from emails.
+Creation of draft weekly and monthly accomplishment reports from text and tag data in email, meeting invitations and tasks.
+The scope of data is limited to that available to an individual M365 account.
+Stage of System Development Life Cycle:
+Deployed – The use case is being actively authorized or utilized to support the functions or mission of an agency.
+Date Implemented:
+2025
+Comparison of proposal similarities at different levels of National Science Foundation (NSF) organization
+Use Case ID:
+AII-56
+Agency:
+NSF
+Bureau / Department:
+Directorate for Biological Sciences (BIO)
+Summary of Use Case:
+The goal of the analysis is to compare how any two programs, divisions or directorates in NSF are similar to each other to assess uniqueness and overlap between units. The comparison is based on a similarity score (cosine similarity) of the embeddings of any two proposal summaries. The embeddings are generated using sentence transformer models.
+Stage of System Development Life Cycle:
+Pilot – The use case has been deployed in a limited test or pilot capacity.
+Date Implemented:
+2025
+Top
+Randolph Building
+401 Dulany Street
+Alexandria, VA 22314
+(703) 292-5111
+Sign up for email updates
+Footer
+About Us
+About NSF
+Careers
+Our Directorates & Offices
+National Science Board
+Contact Us
+What's New
+News & Announcements
+Events
+Science Matters Blog
+Information For
+Funding Seekers
+NSF Awardees
+Congress
+Media
+Educators
+Panelists
+Resources
+Documents & Reports
+Budget, Performance & Financial Reporting
+Public Access
+Stopping Harassment
+Research Security
+Scientific Integrity
+Research.gov
+Required Policy Links
+Vulnerability disclosure
+Inspector General
+Privacy
+FOIA
+No FEAR Act
+USA.gov
+Accessibility
+Plain language

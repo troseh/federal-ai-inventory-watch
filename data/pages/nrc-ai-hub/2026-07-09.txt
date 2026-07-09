@@ -1,0 +1,298 @@
+Artificial Intelligence | Nuclear Regulatory Commission
+Skip to main content
+An official website of the United States government
+Here's how you know
+Here's how you know
+Official websites use .gov
+A
+.gov
+website belongs to an official government organization in the United States.
+Secure .gov websites use HTTPS
+A
+lock
+(
+Lock
+Locked padlock
+) or
+https://
+means you’ve safely connected to the .gov website. Share sensitive information only on official, secure websites.
+Header Menu
+FAQ
+Agreement States
+Facility Locator
+What's New
+Site Help
+Index A-Z
+Contact Us
+Email Updates
+What's New
+Menu
+Report a
+Safety Concern
+Search
+Nuclear Reactors
+Nuclear Reactors
+Power Reactors
+Operating Reactors
+Operator Licensing
+Research and Test Reactors
+New Reactors
+Research Activities
+Divider
+Nuclear Reactor Quick Links
+Nuclear Materials
+Nuclear Materials
+Types of Nuclear Materials
+Uranium Recovery
+Material Environmental Reviews
+Fuel Cycle Facilities
+Materials Transportation
+National Materials Program
+Medical, Industrial, & Academic Uses
+SCP Portals
+Divider
+Nuclear Materials Quick Links
+Radioactive Waste
+Radioactive Waste
+Decommissioning of Nuclear Facilities
+Uranium Mill Tailings
+Abandoned Uranium Mine Waste Remediation
+Storage of Spent Nuclear Fuel
+Low-Level Waste
+Low-Level Waste Disposal
+Transportation of Spent Nuclear Fuel
+Waste Incidental to Reprocessing
+High-Level Waste Disposal
+Research Activities
+High-Level Waste
+Divider
+Radioactive Waste Quick Links
+Nuclear Security
+Nuclear Security
+Domestic Safeguards
+Required Reporting for Clearance Holders
+Criminal History & Firearms Checks
+Information Security
+Insider Threat Program for Licensees
+Contact Us
+Radioactive Material Security
+Cybersecurity
+Public Meetings & Involvement
+Public Meetings & Involvement
+The NRC Approach to Open Government
+Documents for Comments
+Subscribe to E-mail Updates
+About Meetings Open to the Public
+NRC Information Quality Guidelines
+Really Simple Syndication (RSS) Feeds
+Conferences & Symposia
+Divider
+Commission Schedule
+Adjudications (Hearings)
+NRC Rules and Petitions
+Public Meeting Schedule
+Adjudicatory Submissions
+NRC Library
+NRC Library
+Basic References
+FOIA & Privacy Act
+FAQ Index
+Document Collections
+Photos & Videos
+Get Copies of Documents
+ADAMS Public Documents
+Records Management
+Withholding of Sensitive Information
+Public Document Room
+Training Courses
+Controlled Unclassified Information Program (CUI)
+LSN Library
+Divider
+Electronic Hearing Docket
+About NRC
+About NRC
+The Commission
+Radiation Protection
+Alternative Dispute Resolution Programs
+Organization & Functions
+Fire Protection
+Privacy Program
+NRC Mission
+Artificial Intelligence
+Safety Culture
+Civil Rights Program
+Governing Legislation
+How We Regulate
+Contact Us
+Plans, Budget, & Performance
+Emergency Preparedness & Response
+Career Opportunities
+Locations
+Enforcement
+Contracting Opportunities
+History
+International Programs
+Small Businesses
+Values
+State & Tribal Programs
+Grant Opportunities
+Direction-Setting & Policymaking
+Generic Schedules
+Research Activities
+Breadcrumb
+Home
+Image
+A rendering of an atom with the words NRC AI
+Learn More
+Image
+US-Canada-UK Trilateral Collaboration on AI
+Learn More
+Image
+Section Navigation
+Navigation
+Organization & Functions
+Artificial Intelligence
+Governing Legislation
+Plans, Budgets, & Performance
+Locations
+History
+Leadership Model
+Values
+Commission Direction-Setting and Policymaking Activities
+Radiation Protection
+Fire Protection
+Safety Culture
+Emergency Preparedness & Response
+How We Regulate
+Counterfeit, Fraudulent, and Suspect Items
+International Programs
+Alternative Dispute Resolution Programs
+State & Tribal Programs
+Privacy Program
+EEO/Civil Rights Program
+Contact Us
+Career Opportunities
+Contracting Opportunities
+Grant Opportunities
+NEIMA Milestone Schedules
+NRC at a Glance
+Image
+Spotlight
+Choose a section
+The Commission
+Executive Order 14300 and ADVANCE Act
+NRC Reorganization
+Plant Restarts
+Artificial Intelligence
+Advanced Reactors
+Tribal Liaison Program
+New Fuel Cycle Facility Applicants
+Materials License Application Portal
+Materials Prospective Applicant and Pre-application Engagement Resources
+OIG Hotline
+Rulemaking Activity
+Commission Documents
+Artificial Intelligence
+On this page:
+What is Artificial Intelligence?
+What We Have Accomplished
+The Next 12 Months
+Contact Us
+References
+What is Artificial Intelligence?
+Artificial Intelligence is defined as a machine-based system that can go beyond defined results and scenarios and has the ability to emulate human-like perception, cognition, planning, learning, communication, or physical action. For a given set of human-defined objectives, AI can make predictions, recommendations, or decisions influencing real or virtual environments (adapted from the
+National Defense Authorization Act (2021)
+).
+NRC's Enterprisewide AI Strategy
+NRC's Enterprisewide AI Strategy
+How the NRC is Preparing to Review AI Technologies
+How the NRC is Preparing to Review AI Technologies
+How We Are Using AI
+How We Are Using AI
+FAQs
+FAQs
+What We Have Accomplished
+Issued SECY-24-0035, “Advancing the Use of Artificial Intelligence at the U.S. Nuclear Regulatory Commission,” (
+ML24086A002
+), on April 24, 2024, summarizing potential AI applications and the staff’s overall approach to effectively leverage AI at the NRC.
+Set goals for AI implementation, appointed a Chief AI Officer, and created an AI Governance Board to ensure the agency's use of AI is adequately managed.
+Created an AI Steering Committee to promote cross-office coordination and direction to prepare the agency for the future use of AI in NRC-regulated activities.
+Published an AI principles paper with Canada and the United Kingdom on September 5, 2024 (
+ML24241A252
+), outlining guiding principles for the safe and secure use of AI in nuclear applications.
+Issued the final report on “Regulatory Framework Gap Assessment for the Use of Artificial Intelligence in Nuclear Applications” in October 2024 (
+ML24290A059
+).
+Hosted a
+public workshop
+at NRC Headquarters on September 24, 2025, to discuss the results of potential regulatory gaps and considerations in evaluating AI technologies.
+Published the NRC’s AI Strategic Plan on September 29, 2025 (
+ML25269A196
+).
+The Next 12 Months
+Broaden the scope of generative AI training to agency staff and contractors and the development of the rules of behavior for the use of generative AI tools.
+Continue to engage with the inspection community across all regions and inspection types in Future Focused Research outreach sessions.
+Further develop the regulatory framework to support the use of AI in NRC-regulated activities.
+Continue communication with industry stakeholders to ensure preparedness for future uses of AI in NRC-regulated activities.
+Contact Us
+If you have questions about artificial intelligence, please see our
+Contact Us
+form.
+References
+"Artificial Intelligence Project Plan: Fiscal Years 2023-2027, Revision 1" (ML24194A116)
+"Advancing the Use of Artificial Intelligence at the U.S. Nuclear Regulatory Commission" SECY-24-0035 (ML24086A002)
+"Considerations for Developing Artificial Intelligence Systems in Nuclear Applications" (ML24241A252)
+National Defense Authorization Act (2021)
+MOU between NRC and DOE on Cooperation in the Area of Operating Experience and Applications of Data Analytics (ML21069A328)
+MOU between NRC and EPRI on Cooperative Nuclear Safety Research Related to Advanced Nuclear Technologies and Data Science (ML21263A196)
+"Exploring Advanced Computational Tools and Techniques with Artificial Intelligence and Machine Learning in Operating Nuclear Plants" (NUREG/CR-7294)
+MOU between NRC and DOE on Cooperative Nuclear Safety Research Related to Light Water Reactor Sustainability (ML21124A125)
+Neural Network Investigation on Regression Modeling in Critical Heat Flux Prediction Applications (ML24207A085)
+Page Last Reviewed/Updated Wednesday, January 28, 2026
+Page Last Reviewed/Updated Wednesday, January 28, 2026
+Return to top
+Home
+News Releases
+Event Reports
+Adams
+Open Gov
+Digital Government
+The Student Corner
+Photos & Videos
+For Developers
+About Us
+Strategic Plan
+Budget & Performance
+Agency Financial Report
+License Fees
+History of the NRC
+Career Opportunities
+NRC Ethics
+Agency Status
+Contact Us
+Popular Documents
+Info Digest
+Fact Sheets & Brochures
+Forms
+Electronic Submittals Application
+Adjudicatory Submissions
+NRC Reports - NUREG
+NRC Regulations - 10-CFR
+Inspection Reports
+Plain Writing
+Enforcement Actions
+Rulemaking
+Glossary
+Stay Connected
+Footer Bottom
+Regulations.gov
+USA.gov
+FOIA
+Whistleblower Protection
+No Fear EEO
+Inspector General
+Site Map
+Accessibility
+Privacy Policy
+Site Disclaimer
+For Employees

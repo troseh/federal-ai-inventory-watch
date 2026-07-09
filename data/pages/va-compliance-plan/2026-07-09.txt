@@ -1,0 +1,223 @@
+Department of Veterans Affairs Compliance Plan for OMB Memorandum M-25-21 - VA Artificial Intelligence
+Skip to main content
+Skip to footer
+Talk to the
+Veteran Crisis Line
+now
+An official website of the United States government
+Here's how you know
+Official websites use .gov
+A
+.gov
+website belongs to an official government organization in the United States.
+Secure .gov websites use HTTPS
+A
+lock
+(
+Lock
+A locked padlock
+) or
+https://
+means you’ve safely connected to the .gov website. Share sensitive information only on official, secure websites.
+VA.gov
+Contact VA
+VA Resources
+VA News
+VA Careers
+VA Locations
+VA Forms
+About VA
+Search VA
+VA
+|
+AI
+VA
+| Artificial Intelligence
+Home
+AI Inventory
+Trustworthy AI
+CAIO
+NAII
+Search
+Search
+Department of Veterans Affairs Compliance Plan for OMB Memorandum M-25-21
+VA Artificial Intelligence
+Home
+Department of Veterans Affairs Compliance Plan for OMB Memor...
+Share this
+Facebook
+Linkedin
+X
+Email
+Print
+On this page
+Department of Veterans Affairs Compliance Plan for OMB Memorandum M-25-21
+Last Updated:
+September 2025
+Prepared by:
+Charles Worthington, VA Chief Artificial Intelligence (AI) Officer and Chief Technology Officer
+1. Driving AI Innovation
+Removing Barriers to the Responsible Use of AI
+Describe any barriers to your agency’s responsible use of AI, and any steps your agency has taken (or plans to take) to mitigate or remove these identified barriers.
+VA has identified barriers to responsible AI use, such as access and documentation for authoritative data sources for training, testing, and validation of AI models. To address these, VA supports several enterprise data platforms and is implementing an enterprise data catalog. These data platforms are also crucial to secure access of Personal Identifiable Information (PII) and Protected Health Information (PHI). The Summit Data Platform, for instance, provides cloud access to refined health and customer experience data assets and modern data science tools. These service offerings have expanded over the past year, particularly as new data and AI services have achieved FedRAMP approval. VA’s cloud platforms also have monitoring capabilities that are important for model testing and deployment.
+To accelerate the acquisition and piloting of new IT products, VA introduced an accelerated Authority to Operate (ATO) process that allows products, including AI products, to receive an initial VA ATO within 60 days, allowing more rapid deployment of AI products. VA has expanded employee access to generative AI tooling through an internal generative AI chat tool, VA GPT, which currently has about 100,000 users onboarded and is estimated to save 2-3 hours per week per user. VA is also integrating AI features from commercial software vendors, such as Teams Premium and Microsoft Copilot Chat.
+Sharing and Reuse
+Explain how your agency coordinates internally to promote the sharing and reuse of AI code, models, and data assets. Describe the resources needed to further enable this type of activity.
+VA promotes sharing and reuse of AI code, models, and data assets through its AI inventory and review process. This process guides AI use case owners to
+VA’s Open Data Initiative
+and resources for open-sourcing their software code. The in-house AI inventory also includes tethering model cards and data sheets on its development roadmap, which will increase the transparency and reusability of models internally and foster the internal developer ecosystem.
+VA also has other mechanisms for sharing data with approved parties, such as the VA Data Commons, which provides researchers access to relevant de-identified VA data for medical research purposes.
+VA has had several prominent open-source projects for many years, including the Veterans Health Information Systems and Technology Architecture (VistA) health record system and the VA.gov digital experience website and platform.
+AI Talent
+Describe any planned or in-progress initiatives from your agency to enhance AI talent. In particular, identify the AI skillsets needed at your agency and where individuals with technical talent could have the most impact.
+VA has several initiatives to enhance AI talent, targeting skillsets and areas where technical expertise can have the most impact.
+Role-Based Training:
+In April 2024, VA released role-based training to all employees. Courses include:
+All Employees:
+Building an AI Powered Workforce; Data Bias and Ethical Considerations in AI
+Leaders and Managers:
+Embracing Risk and Learning from Setbacks with AI Projects; Data Analytics and Data Ethics; Generative AI and its Impact on Everyday Business; Planning AI Implementation
+Executive Leaders:
+Navigating AI Ethical Challenges & Risks; Leading in the Age of Generative AI: AI Enterprise Planning
+Communities of Practice:
+The AI@VA Community is an online community of practice designed to share AI information, news, and training; encourage collaboration; and provide a platform for inquiry for AI practitioners and those interested in AI.
+Examples of Additional Courses:
+The Talent Management System (TMS 2.0) has over 100 active AI-related courses listed, the majority of which are third-party, asynchronous options available to all employees for their professional development.
+AI 101 training for all staff and for leadership are in development with the VHA National Artificial Intelligence Institute (NAII) and the Institute for Learning, Education and Development (ILEAD). The leadership training has been piloted in VHA with VISN and facility level leadership.
+Corner Stone On Demand (CSOD) has established AI courses targeted for Contracting Officers, Contract Specialists, Program Managers, and Contracting Officer Representatives.
+2. Improving AI Governance
+AI Governance Board
+Describe your agency’s AI governance body and the plan to achieve its expected outcomes. In particular, identify the offices that are represented on your agency’s AI governance board and describe how, if at all, your agency’s AI governance board plans to consult with external experts or across the Federal Government.
+VA is currently updating its governance structure, including its AI governance framework. In the interim, VA has established an AI Action Planning Executive Meeting series. Hosted by the Chief AI Officer, meetings include key executives from each VA Administration and Staff Office to collaborate on AI strategy, plans, and issues.
+VA regularly engages with external experts on AI topics. Some examples of this include:
+VA has partnerships with universities and academic medical institutions across the country, where many academic experts hold cross-appointments with VA. These arrangements result in significant cross-pollination of ideas between VA and academics conducting cutting edge research.
+There is a VA AI listserv for members to communicate external and internal AI-related events and opportunities.
+Members of VA’s AI community:
+Attend and present at industry conferences, such as the Healthcare Information and Management Systems Society (HIMSS), ViVE and the American Council for Technology-Industry Advisory Council (ACT-IAC).
+Engage with various interagency groups and councils including OMB’s CDO Council and Chief AI Officer (CAIO) Council.
+Participate in the General Services Administration (GSA) AI Community of Practice.
+Engage with external experts on health AI through organizations such as the Coalition for Health AI (CHAI) and the Health AI Partnership (HAIP).
+Engage with external experts on specific AI use cases, such as the Veterans Experience Office’s engagement with external healthcare providers on change management related to VA’s ambient AI scribe pilot.
+Consult with other large enterprises to share experiences integrating AI features into software.
+Serve as members of the Data and Model subcommittee of the National Artificial Intelligence Research Resource (NAIRR).
+Agency Policies
+Describe any planned or current efforts within your agency to update any existing internal AI principles, guidelines, or policy to ensure consistency with M-25-21.
+Prior to the release of OMB Memo M-25-21, VA had several AI-related guidance documents in place. All guidance has been reviewed for consistency with M-25-21.
+VA Trustworthy AI Framework
+:
+Adopted in July 2023, this framework unifies and clarifies multiple Federal mandates and frameworks, and is in line with M-25-21.
+Internal generative AI guidance:
+Internal generative AI guidance was published in July 2023, which reinforces current information technology (IT) policies, and has been reviewed and confirmed consistent with M-25-21.
+Other existing policies: Miscellaneous policies, including VA’s privacy assessments, ATO policies, and general IT policies, all remain applicable and consistent with M-25-21.
+Where relevant, existing processes are being updated to appropriately route AI projects through the AI inventory and governance process.
+AI Ethics Toolkit:
+VA has developed an AI Ethics Toolkit, including an AI Ethics Assessment Tool and Quick Start Guide, that is consistent with M-25-21 and advances VA’s ability to anticipate and mitigate risks to rights and safety from the use of AI.
+Veterans Integrated Service Networks (VISN)-specific processes:
+Several VISNs have established (or are establishing) AI Oversight Subcommittees to assess trustworthy AI practices.
+AI Research Programs:
+VA has a robust AI research program due to VA’s partnerships with academic medical institutions across the country, as well as the National Artificial Intelligence Institute (NAII) in the Veterans Health Administration (VHA). Research programs have associated policies and systems, including Institutional Review Boards that ensure the rights, welfare, and well-being of human research participants. These have been reviewed and found to be consistent with M-25-21. Note that most AI research is considered out of scope of M-25-21 according to section 2(b)(iv). A subset of AI research, prospective studies with real-world impact, are subject to both research and M-25-21 requirements.
+Patient Safety Systems:
+VHA has a long history of patient safety systems and policies that ensure patient safety issues are identified and remediated quickly, which apply to AI systems as well.
+Open Data Management:
+Handbook 0900 requires Open Data Liaisons to form an internal committee or team to review data assets that meet Open Data criteria. The committee should consist of representatives with the following subject matter expertise: Privacy Act, Artificial Intelligence, Ethics, Freedom of Information Act, and Information System Security Officers. The structure of this committee differs and generally resides under the oversight of existing governance structures.
+Identify whether your agency has developed (or is in the process of developing) internal guidance for the use of generative AI.
+Yes, VA has developed guidance for the use of AI, and it is posted on an internal website:
+VA offers all employees access to a generative AI tool approved for use with VA data.
+No web-based, publicly available generative AI service has been approved for use with VA-sensitive data. Examples of these include OpenAI’s ChatGPT, Google’s Gemini, and Anthropic’s Claude. VA follows existing Federal requirements and processes to ensure VA data is protected. When users enter information into an unapproved web-based tool, VA loses control of the data. Some public Large Language Model (LLM) web services have terms of service that explicitly allow them to use the data entered into the tool for other purposes.
+No PII, protected health information (PHI), or VA-sensitive data should be entered into these unapproved services. VA sensitive data includes financial, budgetary, research, quality assurance, confidential commercial, critical infrastructure, and investigatory and law enforcement information. The entire definition of VA Sensitive Data can be found at 38 U.S.C. § 5727 (23).
+Where possible, limit the sharing and saving of data in unapproved services.
+VA staff should carefully evaluate the output of any LLM tool for accuracy before using the output in VA work. LLMs are known to generate inaccurate information that sounds plausibly true, and VA staff are responsible for the accuracy of their work products.
+AI Use Case Inventory
+Describe your agency’s process for soliciting and collecting AI use cases across all subagencies, components, or bureaus for the inventory. In particular, address how your agency plans to ensure your inventory is comprehensive, complete, and encompasses updates to existing use cases.
+VA issued an agency-wide memorandum via the Veterans Information Systems and Technology Architecture Web Enabled System detailing the 2025 inventory requirements and use case review process. This included a call to action for all in-scope AI use case owners to submit their use cases through a linked form. This communication was reinforced by AI executive leads across administrations and staff offices on the need for all in-scope AI use cases from their component office to be submitted.
+The CAIO team is integrating the AI inventory process into existing processes and intakes, such as ATOs, FITARA acquisition compliance, software request intake processes, and innovation-related intake processes, to identify additional use cases. VA’s CAIO team is also piloting a dashboard approach to monitor AI use in a given region, with the goal of identifying AI use cases currently in use across VA. VA also contacted all AI use case owners from prior AI use case inventories for updates on their existing use cases and with the new requirements from M-25-21.
+3. Fostering Public Trust in Federal Use of AI
+Determinations of Presumed High-Impact AI
+Explain your agency’s process to determine which AI use cases are high-impact.
+VA has adopted the OMB definition of high-impact AI. VA has elaborated on the definition in a document that identifies a representative set of potential AI use cases across VA and jointly determined whether VA identifies them as high-impact, providing a written rationale for each use case. This document serves as the primary reference for making high-impact AI decisions. As new regulations emerge and additional use cases are identified, VA will iterate and refine the document accordingly.
+If your agency has developed its own distinct criteria to guide a decision to waive one or more of the minimum risk management practices for a particular use case, describe the criteria.
+VA has not developed this.
+Describe your agency’s process for issuing, denying, revoking, certifying, and tracking waivers for one or more of the minimum risk management practices.
+Currently, VA has not issued any waivers. Waivers will be centrally tracked by the CAIO’s office. Proposed waivers will be determined after an AI use case owner has answered all required questions and the team has engaged with the use case. To obtain a waiver, an AI use case owner must provide all OMB-required questions and answers, a written explanation of why the requirements cannot be met, and the reasoning for the waiver request, which must show that fulfilling the requirements would increase risk overall or would create an unacceptable impediment to critical agency operations. Waivers will be reviewed at least annually, and use case owners will be contacted for updates and changes.
+Implementation of Risk Management Practices and Termination of Non-Compliant AI
+Identify how your agency plans to document and validate implementation of the minimum risk management practices.
+VA documents and validates the implementation of minimum risk management practices through a two-step AI inventorying and use case review process.
+Step 1: Initial intake
+AI use case owners submit an AI intake form, which determines if the use case is in scope for the AI Inventory.
+If a use case is determined to be out of scope, the process is complete.Reasons a use case may be identified as out-of-scope include that it does not meet the definition of AI or is part of M-25-21’s exclusion criteria for non-operational research.
+For in-scope use cases, the intake form continues with the OMB-mandated questionnaire.
+Use case reviewers will review all AI intake forms for completeness, high-impact status, and system development lifecycle phase.
+For use cases determined not to be high-impact and that are pre-deployment, pilots, or retired, the process is complete.
+Step 2: Review for Minimum Risk Requirements
+For high-impact use cases that are deployed in operations, use case owners will be required to submit an AI Impact Assessment and a Risk Mitigation Plan, which contain fields to demonstrate compliance with OMB-mandated minimum risk requirements.
+Each AI Impact Assessment and Risk Mitigation plan will undergo independent review to ensure compliance with OMB-mandated risk requirements.
+Use cases in operations have until April 3, 2026, to meet the requirements. For use cases that are unable to meet the requirements by that date, reviewers will determine whether to submit a waiver or to remove the use case from operations until the requirements can be met.
+Inventory Submission and Completion
+Use case reviewers include the CAIO team and individuals appointed by VA administrations and offices. Most of VA’s AI use cases are in VHA, and VHA NAII is developing a distributed governance model across VHA VISNs.
+After the completion of the review process, each administration or office will certify that its portion of the inventory is complete and correct.
+Elaborate on the controls your agency has put in place to prevent non-compliant high-impact AI from being deployed to the public.
+Describe your agency’s intended process to terminate, and effectuate that termination of, any non-compliant AI.
+VA is integrating the AI use case review process into existing release and oversight workflows, such as the Unified System Registry, Risk Management Framework for ATO, the FITARA compliance process, and various software and data platform implementation processes. This ensures AI use cases are captured and reviewed at key points in the product lifecycle.
+If an AI use case is found to be non-compliant, VA will first work with the use case owner to remediate any identified issues. If remediation is not possible, VA will determine whether to issue a waiver or remove the AI use case from operations, considering the benefits and risks. If termination is necessary, VA can use pathways such as the Risk Management Framework (RMF) Denial Authority to Operate (DATO) or blocking the connection at the VA boundary. It is important to note that all AI systems are also subject to the same strong privacy and security requirements of other IT systems at VA, including the ATO process run by the Office of Information Security and privacy risk assessments (run by the VA Privacy Service under the Senior Agency Official for Privacy), ensuring that Veteran data is kept safe, private, and secure.
+VA
+| VA Artificial Intelligence
+An official website of the
+U.S. Department of Veterans Affairs
+VA.gov
+ChooseVA
+DiscoverVA
+DigitalVA
+VA Outreach Events
+VA Forms
+VA Publications
+About VA
+VA mobile apps
+Accessibility at VA
+No FEAR Act data
+Whistleblower Protection
+Office of the Inspector General
+VA plans, budget, finances, and performance
+Agency Financial Report
+Privacy policy
+FOIA requests
+Disclaimers
+Open data
+Vulnerability disclosure policy
+Copyright policy
+All VA Social Media
+U.S. Department of Veterans Affairs
+810 Vermont Ave., NW
+Washington, DC 20420
+1-800-698-2411
+Looking for U.S. government information and services?
+Visit USA.gov
+OPR
+: VA Central Office –
+AI Working Group
+Last updated January 6, 2026
+TOP
+Close
+Your feedback matters
+Is this website or content helpful? Please let us know. This is anonymous and not stored. Please
+do not
+provide personal information — it will not be acted upon. Use
+Ask VA
+for questions related to services and benefits. If you or someone you know is in crisis, do not use this form, but connect with the Veterans Crisis Line —
+Call
+988 and press 1
+or visit
+VeteransCrisisLine.net
+.
+Close
+We’re here anytime, day or night - 24/7
+If you are a Veteran in crisis or concerned about one, connect with our caring, qualified responders for confidential help. Many of them are Veterans themselves.
+Call
+988 and press 1
+Text
+838255
+Start a confidential chat
+For TTY, call
+711 then 988
+Get more resources at
+VeteransCrisisLine.net
+.

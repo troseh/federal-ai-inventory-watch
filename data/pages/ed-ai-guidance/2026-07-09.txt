@@ -1,0 +1,493 @@
+Artificial Intelligence (AI) Guidance | U.S. Department of Education
+Skip to main content
+An official website of the United States government
+Here's how you know
+Here's how you know
+Official websites use .gov
+A
+.gov
+website belongs to an official government organization in the United States.
+Secure .gov websites use HTTPS
+A
+lock
+(
+Lock
+Locked padlock
+) or
+https://
+means you’ve safely connected to the .gov website. Share sensitive information only on official, secure websites.
+U.S. Department of Education
+U.S. Department of Education
+Higher Ed
+Higher Education Homepage
+Find a College or Educational Program
+College Scorecard
+Community College
+Pay for College
+Federal Student Aid (FSA)
+Complete the FAFSA
+Manage Your Loans
+Loan Simulator
+Get your 1098-E Tax Form
+Career Pathways
+Career and Technical Education
+Apprenticeships
+Veterans
+Information for Military Families and Veterans
+8 Keys to Veteran Success
+Adult Programs
+Adult Programs Homepage
+Vocational Rehabilitation
+Adult Education and Family Literacy Act (AEFLA)
+Career Pathways
+Correctional Education
+Birth to Grade 12 Education
+Birth to Grade 12 Education Homepage
+Early Childhood Education
+Early Learning
+Research on Early Learning
+Elementary and Secondary Education
+Locate a school or district
+Find Your State’s Performance Report
+Career and Technical Education
+Resources for Parents and Students
+Family Partnership and Engagement
+Education Choice
+Student Records and Privacy
+Laws related to Preschool to Grade 12 Education
+Students with disabilities
+Teaching & Admin
+Teaching and Administration Homepage
+Lead and Manage My School
+Student Engagement and Attendance Center
+Safe Learning Environments
+Disaster and Emergency Response
+School Safety and Security
+Supporting Students
+Students in foster care
+Professional Development
+Research-Based Practices (What Works Clearinghouse)
+Kids’ Zone Educator Corner
+Grants & Programs
+Grants and Programs Homepage
+Money for College
+Pell Grants and Scholarships
+Work Study Programs
+Grants Overview
+Available Grants
+Getting Started with Grant Applications
+Manage Your Grant
+Grantee Responsibilities
+Grant Training
+Grants for Birth to Grade 12
+Well-Rounded Education
+Teacher Prep
+Grants for Higher Education
+Fund for the Improvement of Postsecondary Education (FIPSE)
+TRIO Programs
+Grants for Special Populations
+Students with Disabilities
+Economically Disadvantaged Students
+Recognition Programs
+US Presidential Scholars Program
+Formula Grants
+Title I, Part A
+Title IV, Part A
+Laws & Policy
+Laws and Policy Homepage
+Civil Rights Laws
+File a Complaint
+Title IX
+Preschool to Grade 12 Education
+Every Student Succeeds Act (ESSA)
+Preschool to Grade 12 Education Policy
+Higher Education
+College Accreditation
+Individuals with Disabilities
+IDEA
+Section 504 and 504 Plans
+Student Privacy
+FERPA for Parents
+FERPA for Students
+Contact Us
+Site Search block
+BY KEYWORD
+Breadcrumb
+Home
+About Us
+An Overview of The Department of Education
+Artificial Intelligence (AI) Guidance
+OCIO supports the Department of Education’s adherence to Federal regulations pertaining to AI advancement and ensuring responsible and secure usage of AI while embracing its innovative technologies and capabilities in accordance with Executive Order
+Removing Barriers to American Leadership in Artificial Intelligence
+.
+Inventory of U.S. Department of Education AI Use-Cases
+The Department of Education has assembled an inventory of AI use-cases, demonstrating the Department’s commitment to AI innovation and advancement.
+Program Office
+Office Function
+Use Case
+Description
+Federal Student Aid
+Manages programs authorized under the Higher Education Act of 1965 including financial aid for students attending higher education programs.
+Aidan Chat-bot
+Federal Student Aid's (FSA) virtual assistant uses natural language processing to answer common financial aid questions and help customers get information about their federal aid on StudentAid.gov. In just over two years, Aidan has interacted with over 2.6 million unique customers, resulting in more than 11 million user messages.
+Office of Finance and Operations
+To transform the Department into a high-performance, customer-focused organization by providing services to our customers that help them do a better job of managing their people, processes, and overall strategy.
+IPAC RPA Bot
+The IPAC Workflow bot downloads a date range .csv file from the Treasury Department's IPAC system, reformats the entries to fit the ED system, and uploads them to the ED SharePoint sites and the Financial system, ensuring data quality and reliability.
+Office of Finance and Operations
+To transform the Department into a high-performance, customer-focused organization by providing services to our customers that help them do a better job of managing their people, processes, and overall strategy.
+CAISY - Artificial Intelligence System Skillsoft Percipio Assessment for the Department Use
+CAISY is designed to enhance decision-making and operational efficiency by delivering real-time insights, predictive analytics, and intelligent automation. By streamlining repetitive tasks and improving situational awareness, it helps organizations reduce costs, boost productivity, and make more accurate, data-driven decisions.
+Office of Migrant Education, Office of Elementary and Secondary Education
+Provides leadership, technical assistance, and financial support to improve the educational opportunities and academic success of migratory children, youth, agricultural workers, fishers, and their families.
+To empower States, districts, and other organizations to meet the diverse needs of every student by providing leadership, technical assistance, and financial support.
+Grammarly AI Writing Assistant
+Grammarly’s AI assistant is designed to elevate written communication by delivering real-time feedback, intelligent suggestions, and advanced language refinement. By eliminating errors, enhancing clarity, and optimizing tone, it helps users produce bold, precise, and professional writing that drives stronger engagement and impact.
+Office of the Under Secretary
+Coordinates policies, programs, and activities related to Postsecondary Education (OPE), Career, Technical Education, Adult Education (OCTAE), The Office of the Chief Economist, and Federal Student Aid (FSA).
+Speech to Text Meeting Transcription
+Otter.AI is designed to enhance communication and productivity by providing real-time transcription and collaboration tools for meetings, interviews, lectures, and other audio interactions. It enables users to focus on conversations while generating accurate, searchable transcripts, improving accessibility, saving time, and streamlining the organization of critical information.
+Office of Postsecondary Education
+Works to strengthen the capacity of colleges and universities to promote reform, innovation and improvement in postsecondary education, promote and expand access to postsecondary education and increase college completion rates for America’s students.
+Legislation Comment Categorization
+RAG Chatbot helping a business analyst to categorize user comments from a provided document by identifying applicable categories, summarizing each comment, quoting relevant sections, and listing the Document ID with corresponding categories in a clear and concise format.
+Federal Student Aid
+Manages programs authorized under the Higher Education Act of 1965 including financial aid for students attending higher education programs.
+Customer Service Support
+RAG Chatbot supporting customer service reps answering StudentAid.gov troubleshooting questions by using details from a provided document, including ticket numbers, issues, fixes, and confidence levels, while avoiding topics outside the document’s scope.
+Federal Student Aid
+Manages programs authorized under the Higher Education Act of 1965 including financial aid for students attending higher education programs.
+Comment Categorization
+Rag Chatbot referencing collected FAFSA Comments from public mailbox. Comments are provided to Bot, which provides statistics on the content, scope, and sentiment of the comments while grouping them for resolution.
+Federal Student Aid
+Manages programs authorized under the Higher Education Act of 1965 including financial aid for students attending higher education programs.
+Azure AI Internal General Q&A
+Rag Chatbot used in the secure resolution of internal questions.
+Federal Student Aid
+Manages programs authorized under the Higher Education Act of 1965 including financial aid for students attending higher education programs.
+Generative AI and Foundation Model Integration
+AWS Bedrock enables organizations to build and scale applications powered by foundation models, supporting use cases such as text generation, summarization, conversational AI, personalization, and content creation, with seamless integration into existing AWS services and infrastructure.
+Office of the Chief Information Officer
+Implementing the operative principles identified in the Act requiring the establishment of a management framework to improve the planning and control of information technology investments and leading change to improve the efficiency and effectiveness of agency operations.
+Department-wide implementation of GSA USAi
+Generative AI platform offering miti-vendor LLMs via interagency collaboration with GSA for ED program integration.
+Contracts & Acquisitions Management
+Responsible for the solicitation, award, administration, and closeout of all contracts and other acquisition instruments, except for Office of Federal Student Aid procurements and some simplified acquisitions and General Services Administration schedule orders.
+Generative AI - Text Generation
+AI generates summaries and outlines for projects and presentations, helping to organize key points and structure content effectively. This assists users in quickly preparing for discussions, reports, or presentations by focusing on the most relevant information.
+Federal Student Aid
+Manages programs authorized under the Higher Education Act of 1965 including financial aid for students attending higher education programs.
+Generative AI - Code Generation
+When given written paragraphs as prompts, AI generates code snippets in a variety of programming languages. This capability allows users to quickly obtain relevant code tailored to their specific requirements.
+Federal Student Aid
+Manages programs authorized under the Higher Education Act of 1965 including financial aid for students attending higher education programs.
+Generative AI - Idea Suggestion
+When prompted with written paragraphs, AI suggests possible courses of actions for given scenarios.
+Federal Student Aid
+Manages programs authorized under the Higher Education Act of 1965 including financial aid for students attending higher education programs.
+Generative AI - Information Summarization
+When provided with publicly available documents or articles, AI extracts key points, generates summaries, and identifies relevant action items. This helps users quickly grasp the essential information and determine next steps without having to read the entire content.
+Federal Student Aid
+Manages programs authorized under the Higher Education Act of 1965 including financial aid for students attending higher education programs.
+Generative AI - Text Generation
+When provided with outlines or ideas, AI provides sample paragraphs that may be used to assist in the writing process.
+Grants Management Policy Division
+Coordinates with all components of ED to develop and institute Department-wide grant policies and procedures for formula and discretionary grants management.
+Generative AI - Code Generation
+When given written paragraphs as prompts, AI generates code snippets in a variety of programming languages. This capability allows users to quickly obtain relevant code tailored to their specific requirements.
+Grants Management Policy Division
+Coordinates with all components of ED to develop and institute Department-wide grant policies and procedures for formula and discretionary grants management.
+Generative AI - Design Generation
+AI will create paragraphs and images to augment visual designs for web design and communication.
+Institute of Education Sciences
+The nation's leading source for rigorous, independent education research, evaluation, and statistics.
+Generative AI - Code Generation
+Assisting in the development of code used for data analysis, AI is given descriptions of desired functions and returns snippets of R code.
+Institute of Education Sciences
+The nation's leading source for rigorous, independent education research, evaluation, and statistics.
+Generative AI - Code Generation
+When prompted with SAS Syntax, AI will provide suggestions of code optimization opportunities.
+Institute of Education Sciences
+The nation's leading source for rigorous, independent education research, evaluation, and statistics.
+Generative AI - Text Generation
+When provided with outlines or ideas, AI provides sample paragraphs that may be used to assist in the writing process.
+Office of the Chief Data Officer
+Managing and improving the Department's ability to leverage data as a strategic asset.
+Generative AI - Code Generation
+AI is used to train employees on the benefits of prompt engineering, by providing snippets of code, allowing users to compare the performance of the generated code.
+Office of the Chief Data Officer
+Managing and improving the Department's ability to leverage data as a strategic asset.
+Generative AI - Data Manipulation
+AI is used to automate the conversion between related data types, such as translating a county name into its corresponding county FIPS (Federal Information Processing Standards) code, recognizing and mapping the relationship between different forms of data.
+Office of the Chief Data Officer
+Managing and improving the Department's ability to leverage data as a strategic asset.
+Generative AI - Idea Suggestion
+AI is used to assist in training employees by generating paragraphs and images related to the topic of study.
+Office of the Chief Data Officer
+Managing and improving the Department's ability to leverage data as a strategic asset.
+Generative AI - Mock Data Generation
+AI is used to generate mock data sets for testing purposes. These simulated datasets help assess system performance, validate models, and ensure the accuracy of data-driven processes without using real-world data.
+Office of the Chief Information Officer
+Implementing the operative principles identified in the Act requiring the establishment of a management framework to improve the planning and control of information technology investments and leading change to improve the efficiency and effectiveness of agency operations.
+Generative AI - Code Generation
+AI is utilized to generate sample code snippets that assist users in understanding programming language syntax and addressing troubleshooting challenges by providing clear, contextually relevant examples.
+Office of the Chief Information Officer
+Implementing the operative principles identified in the Act requiring the establishment of a management framework to improve the planning and control of information technology investments and leading change to improve the efficiency and effectiveness of agency operations.
+Generative AI - Idea Suggestion
+AI can assist in generating segments of outreach strategies, creating project plans, and brainstorming ideas. It helps streamline the process by providing structured suggestions and innovative concepts for various aspects of planning and communication.
+Office of the Chief Information Officer
+Implementing the operative principles identified in the Act requiring the establishment of a management framework to improve the planning and control of information technology investments and leading change to improve the efficiency and effectiveness of agency operations.
+Generative AI - Information Summarization
+AI is used to research and analyze public articles and policies, extracting key action items enabling users to quickly identify important takeaways and actionable insights from complex or lengthy documents.
+Office of the Chief Information Officer
+Implementing the operative principles identified in the Act requiring the establishment of a management framework to improve the planning and control of information technology investments and leading change to improve the efficiency and effectiveness of agency operations.
+Generative AI - System Testing
+AI will be provided with fabricated examples of prohibited prompt information, to ensure proper filters and data loss prevention methods are in place.
+Office of the Chief Information Officer
+Implementing the operative principles identified in the Act requiring the establishment of a management framework to improve the planning and control of information technology investments and leading change to improve the efficiency and effectiveness of agency operations.
+Generative AI - Text Generation
+AI is leveraged to suggest descriptive paragraphs, workflow diagrams, and qualifications for public positions. This helps streamline the creation of detailed content, visual representations, and role requirements, ensuring clarity and relevance for various public sector needs.
+Office of Communications and Outreach
+Responsible for overall leadership for the Department in its communications and outreach activities. These activities are designed to engage the general public, including a wide variety of education, community, business, parent, student, and other organizations, in the U.S. Department of Education's mission.
+Generative AI - Text Generation
+AI is used to assist with message communication in written paragraphs, crafting text designed to capture the attention of viewers. By analyzing tone, structure, and content relevance, AI helps generate compelling and engaging messages that resonate with the target audience.
+Office for Civil Rights
+Responsible for overall leadership for the Department in its communications and outreach activities. These activities are designed to engage the general public, including a wide variety of education, community, business, parent, student, and other organizations, in the U.S. Department of Education's mission.
+Generative AI - Code Generation
+AI is used to create sample DAX code to assist in the creation of charts and tables for data analysis.
+Office for Civil Rights
+Responsible for overall leadership for the Department in its communications and outreach activities. These activities are designed to engage the general public, including a wide variety of education, community, business, parent, student, and other organizations, in the U.S. Department of Education's mission.
+Generative AI - Text Generation
+AI is provided with publicly available examples of document structures and is prompted to generate new documents based on these formats. This assists in the creation of consistent, well-organized documents that adhere to established structures, making content creation more efficient and standardized.
+Office of Career, Technical, and Adult Education
+Administers, coordinates programs that are related to adult education and literacy, career and technical education, and community colleges.
+Generative AI - Text Generation
+AI provides examples of the latest technologies that can aid in the development of code. By analyzing current trends and tools, AI suggests relevant technologies, frameworks, and libraries that can enhance coding efficiency, improve performance, and streamline development processes.
+Office of Career, Technical, and Adult Education
+Administers, coordinates programs that are related to adult education and literacy, career and technical education, and community colleges.
+Generative AI - Text Generation
+AI is provided with publicly available images and tasked with describing them to ensure 508 accessibility compliance, generating detailed, clear descriptions of the images to make them accessible to individuals with visual impairments, meeting accessibility standards for digital content.
+Office of the Deputy Secretary
+Assists the Secretary in the discharge of Secretarial duties and responsibilities.
+Generative AI - Code Generation
+When prompted with descriptive paragraphs or specific queries, AI generates code snippets designed to assist with data analysis and data visualizations.
+Office of the Deputy Secretary
+Assists the Secretary in the discharge of Secretarial duties and responsibilities.
+Generative AI - Information Summarization
+AI is used to research and analyze public reports, policies, and media, extracting key action items enabling users to quickly identify important takeaways.
+Office of the Deputy Secretary
+Assists the Secretary in the discharge of Secretarial duties and responsibilities.
+Generative AI - Text Generation
+AI is used to generate email templates and draft content intended for public consumption. By analyzing the intended message and audience, AI creates well-structured, engaging templates and content that can be easily customized for various communication needs.
+Office of Elementary and Secondary Education
+To empower States, districts, and other organizations to meet the diverse needs of every student by providing leadership, technical assistance, and financial support.
+Generative AI - Code Generation
+When prompted with descriptive paragraphs or specific queries, AI generates code snippets designed to assist with data analysis and troubleshooting in Power BI and Python. These snippets can include tasks such as creating data visualizations, performing data transformations, writing DAX expressions for Power BI, or debugging Python scripts.
+Office of Elementary and Secondary Education
+To empower States, districts, and other organizations to meet the diverse needs of every student by providing leadership, technical assistance, and financial support.
+Generative AI - Information Summarization
+AI is used to search publicly available awards and progress reports to identify trends in specific programs and provide summary narratives.
+Office of Elementary and Secondary Education
+To empower States, districts, and other organizations to meet the diverse needs of every student by providing leadership, technical assistance, and financial support.
+Generative AI - Text Generation
+AI provides public policy analysis, templates for written materials, sample paragraphs, and drafts of memos by utilizing publicly available data. This helps streamline the creation of policy documents, reports, and communications, ensuring they are well-informed and aligned with current trends and regulations.
+Office of Educational Technology
+Develops educational technology policy and establishes strategies for encouraging the development and use of educational technology.
+Generative AI - Text Generation
+AI is used to generate text for many uses, including: sample drafts for emails, potential blog posts for schools and districts, and social media posts, titles, blogs, and webinars.
+Office of Finance and Operations
+To transform the Department into a high-performance, customer-focused organization by providing services to our customers that help them do a better job of managing their people, processes, and overall strategy.
+Generative AI - Capability Evaluation
+Using AI, a study is performed identifying places where AI is commonly used to improve business processes.
+Office of Finance and Operations
+To transform the Department into a high-performance, customer-focused organization by providing services to our customers that help them do a better job of managing their people, processes, and overall strategy.
+Generative AI - Code Generation
+When prompted with descriptive paragraphs or specific queries, AI generates code snippets designed to assist with data analysis and data visualizations.
+Office of Finance and Operations
+To transform the Department into a high-performance, customer-focused organization by providing services to our customers that help them do a better job of managing their people, processes, and overall strategy.
+Generative AI - Text Generation
+Paragraphs are generated, assisting employees in project plan documentation, writing program communications and offerings, and identifying potential learning materials.
+Office of the General Counsel
+Provides legal assistance to ED, including the provision of legal advice, litigation, and legislative services, and is responsible for performing certain law-related management functions, including managing the Department’s ethics program.
+Generative AI - Capability Evaluation
+Approved AI tools undergo thorough testing to evaluate their capability to provide accurate, reliable, and comprehensive legal information, ensuring the tools meet established standards for precision and dependability.
+Office of the General Counsel
+Provides legal assistance to ED, including the provision of legal advice, litigation, and legislative services, and is responsible for performing certain law-related management functions, including managing the Department’s ethics program.
+Generative AI - Information Summarization
+To assist in the identification of legal and civil rights issues, AI is used to find and summarize publicly available legal cases involving AI.
+Office of the General Counsel
+Provides legal assistance to ED, including the provision of legal advice, litigation, and legislative services, and is responsible for performing certain law-related management functions, including managing the Department’s ethics program.
+Generative AI - Information Summarization
+AI is requested to provide summaries of the strengths and weaknesses of AI tools, and identify opportunities, risks, and benefits of AI usage.
+Office of the General Counsel
+Provides legal assistance to ED, including the provision of legal advice, litigation, and legislative services, and is responsible for performing certain law-related management functions, including managing the Department’s ethics program.
+Generative AI - Text Generation
+AI is used to gather information and analyze the structure of contracts, state and federal laws, and collective bargaining agreements. By processing and interpreting relevant legal texts, AI helps users understand complex legal frameworks and identify key elements within these documents.
+Office of Postsecondary Education
+Works to strengthen the capacity of colleges and universities to promote reform, innovation and improvement in postsecondary education, promote and expand access to postsecondary education and increase college completion rates for America’s students.
+Generative AI - Capability Evaluation
+AI systems are tested to assess the range and depth of information they can provide on Congressional Directives, ensuring the AI comprehensively covers relevant topics and delivers accurate and contextually appropriate insights.
+Office of Postsecondary Education
+Works to strengthen the capacity of colleges and universities to promote reform, innovation and improvement in postsecondary education, promote and expand access to postsecondary education and increase college completion rates for America’s students.
+Generative AI - Code Generation
+Using AI, the creation of Excel Macros and Complex Formulae is automated, expediting data analysis.
+Office of Postsecondary Education
+Works to strengthen the capacity of colleges and universities to promote reform, innovation and improvement in postsecondary education, promote and expand access to postsecondary education and increase college completion rates for America’s students.
+Generative AI - Idea Suggestion
+AI is used to research and synthesize topics for deeper discussion, brainstorm project ideas, and explore potential use cases for educators or department stakeholders.
+Office of Postsecondary Education
+Works to strengthen the capacity of colleges and universities to promote reform, innovation and improvement in postsecondary education, promote and expand access to postsecondary education and increase college completion rates for America’s students.
+Generative AI - Information Summarization
+Public AI tools are used to summarize publicly available documents form various federal sources, and identify sections of text relevant to specified topics.
+Office of Postsecondary Education
+Works to strengthen the capacity of colleges and universities to promote reform, innovation and improvement in postsecondary education, promote and expand access to postsecondary education and increase college completion rates for America’s students.
+Generative AI - Text Generation
+AI tools generate drafts of narratives, marketing materials, public webinar scripts, and engagement-related documents. These drafts streamline the creation of content by providing well-structured, relevant text that can be customized for specific communication and outreach needs.
+Office of Special Education and Rehabilitee Services
+To improve early childhood, educational, and employment outcomes and raise expectations for all people with disabilities, their families, their communities, and the nation.
+Generative AI - Capability Evaluation
+AI is tested to provide a review of the potential uses of AI and to provide a comprehensive understanding of the tools.
+Office of Special Education and Rehabilitee Services
+To improve early childhood, educational, and employment outcomes and raise expectations for all people with disabilities, their families, their communities, and the nation.
+Generative AI - Image Generation
+AI is prompted to create images, icons, and other visual aids representing the Team Values created by OSERS teams.
+Office of Special Education and Rehabilitee Services
+To improve early childhood, educational, and employment outcomes and raise expectations for all people with disabilities, their families, their communities, and the nation.
+Generative AI - Information Summarization
+AI tools provide summaries of accomplishment reports in scholarly and leadership fields.
+Office of Special Education and Rehabilitee Services
+To improve early childhood, educational, and employment outcomes and raise expectations for all people with disabilities, their families, their communities, and the nation.
+Generative AI - Information Summarization
+AI tools provide summaries of publicly available assistance materials, publicly shared materials, and public development programs.
+Office of Special Education and Rehabilitee Services
+To improve early childhood, educational, and employment outcomes and raise expectations for all people with disabilities, their families, their communities, and the nation.
+Generative AI - Code Generation
+AI is prompted to generate snippets of VBA code and complex formulas for Excel. These code snippets and formulas assist users in automating tasks, performing advanced data analysis, and enhancing spreadsheet functionality, saving time and improving efficiency.
+Office of Special Education and Rehabilitee Services
+To improve early childhood, educational, and employment outcomes and raise expectations for all people with disabilities, their families, their communities, and the nation.
+Generative AI - Code Generation
+AI tools provide examples of paragraphs to augment written materials including blog posts, presentation for conferences, newsletters, and talking points.
+Office of the Under Secretary
+Coordinates policies, programs, and activities related to Postsecondary Education (OPE), Career, Technical Education, Adult Education (OCTAE), The Office of the Chief Economist, and Federal Student Aid (FSA).
+Generative AI - Capability Evaluation
+AI is prompted to provide instances where AI technology can be used to assist in the higher education arena, helping to identify how AI policy should be shaped.
+Office of the Under Secretary
+Coordinates policies, programs, and activities related to Postsecondary Education (OPE), Career, Technical Education, Adult Education (OCTAE), The Office of the Chief Economist, and Federal Student Aid (FSA).
+Generative AI - Text Generation
+Written paragraphs are generated to assist in drafting public remarks, summarizing public hearings, and extract bullets from publicly available documentation.
+Agency Wide
+Functions as the federal steward for educational excellence, and advancing student achievement by providing leadership, policy guidance, technical assistance, and targeted funding to support students, teachers, institutions, and communities.
+MS Copilot - Document Creation & Editing
+Automate drafting, editing, and refining written materials for clarity and professionalism.
+Agency Wide
+Functions as the federal steward for educational excellence, and advancing student achievement by providing leadership, policy guidance, technical assistance, and targeted funding to support students, teachers, institutions, and communities.
+MS Copilot - Summarization
+Generate concise summaries of feedback, reports, transcripts, and analytics for quick understanding.
+Agency Wide
+Functions as the federal steward for educational excellence, and advancing student achievement by providing leadership, policy guidance, technical assistance, and targeted funding to support students, teachers, institutions, and communities.
+MS Copilot - Data Analysis & Insights
+Analyze communications and documents to extract actionable insights and synthesize complex information.
+Agency Wide
+Functions as the federal steward for educational excellence, and advancing student achievement by providing leadership, policy guidance, technical assistance, and targeted funding to support students, teachers, institutions, and communities.
+MS Copilot - Process & Workflow Automation
+Automate and streamline project planning, repetitive tasks, and documentation reviews to boost efficiency.
+Agency Wide
+Functions as the federal steward for educational excellence, and advancing student achievement by providing leadership, policy guidance, technical assistance, and targeted funding to support students, teachers, institutions, and communities.
+MS Copilot - Compliance & Risk Management
+Support auditing, regulatory compliance, and risk assessment through automated checks and documentation.
+Agency Wide
+Functions as the federal steward for educational excellence, and advancing student achievement by providing leadership, policy guidance, technical assistance, and targeted funding to support students, teachers, institutions, and communities.
+MS Copilot - Collaboration & Communication
+Facilitate team collaboration, organize feedback, and improve stakeholder communications.
+Agency Wide
+Functions as the federal steward for educational excellence, and advancing student achievement by providing leadership, policy guidance, technical assistance, and targeted funding to support students, teachers, institutions, and communities.
+MS Copilot - Research & Knowledge Management
+Conduct research, compare documents, and manage organizational knowledge for informed decision-making.
+Agency Wide
+Functions as the federal steward for educational excellence, and advancing student achievement by providing leadership, policy guidance, technical assistance, and targeted funding to support students, teachers, institutions, and communities.
+MS Copilot - Training & Education
+Enhance training delivery, create educational materials, and support user learning on AI tools.
+Agency Wide
+Functions as the federal steward for educational excellence, and advancing student achievement by providing leadership, policy guidance, technical assistance, and targeted funding to support students, teachers, institutions, and communities.
+MS Copilot - Project & Task Management
+Manage schedules, track progress, and coordinate tasks to ensure timely project completion.
+Agency Wide
+Functions as the federal steward for educational excellence, and advancing student achievement by providing leadership, policy guidance, technical assistance, and targeted funding to support students, teachers, institutions, and communities.
+MS Copilot - Content Organization & Archiving
+Organize, archive, and provide easy access to documents and digital content.
+Agency Wide
+Functions as the federal steward for educational excellence, and advancing student achievement by providing leadership, policy guidance, technical assistance, and targeted funding to support students, teachers, institutions, and communities.
+MS Copilot - Grant & Program Management
+Assist with grant eligibility, monitoring, and process efficiency for program management.
+Agency Wide
+Functions as the federal steward for educational excellence, and advancing student achievement by providing leadership, policy guidance, technical assistance, and targeted funding to support students, teachers, institutions, and communities.
+MS Copilot - Security & Privacy
+Review and standardize security and privacy documentation, and educate users on best practices.
+Agency Wide
+Functions as the federal steward for educational excellence, and advancing student achievement by providing leadership, policy guidance, technical assistance, and targeted funding to support students, teachers, institutions, and communities.
+MS Copilot - Business Process Improvement
+Drive process improvements, conduct impact analysis, and support continuous business optimization.
+Agency Wide
+Functions as the federal steward for educational excellence, and advancing student achievement by providing leadership, policy guidance, technical assistance, and targeted funding to support students, teachers, institutions, and communities.
+MS Copilot - Technical Assistance & Code Generation
+Generate and refine code for statistical and programming tasks to support technical operations.
+Agency Wide
+Functions as the federal steward for educational excellence, and advancing student achievement by providing leadership, policy guidance, technical assistance, and targeted funding to support students, teachers, institutions, and communities.
+MS Copilot - Creative & Productive Work Enhancement
+Boost creativity and productivity by assisting with idea generation and optimizing work outputs.
+You can also
+download the Use Cases in Excel format
+.
+Tags
+Technology
+Office of the Chief Information Officer (OCIO)
+Page Last Reviewed:
+February 10, 2026
+Return to top
+Pay for College
+Fill out the FAFSA
+529 Plans
+Repay Your Loans
+1098 Tax Forms
+Educational Resources
+504 Plans
+FERPA
+IEPs (Individualized Education Program)
+Teaching Resources
+Professional Resources
+School Safety and Security
+Teaching Abroad
+File a Report
+Report Fraud, Waste, or Abuse
+Report a Civil Rights Violation
+Student Privacy Complaint Forms
+About Us
+Contact Us
+ED Offices
+Overview of ED
+Frequently Asked Questions (FAQs)
+Jobs at ED
+News
+Press Releases
+Homeroom Blog
+Subscriptions
+Research
+Data
+Education Research
+What Works Clearinghouse
+Site Notices and Privacy Policies
+ED Archive
+U.S. Department of Education
+www.ed.gov
+an official website of the Department of Education
+Secondary Footer Menu
+About Dept of Education
+Accessibility Support
+No FEAR Act data
+Office of the Inspector General
+Performance reports
+FOIA
+Privacy Policy
+ED Archive
+Looking for U.S. government information and services?
+Visit USA.gov
