@@ -13,31 +13,31 @@ Agency AI governance pages under watch. `last changed` is the most recent date t
 | treasury-inventory-csv | TREAS | [Treasury agency-hosted inventory CSV](https://home.treasury.gov/system/files/136/Treasury-AI-Use-Case-Inventory.csv) | 2026-07-09 | ok | direct |
 | va-compliance-plan | VA | [VA Compliance Plan for M-25-21 (waiver-or-removal policy)](https://department.va.gov/ai/department-of-veterans-affairs-compliance-plan-for-omb-memorandum-m-25-21/) | 2026-07-09 | ok | direct |
 | va-hi-strategy | VA | [VA High-Impact AI Strategy (100% risk-standard commitment)](https://department.va.gov/ai/building-the-future-vas-strategy-for-adopting-high-impact-artificial-intelligence-to-improve-services-for-veterans/) | 2026-07-09 | ok | direct |
-| vaoig-compliance-plan | VA-OIG | [VA OIG AI Compliance Plan 2025 (PDF)](https://www.vaoig.gov/sites/default/files/document/2025-09/VA%20OIG%20AI%20Compliance%20Plan%202025.pdf) | (no capture yet) | unreachable ×8 | — |
+| vaoig-compliance-plan | VA-OIG | [VA OIG AI Compliance Plan 2025 (PDF)](https://www.vaoig.gov/sites/default/files/document/2025-09/VA%20OIG%20AI%20Compliance%20Plan%202025.pdf) | (no capture yet) | unreachable ×9 | — |
 | doj-ai-hub | DOJ | [DOJ Artificial Intelligence hub page](https://www.justice.gov/ai) | 2026-07-09 | ok | direct |
 | doj-inventory | DOJ | [DOJ AI Inventory page (release protocol and consolidation notes)](https://www.justice.gov/ai/ai-inventory) | 2026-07-09 | ok | direct |
-| doe-compliance-plan | DOE | [DOE AI Compliance Plan landing page](https://www.energy.gov/cio/articles/department-energy-doe-artificial-intelligence-ai-compliance-plan) | 2026-07-13 | ok | direct |
-| doe-inventory | DOE | [DOE AI Use Case Inventory page](https://www.energy.gov/cet/doe-ai-use-case-inventory) | 2026-07-13 | ok | direct |
-| hhs-inventory-csv | HHS | [HHS FY25 AI Use Case Inventory CSV](https://www.hhs.gov/sites/default/files/hhs-ai-use-case-inventory-fy25.csv) | 2026-07-09 | unreachable ×4 | wayback (2026-05-11 snapshot) |
+| doe-compliance-plan | DOE | [DOE AI Compliance Plan landing page](https://www.energy.gov/cio/articles/department-energy-doe-artificial-intelligence-ai-compliance-plan) | 2026-07-20 | ok | direct |
+| doe-inventory | DOE | [DOE AI Use Case Inventory page](https://www.energy.gov/cet/doe-ai-use-case-inventory) | 2026-07-20 | ok | direct |
+| hhs-inventory-csv | HHS | [HHS FY25 AI Use Case Inventory CSV](https://www.hhs.gov/sites/default/files/hhs-ai-use-case-inventory-fy25.csv) | 2026-07-09 | ok | wayback (2026-05-11 snapshot) |
 | csosa-compliance-plan | CSOSA | [CSOSA M-25-21 Compliance Plan (PDF, includes OMB plan guidance)](https://www.csosa.gov/wp-content/uploads/2025/10/csosa-m-25-21-compliance-plan-Issued.pdf) | 2026-07-09 | ok | direct |
-| usda-compliance-plan | USDA | [USDA AI Compliance Plan page](https://www.usda.gov/ai/compliance) | 2026-07-09 | unreachable ×1 | wayback (2026-07-09 snapshot) |
+| usda-compliance-plan | USDA | [USDA AI Compliance Plan page](https://www.usda.gov/ai/compliance) | 2026-07-09 | unreachable ×2 | wayback (2026-07-09 snapshot) |
 | usda-inventory | USDA | [USDA AI Inventory page](https://www.usda.gov/ai/inventory) | 2026-07-13 | ok | wayback (2026-07-09 snapshot) |
-| commerce-ai-hub | DOC | [Commerce AI page](https://www.commerce.gov/ai) | 2026-07-09 | ok | wayback (2026-05-07 snapshot) |
+| commerce-ai-hub | DOC | [Commerce AI page](https://www.commerce.gov/ai) | 2026-07-20 | ok | wayback (2026-07-13 snapshot) |
 | commerce-inventory | DOC | [Commerce AI Use Case Inventory (public reporting CSV, manual capture)](https://www.commerce.gov/about/policies/artificial-intelligence-use-cases-inventory) | 2026-07-09 | manual | manual file |
 | commerce-cots-inventory | DOC | [Commerce COTS AI Use Case Inventory (public reporting CSV, manual capture)](https://www.commerce.gov/about/policies/artificial-intelligence-use-cases-inventory) | (no capture yet) | manual | — |
-| ed-ai-guidance | ED | [Education AI guidance page (posted off-convention path)](https://www.ed.gov/about/ed-overview/artificial-intelligence-ai-guidance) | 2026-07-09 | ok | direct |
+| ed-ai-guidance | ED | [Education AI guidance page (posted off-convention path)](https://www.ed.gov/about/ed-overview/artificial-intelligence-ai-guidance) | 2026-07-20 | ok | wayback (2026-07-11 snapshot) |
 | hud-ai-hub | HUD | [HUD AI page](https://www.hud.gov/ai) | 2026-07-09 | ok | direct |
 | doi-ai-hub | DOI | [Interior AI page](https://www.doi.gov/ai) | 2026-07-09 | ok | direct |
 | dol-ai-hub | DOL | [Labor AI page](https://www.dol.gov/ai) | 2026-07-09 | ok | wayback (2026-07-09 snapshot) |
-| dol-inventory | DOL | [DOL AI Use Case Inventory page](https://www.dol.gov/agencies/oasam/centers-offices/ocio/ai-inventory) | 2026-07-09 | ok | wayback (2026-07-09 snapshot) |
+| dol-inventory | DOL | [DOL AI Use Case Inventory page](https://www.dol.gov/agencies/oasam/centers-offices/ocio/ai-inventory) | 2026-07-09 | unreachable ×1 | wayback (2026-07-09 snapshot) |
 | dot-ai-hub | DOT | [DOT AI Use Case Alignment / Strategy (manual capture)](https://www.transportation.gov/AI) | 2026-07-09 | manual | manual file |
 | gsa-ai-hub | GSA | [GSA Artificial Intelligence page](https://www.gsa.gov/artificial-intelligence) | 2026-07-13 | ok | direct |
-| nasa-ai-hub | NASA | [NASA Artificial Intelligence page (posted off-convention path)](https://www.nasa.gov/artificial-intelligence/) | 2026-07-13 | ok | direct |
-| nsf-ai-policy | NSF | [NSF AI policies page (posted off-convention path)](https://www.nsf.gov/policies/ai) | 2026-07-09 | ok | direct |
-| nrc-ai-hub | NRC | [NRC AI page](https://www.nrc.gov/ai) | 2026-07-09 | ok | direct |
-| opm-ai-hub | OPM | [OPM AI page](https://www.opm.gov/ai) | 2026-07-09 | ok | direct |
+| nasa-ai-hub | NASA | [NASA Artificial Intelligence page (posted off-convention path)](https://www.nasa.gov/artificial-intelligence/) | 2026-07-20 | ok | direct |
+| nsf-ai-policy | NSF | [NSF AI policies page (posted off-convention path)](https://www.nsf.gov/policies/ai) | 2026-07-20 | ok | direct |
+| nrc-ai-hub | NRC | [NRC AI page](https://www.nrc.gov/ai) | 2026-07-20 | ok | direct |
+| opm-ai-hub | OPM | [OPM AI page](https://www.opm.gov/ai) | 2026-07-20 | ok | direct |
 | sba-m2410-plan | SBA | [SBA AI Compliance Plan document page (M-24-10 era; no M-25-21 plan located)](https://www.sba.gov/document/report-artificial-intelligence-compliance-plan-omb-memorandum-m-24-10) | 2026-07-13 | ok | direct |
-| ssa-ai-hub | SSA | [SSA AI page](https://www.ssa.gov/ai) | 2026-07-09 | unreachable ×2 | wayback (2026-05-14 snapshot) |
+| ssa-ai-hub | SSA | [SSA AI page](https://www.ssa.gov/ai) | 2026-07-09 | unreachable ×3 | wayback (2026-05-14 snapshot) |
 | epa-compliance-plan | EPA | [EPA AI Compliance Plan page (posted off-convention path)](https://www.epa.gov/data/ai-compliance-plan) | 2026-07-09 | ok | direct |
 | dhs-full-inventory | DHS | [DHS Full AI Use Case Inventory spreadsheet (manual capture)](https://www.dhs.gov/publication/ai-use-case-inventory-library) | 2026-07-09 | manual | manual file |
 | ssa-inventory-csv | SSA | [SSA Individual AI Inventory CSV (manual capture)](https://www.ssa.gov/ai) | 2026-07-09 | manual | manual file |
