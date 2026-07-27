@@ -1,6 +1,6 @@
 {
   "commerce-ai-hub": {
-    "fail_streak": 0,
+    "fail_streak": 1,
     "last_changed": "2026-07-20",
     "manual": false,
     "source": "wayback:20260713154532"
@@ -26,20 +26,20 @@
     "manual": true
   },
   "dhs-inventory": {
-    "fail_streak": 0,
+    "fail_streak": 1,
     "last_changed": "2026-07-09",
     "manual": false,
     "source": "wayback:20260709185151"
   },
   "doe-compliance-plan": {
     "fail_streak": 0,
-    "last_changed": "2026-07-26",
+    "last_changed": "2026-07-27",
     "manual": false,
     "source": "direct"
   },
   "doe-inventory": {
     "fail_streak": 0,
-    "last_changed": "2026-07-26",
+    "last_changed": "2026-07-27",
     "manual": false,
     "source": "direct"
   },
@@ -62,13 +62,13 @@
     "source": "direct"
   },
   "dol-ai-hub": {
-    "fail_streak": 0,
+    "fail_streak": 1,
     "last_changed": "2026-07-09",
     "manual": false,
     "source": "wayback:20260709185645"
   },
   "dol-inventory": {
-    "fail_streak": 2,
+    "fail_streak": 3,
     "last_changed": "2026-07-09",
     "manual": false,
     "source": "wayback:20260709185701"
@@ -100,10 +100,10 @@
     "fail_streak": 0,
     "last_changed": "2026-07-26",
     "manual": false,
-    "source": "wayback:20260723011609"
+    "source": "direct"
   },
   "hhs-inventory-csv": {
-    "fail_streak": 1,
+    "fail_streak": 2,
     "last_changed": "2026-07-09",
     "manual": false,
     "source": "wayback:20260511112141"
@@ -128,7 +128,7 @@
   },
   "nasa-ai-hub": {
     "fail_streak": 0,
-    "last_changed": "2026-07-26",
+    "last_changed": "2026-07-27",
     "manual": false,
     "source": "direct"
   },
@@ -140,7 +140,7 @@
   },
   "nrc-ai-hub": {
     "fail_streak": 0,
-    "last_changed": "2026-07-20",
+    "last_changed": "2026-07-27",
     "manual": false,
     "source": "direct"
   },
@@ -163,7 +163,7 @@
     "source": "direct"
   },
   "ssa-ai-hub": {
-    "fail_streak": 4,
+    "fail_streak": 5,
     "last_changed": "2026-07-09",
     "manual": false,
     "source": "wayback:20260514101118"
@@ -175,9 +175,9 @@
   },
   "state-inventory": {
     "fail_streak": 0,
-    "last_changed": "2026-07-26",
+    "last_changed": "2026-07-27",
     "manual": false,
-    "source": "wayback:20260517142638"
+    "source": "direct"
   },
   "treasury-inventory-csv": {
     "fail_streak": 0,
@@ -186,13 +186,13 @@
     "source": "direct"
   },
   "usda-compliance-plan": {
-    "fail_streak": 0,
+    "fail_streak": 1,
     "last_changed": "2026-07-09",
     "manual": false,
     "source": "wayback:20260709174031"
   },
   "usda-inventory": {
-    "fail_streak": 0,
+    "fail_streak": 1,
     "last_changed": "2026-07-13",
     "manual": false,
     "source": "wayback:20260709192711"
@@ -210,7 +210,7 @@
     "source": "direct"
   },
   "vaoig-compliance-plan": {
-    "fail_streak": 10,
+    "fail_streak": 11,
     "manual": false
   }
 }
