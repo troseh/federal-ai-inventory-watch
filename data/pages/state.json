@@ -26,20 +26,20 @@
     "manual": true
   },
   "dhs-inventory": {
-    "fail_streak": 1,
+    "fail_streak": 0,
     "last_changed": "2026-08-10",
     "manual": false,
     "source": "wayback:20260727154046"
   },
   "doe-compliance-plan": {
     "fail_streak": 0,
-    "last_changed": "2026-08-17",
+    "last_changed": "2026-08-24",
     "manual": false,
     "source": "direct"
   },
   "doe-inventory": {
     "fail_streak": 0,
-    "last_changed": "2026-08-17",
+    "last_changed": "2026-08-24",
     "manual": false,
     "source": "direct"
   },
@@ -62,13 +62,13 @@
     "source": "direct"
   },
   "dol-ai-hub": {
-    "fail_streak": 0,
+    "fail_streak": 1,
     "last_changed": "2026-07-09",
     "manual": false,
     "source": "wayback:20260709185645"
   },
   "dol-inventory": {
-    "fail_streak": 0,
+    "fail_streak": 1,
     "last_changed": "2026-08-17",
     "manual": false,
     "source": "wayback:20260727154347"
@@ -103,7 +103,7 @@
     "source": "direct"
   },
   "hhs-inventory-csv": {
-    "fail_streak": 1,
+    "fail_streak": 2,
     "last_changed": "2026-07-09",
     "manual": false,
     "source": "wayback:20260511112141"
@@ -122,13 +122,13 @@
   },
   "nara-compliance-plan": {
     "fail_streak": 0,
-    "last_changed": "2026-07-09",
+    "last_changed": "2026-08-24",
     "manual": false,
     "source": "direct"
   },
   "nasa-ai-hub": {
     "fail_streak": 0,
-    "last_changed": "2026-08-17",
+    "last_changed": "2026-08-24",
     "manual": false,
     "source": "direct"
   },
@@ -163,7 +163,7 @@
     "source": "direct"
   },
   "ssa-ai-hub": {
-    "fail_streak": 0,
+    "fail_streak": 1,
     "last_changed": "2026-08-17",
     "manual": false,
     "source": "wayback:20260730203317"
@@ -186,7 +186,7 @@
     "source": "direct"
   },
   "usda-compliance-plan": {
-    "fail_streak": 0,
+    "fail_streak": 1,
     "last_changed": "2026-07-09",
     "manual": false,
     "source": "wayback:20260709174031"
@@ -210,7 +210,7 @@
     "source": "direct"
   },
   "vaoig-compliance-plan": {
-    "fail_streak": 15,
+    "fail_streak": 16,
     "manual": false
   }
 }
