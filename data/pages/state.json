@@ -1,6 +1,6 @@
 {
   "commerce-ai-hub": {
-    "fail_streak": 1,
+    "fail_streak": 0,
     "last_changed": "2026-07-20",
     "manual": false,
     "source": "wayback:20260713154532"
@@ -26,20 +26,20 @@
     "manual": true
   },
   "dhs-inventory": {
-    "fail_streak": 0,
+    "fail_streak": 1,
     "last_changed": "2026-09-14",
     "manual": false,
     "source": "wayback:20260907180432"
   },
   "doe-compliance-plan": {
     "fail_streak": 0,
-    "last_changed": "2026-09-14",
+    "last_changed": "2026-09-21",
     "manual": false,
     "source": "direct"
   },
   "doe-inventory": {
     "fail_streak": 0,
-    "last_changed": "2026-09-14",
+    "last_changed": "2026-09-21",
     "manual": false,
     "source": "direct"
   },
@@ -68,10 +68,10 @@
     "source": "wayback:20260824135042"
   },
   "dol-inventory": {
-    "fail_streak": 1,
-    "last_changed": "2026-09-07",
+    "fail_streak": 0,
+    "last_changed": "2026-09-21",
     "manual": false,
-    "source": "wayback:20260903135651"
+    "source": "wayback:20260914182342"
   },
   "dot-ai-hub": {
     "fail_streak": 0,
@@ -86,7 +86,7 @@
   },
   "eeoc-compliance-plan": {
     "fail_streak": 0,
-    "last_changed": "2026-07-09",
+    "last_changed": "2026-09-21",
     "manual": false,
     "source": "direct"
   },
@@ -103,7 +103,7 @@
     "source": "direct"
   },
   "hhs-inventory-csv": {
-    "fail_streak": 0,
+    "fail_streak": 1,
     "last_changed": "2026-09-14",
     "manual": false,
     "source": "wayback:20260903135523"
@@ -128,7 +128,7 @@
   },
   "nasa-ai-hub": {
     "fail_streak": 0,
-    "last_changed": "2026-09-14",
+    "last_changed": "2026-09-21",
     "manual": false,
     "source": "direct"
   },
@@ -139,22 +139,22 @@
     "source": "direct"
   },
   "nrc-ai-hub": {
-    "fail_streak": 0,
+    "fail_streak": 1,
     "last_changed": "2026-09-14",
     "manual": false,
     "source": "direct"
   },
   "nsf-ai-policy": {
     "fail_streak": 0,
-    "last_changed": "2026-07-26",
+    "last_changed": "2026-09-21",
     "manual": false,
     "source": "direct"
   },
   "opm-ai-hub": {
     "fail_streak": 0,
-    "last_changed": "2026-09-14",
+    "last_changed": "2026-09-21",
     "manual": false,
-    "source": "wayback:20260822092236"
+    "source": "direct"
   },
   "sba-m2410-plan": {
     "fail_streak": 0,
@@ -205,12 +205,12 @@
   },
   "va-hi-strategy": {
     "fail_streak": 0,
-    "last_changed": "2026-07-09",
+    "last_changed": "2026-09-21",
     "manual": false,
     "source": "direct"
   },
   "vaoig-compliance-plan": {
-    "fail_streak": 19,
+    "fail_streak": 20,
     "manual": false
   }
 }
