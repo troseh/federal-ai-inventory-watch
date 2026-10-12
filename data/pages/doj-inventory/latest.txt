@@ -1,4 +1,4 @@
-Department of Justice | AI Inventory
+Department of Justice | AI Use Case Inventory
 Skip to main content
 An official website of the United States government
 Here's how you know
@@ -60,23 +60,26 @@ Contact Us
 Search
 Breadcrumb
 Justice.gov
-Artificial Intelligence
-AI Inventory
-AI Inventory
+Super Intelligence
+AI Use Case Inventory
+AI Use Case Inventory
 Share
 Facebook
 X
 LinkedIn
 Email
 Introduction
+The
+Advancing American AI Act
+, enacted as part of the National Defense Authorization Act for Fiscal Year 2023;
 Executive Order (EO) 13960
 ,
 Promoting the Use of Trustworthy Artificial Intelligence in the Federal Government
-(Dec. 3, 2020); and
+; and
 OMB Memorandum M-25-21
 ,
 Accelerating Federal Use of AI through Innovation, Governance, and Public Trust
-(Apr. 3, 2025) (M-25-21) required federal agencies to report on their use of AI by conducting an annual inventory of their AI use cases. Each federal agency must: (1) inventory its AI use cases; (2) submit an agency inventory to Office of Management and Budget (OMB); and (3) post the publicly releasable AI uses on the agency’s website. The spreadsheet reflects the consolidated 2025 AI Use Case Inventory for the Department of Justice (DOJ).
+(M-25-21) required federal agencies to report on their use of AI by conducting an annual inventory of their AI use cases. Each federal agency must: (1) inventory its AI use cases; (2) submit an agency inventory to Office of Management and Budget (OMB); and (3) post the publicly releasable AI uses on the agency’s website. The spreadsheet reflects the consolidated 2025 AI Use Case Inventory for the Department of Justice (DOJ).
 Purpose and Result
 The 2025 AI Use Case Inventory is a repository of DOJ’s AI uses. All of the Department’s components contribute to this effort. The inventory supports U.S. Government (USG) AI initiatives, while also furthering DOJ’s AI goals to advance governance, accelerate innovation, and ensure public trust. The 2025 AI Use Case Inventory includes AI use cases in all stages of development, including pre-deployment, pilot, deployed, or retired. The inventory facilitates collaboration and unifies efforts by providing DOJ components with a common understanding of how AI is being used across DOJ, which expedites use and decreases overall costs to DOJ and the entire USG.
 The 2025 AI Use Case Inventory includes 315 entries, a 30.7% increase from the 2024 inventory. This reflects increasing collaboration among and within components to accelerate AI adoption and innovation.
@@ -95,7 +98,7 @@ DOJ is committed to fostering public trust through a comprehensive public releas
 https://www.justice.gov/opcl/doj-privacy-impact-assessments
 .
 Download the AI Inventory File
-Updated January 30, 2026
+Updated October 7, 2026
 U.S. Department of Justice
 950 Pennsylvania Avenue NW
 Washington DC 20530

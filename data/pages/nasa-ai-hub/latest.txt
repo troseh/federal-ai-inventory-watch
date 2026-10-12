@@ -1,4 +1,4 @@
-Artificial Intelligence - NASA
+Super Intelligence - NASA
 Explore
 Search
 News & Events
@@ -53,18 +53,18 @@ News & Events
 Multimedia
 NASA+
 Featured
-2 min read
-NASA Opens Applications for Next Class of Flight Directors
-article
-3 days ago
 4 min read
-NASA Adds New Science Investigations for Moon Base
+NASA Sets Coverage for SpaceX 35th Station Resupply Launch, Arrival
 article
 5 days ago
+5 min read
+NASA’s SPHEREx Telescope Sees Menagerie of Brown Dwarfs
+article
+4 days ago
 3 min read
 What’s Up: October 2026 Skywatching Tips from NASA
 article
-4 days ago
+2 weeks ago
 Back
 Missions
 Search All NASA Missions
@@ -197,139 +197,139 @@ STEM Multimedia
 NASA Brand & Usage Guidelines
 Featured
 5 min read
-Suspected Second-generation Planet Solves NASA Hubble Cold Case
-article
-5 hours ago
-6 min read
-NASA’s Webb Provides Crash Course on Planet-Shattering Collisions
+Webb Measures Distance to Farthest Fast Radio Burst, Suggesting Origin
 article
 4 days ago
 2 min read
-NASA’s X-59 Completes Record Six Flights in One Week
+NASA’s SSPICY Mission to Demonstrate In-Space Inspection Technologies
 article
-3 days ago
+4 days ago
+5 min read
+NASA’s SPHEREx Telescope Sees Menagerie of Brown Dwarfs
+article
+4 days ago
 Highlights
 2 min read
 Help NASA Find Practical Ways to Monitor Astronaut Body Temperature in Low Earth Orbit
 article
-5 days ago
+2 weeks ago
 3 min read
 NASA Opens 2027 Human Lander Challenge for Lunar Communications
 article
-6 days ago
+2 weeks ago
 3 min read
 Researchers: Help NASA Prevent Blood Clot Formation in Space
 article
-1 week ago
+2 weeks ago
 Highlights
 3 min read
-Moon-Like Madagascar
+Antarctic Sea Ice Grows to Its 2026 Maximum
 article
-16 hours ago
+17 hours ago
 2 min read
-Amendment 77: New Opportunity: A.18 Geosphere
-article
-3 days ago
-3 min read
-Rains Swamp the Gandak River
+Floodwaters Overwhelm Thailand
 article
 4 days ago
-Highlights
-2 min read
-10 Things: Movie Night
-article
-4 days ago
-3 min read
-What’s Up: October 2026 Skywatching Tips from NASA
-article
-4 days ago
-2 min read
-October’s Night Sky Notes: Spooky Stargazing
-article
-7 days ago
-Highlights
-5 min read
-Suspected Second-generation Planet Solves NASA Hubble Cold Case
-article
-5 hours ago
 6 min read
-NASA’s Webb Provides Crash Course on Planet-Shattering Collisions
-article
-4 days ago
-2 min read
-Help Overlap Zoo Reveal Cosmic Dust
+Fighting Drought in Texas Cotton Country
 article
 5 days ago
 Highlights
-5 min read
-Suspected Second-generation Planet Solves NASA Hubble Cold Case
+1 min read
+Artemis II Preliminary Lunar Science Report
 article
-5 hours ago
+5 days ago
 3 min read
-Moon-Like Madagascar
+NASA’s Curiosity Rover Catches Stunning Martian Dawn
 article
-16 hours ago
+6 days ago
 2 min read
-Amendment 77: New Opportunity: A.18 Geosphere
+10 Things: Movie Night
 article
-3 days ago
+2 weeks ago
+Highlights
+5 min read
+NASA’s SPHEREx Telescope Sees Menagerie of Brown Dwarfs
+article
+4 days ago
+5 min read
+Webb Measures Distance to Farthest Fast Radio Burst, Suggesting Origin
+article
+4 days ago
+3 min read
+NASA Advances LISA Mission Contributions With New Test Telescope
+article
+4 days ago
+Highlights
+3 min read
+NASA’s SpaceX CRS-35 Mission to Launch Health Research
+article
+3 hours ago
+3 min read
+Antarctic Sea Ice Grows to Its 2026 Maximum
+article
+17 hours ago
+5 min read
+NASA’s SPHEREx Telescope Sees Menagerie of Brown Dwarfs
+article
+4 days ago
 Highlights
 2 min read
 NASA Model Wing Lights Up During First Pressure Sensitive Paint Tests
 article
-3 days ago
+1 week ago
 2 min read
 Dr. Natasha Schatzman Receives Vertical Flight Society (VFS) Award
 article
-4 days ago
+2 weeks ago
 10 min read
 2026-2027 DWU: Middle School Design Challenge
 article
-1 week ago
+2 weeks ago
 Highlights
 3 min read
 Rains Swamp the Gandak River
 article
-4 days ago
+2 weeks ago
 1 min read
 Space Reactors Division
 article
-4 days ago
+2 weeks ago
 4 min read
 Powerful Storms Continue to Prowl the Pacific
 article
-6 days ago
+2 weeks ago
 Featured
+4 min read
+NASA Demonstrates Next-Generation Heat Shield Technologies
+article
+3 days ago
 8 min read
 NASA Selects Projects to Engage Communities Across the US with NASA Science
 article
-3 days ago
-2 min read
-NASA Opens Applications for Second Season of ORBIT Student Challenge
-article
-6 days ago
-2 min read
-NASA Astronaut to Answer Questions from New Hampshire Students
+1 week ago
+3 min read
+TechRise (for 6–12 graders)
 article
 2 weeks ago
 Featured
-3 min read
-NASA Testing Aims at Supercooled Large Droplet Aviation Safety
+4 min read
+NASA, Energy Department Advance New Era of Nuclear-Powered Exploration
 article
-5 hours ago
+4 days ago
 2 min read
 NASA Opens Applications for Next Class of Flight Directors
 article
-3 days ago
+1 week ago
 2 min read
-Help Overlap Zoo Reveal Cosmic Dust
+NASA Releases Artemis II Lunar Science Data, Images
 article
 5 days ago
 Highlights
 11 min read
 La NASA anuncia la cobertura de la misión lunar Artemis II
 article
-6 months ago
+7 months ago
 15 min read
 Agenda diaria de la misión a la Luna de Artemis II de la NASA
 article
@@ -339,40 +339,41 @@ La NASA refuerza Artemis: añade una misión y perfecciona su arquitectura gener
 article
 7 months ago
 Artificial Intelligence
-Artificial Intelligence
-What is AI?
-AI Ethics
-AI Inventory
-AI for Science
-Artificial Intelligence
-Safely using advanced AI tools to support missions and research projects across the agency.
-At NASA, use of artificial intelligence has a role in our missions, exploration of the Moon and Mars, weather, mission planning, and more.
-Artificial intelligence helps us support missions and research projects across the agency, analyze data to reveal trends and patterns, and develop systems capable of supporting spacecraft and aircraft autonomously.
-NASA’s researchers and engineers have safely used artificial intelligence for decades and are currently leveraging emerging AI technology to best serve our missions – from sifting through satellite imagery, developing technology for autonomous vehicles, and searching for planets outside our solar system using our deep space telescopes, and more.
-The agency is also looking at external partnerships with AI leaders in the private sector and the science, technology, engineering, and mathematics community to advance cutting-edge development for the growing space economy and commercial space.
+Super Intelligence
+What is SI?
+SI Ethics
+SI Inventory
+SI for Science
+Super Intelligence
+Safely using advanced SI tools to support missions and research projects across the agency.
+Per the Sept. 29, 2026, Executive Order 14434: Inaugurating the Era of Super Intelligence, NASA is working to update its communications to incorporate the term “super intelligence” as directed.
+At NASA, use of super intelligence has a role in our missions, exploration of the Moon and Mars, weather, mission planning, and more.
+Super intelligence helps us support missions and research projects across the agency, analyze data to reveal trends and patterns, and develop systems capable of supporting spacecraft and aircraft autonomously.
+NASA’s researchers and engineers have safely used super intelligence for decades and are currently leveraging emerging SI technology to best serve our missions – from sifting through satellite imagery, developing technology for autonomous vehicles, and searching for planets outside our solar system using our deep space telescopes, and more.
+The agency is also looking at external partnerships with SI leaders in the private sector and the science, technology, engineering, and mathematics community to advance cutting-edge development for the growing space economy and commercial space.
 Exploring Mars
 Supporting Disaster Relief
 Improving Commercial Flight
 Autonomous Driving on Mars
 NASA explores Mars as part of our ongoing efforts to send humans to explore farther and farther into the solar system.
-AI allows spacecraft to autonomously make decisions and keep working even when they’re out of contact with Earth. 88% of the driving done by Perseverance rover has been autonomous. The rover acquires images of the terrain with its cameras, analyzes these images with an onboard computer to identify hazards, then navigates around these obstacles, driving on terrain that no human has ever seen.
+SI allows spacecraft to autonomously make decisions and keep working even when they’re out of contact with Earth. 88% of the driving done by Perseverance rover has been autonomous. The rover acquires images of the terrain with its cameras, analyzes these images with an onboard computer to identify hazards, then navigates around these obstacles, driving on terrain that no human has ever seen.
 Read More
 This composite image, acquired June 29 and annotated at JPL using visualization software, shows Perseverance’s path through a dense section of boulders. The pale blue line indicates the course of the center of the front wheel hubs, while darker blue lines show the paths of the rover’s six wheels.
 Credit: NASA/JPL-Caltech
 Keeping Americans Safe
-By analyzing satellite data using artificial intelligence tools, NASA can provide support to disaster relief efforts, protecting lives and property.
-Applying artificial intelligence tools to existing NASA satellite data and imagery can open doors to new discoveries and reveal important trends. Using AI with NASA satellite images, a study detected the number of blue tarps on rooftops in the aftermath of hurricanes as a way of characterizing the severity of damage in local communities.
+By analyzing satellite data using super intelligence tools, NASA can provide support to disaster relief efforts, protecting lives and property.
+Applying super intelligence tools to existing NASA satellite data and imagery can open doors to new discoveries and reveal important trends. Using SI with NASA satellite images, a study detected the number of blue tarps on rooftops in the aftermath of hurricanes as a way of characterizing the severity of damage in local communities.
 Read More
 An aerial photograph shows damaged roofs from Hurricane Maria in 2017 in Barrio Obrero, Puerto Rico. In the wake of the hurricane, the Federal Emergency Management Agency (FEMA) and United States Army Corps of Engineers distributed 126,000 blue tarps and nearly 60,000 temporary blue roofs to people awaiting repairs on damaged homes.
 NASA
 Intelligent Aircraft Re-Rerouting
-As part of our efforts to improve the National Airspace, NASA is using AI to streamline commercial flight routes, increasing safety and efficiency.
+As part of our efforts to improve the National Airspace, NASA is using SI to streamline commercial flight routes, increasing safety and efficiency.
 Digital Information Platform (DIP) is a software system developed to autonomously develop safe, fuel efficient routes for commercial flights. The software supports flight controllers while keeping pilots and passengers safe.
 Read More
 This image shows an aviation version of a smartphone navigation app that makes suggestions for an aircraft to fly an alternate, more efficient route. The new trajectories are based on information available from NASA’s Digital Information Platform and processed by the Collaborative Departure Digital Rerouting tool.
 NASA
-Latest Artificial Intelligence News
-More AI News
+Latest Super Intelligence News
+More SI News
 Blog
 3 Min Read
 NASA Field-Tests AI Fleet Capability for Science, Exploration
@@ -387,21 +388,22 @@ AI at NASA
 4 Min Read
 NASA-developed AI Could Help Track Harmful Algae
 Article
-Learn More about AI at NASA
-What is Artificial Intelligence?
+Learn More about SI at NASA
+What is Super Intelligence?
 Learn More
-NASA's AI Inventory
+NASA's SI Inventory
 Read More
-NASA's AI Ethics
+NASA's SI Ethics
 Read More
-AI in the Federal Government:
+SI in the Federal Government:
+Inaugurating the Era of Super Intelligence: Executive Order 14434
 Removing Barriers to American Leadership in Artificial Intelligence: Executive Order 14179
 NIST AI Risk Management Framework
 Accelerating Federal Use of AI through Innovation, Governance, and Public Trust M-25-21
 Driving Efficient Acquisition of Artificial Intelligence in Government M 25-22
 Leadership
 Kevin Murphy
-NASA Chief Artificial Intelligence Officer (Acting)
+NASA Chief Data and Super Intelligence Officer (Acting)
 National Aeronautics and Space Administration
 NASA explores the unknown in air and space, innovates for the benefit of humanity, and inspires the world through discovery.
 About NASA's Mission
@@ -437,7 +439,7 @@ Agency Financial Reports
 Contact NASA
 Accessibility
 Page Last Updated:
-Sep 10, 2026
+Oct 06, 2026
 Page Editor:
 Tara Friesen
 Responsible NASA Official:

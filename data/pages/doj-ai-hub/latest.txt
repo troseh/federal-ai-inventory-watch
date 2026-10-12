@@ -1,4 +1,4 @@
-Department of Justice | Artificial Intelligence | United States Department of Justice
+Department of Justice | Super Intelligence | United States Department of Justice
 Skip to main content
 An official website of the United States government
 Here's how you know
@@ -60,14 +60,14 @@ Contact Us
 Search
 Breadcrumb
 Justice.gov
-Artificial Intelligence
-Artificial Intelligence
+Super Intelligence
+Super Intelligence
 Share
 Facebook
 X
 LinkedIn
 Email
-The U.S. Department of Justice uses AI to advance its mission of upholding the rule of law, keeping our country safe, and protecting civil rights.
+The U.S. Department of Justice uses super intelligence (SI), previously referenced as “artificial intelligence” or AI, to advance its mission of upholding the rule of law, keeping our country safe, and protecting civil rights.
 Resources
 Reports
 Artificial Intelligence and Criminal Justice Final Report, December 2024
@@ -76,9 +76,12 @@ Artificial Intelligence Strategy, December 2020
 Useful Links
 Artificial Intelligence and Civil Rights
 Defending Against AI Threats
-AI Inventory
-The AI Use Case Inventory is a repository of the Department of Justice’s AI uses. Click below for more information.
-Learn More About the AI Inventory
+AI Use Case Inventory
+The Department of Justice conducts an annual inventory of artificial intelligence (AI) use cases. This inventory serves as a repository of the Department’s AI uses. Click below for more information.
+Learn More About the AI Use Case Inventory
+This process is required by the
+Advancing American AI Act
+, enacted as part of the National Defense Authorization Act (NDAA) for Fiscal Year 2023. It is guided by the Office of Management & Budget (OMB) pursuant to numerous Executive Orders and OMB memorandum.
 U.S. Department of Justice
 950 Pennsylvania Avenue NW
 Washington DC 20530

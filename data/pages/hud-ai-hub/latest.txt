@@ -1,4 +1,4 @@
-AI@HUD | HUD.gov / U.S. Department of Housing and Urban Development (HUD)
+26red-AI@HUD | HUD.gov / U.S. Department of Housing and Urban Development (HUD)
 Skip to main content
 An official website of the United States Government
 Here’s how you know
@@ -55,29 +55,6 @@ Data & Research
 News
 About
 Contact
-AI@HUD
-The Department Housing and Urban Development’s (HUD) mission is to create strong and self-sufficient communities and quality affordable homes for all. By leveraging the benefits of Artificial Intelligence (AI), the Department can amplify our positive impacts on the people and communities that we serve.
-To advance this work and in accordance with the Office of Management and Budget's (OMB) Memorandum M-25-21,
-Accelerating Federal Use of AI through Innovation, Governance, and Public Trust
-, HUD has developed its AI Strategy and Compliance Plan:
-HUD 2025 AI Compliance Plan
-HUD AI Strategy
-HUD AI Use Case Inventory
-The
-Advancing American AI Act
-, Executive Order (EO) 13960,
-Promoting the Use of Trustworthy Artificial Intelligence in the Federal Government
-, and Office of Management and Budget (OMB) Memorandum M-25-21,
-Accelerating Federal Use of AI through Innovation, Governance, and Public Trust
-, require Federal agencies to report on their use of artificial intelligence (AI).
-HUD has compiled a list of its individually reported AI use cases and collective reporting on agency use of certain widely used commercial AI for 2025. Both are available for download below.
-2025 HUD Individually Reported AI Use Cases
-2025 HUD Consolidated AI Use Cases
-References
-AI Technical Requirements
-- HUD's requirements for AI systems
-AI Definitions
-- Key AI terms used across HUD
 Helping Americans
 HUD Partners
 Researchers
