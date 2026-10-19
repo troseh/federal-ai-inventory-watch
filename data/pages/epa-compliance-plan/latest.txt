@@ -99,13 +99,6 @@ t.
 Data
 Open Sidenav Menu
 Close Sidenav Menu
-APIs
-expand or collapse the child menu
-API Strategy
-Super Intelligence
-expand or collapse the child menu
-SI Compliance
-SI Inventory
 Data Governance
 expand or collapse the child menu
 Data Governance Advisory Council
@@ -117,14 +110,21 @@ Tribes Services
 expand or collapse the child menu
 Tribal Identifier Data Standard
 Tribes Names Service
-Data Registries
-Data Stories
 Enterprise Data Catalog
 Open Data Policies
 expand or collapse the child menu
 Open Data Plan
 21st Century IDEA
+Super Intelligence
+expand or collapse the child menu
+SI Compliance
+SI Inventory
 Where to Find EPA Data
+expand or collapse the child menu
+APIs
+expand or collapse the child menu
+API Strategy
+Data Registries
 Contact Us About EPA Data
 Contact Us About EPA Data
 to ask a question, provide feedback, or report a problem.

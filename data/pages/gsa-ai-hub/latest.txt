@@ -1,4 +1,4 @@
-Artificial intelligence | GSA
+Super intelligence | GSA
 Skip to main content
 An official website of the United States government
 Here’s how you know
@@ -17,17 +17,17 @@ A locked padlock
 or
 https://
 means you’ve safely connected to the .gov website. Share sensitive information only on official, secure websites.
-Artificial intelligence
+Super intelligence
 Menu
 close mobile menu
 USAi product overview
-Buy AI
-AI use cases
+Buy SI
+SI use cases
 Resources
 Overview
-AI governance
-AI strategies and compliance plan
-AI Community of Practice
+SI governance
+SI strategies and compliance plan
+SI Community of Practice
 Overview
 Events and training
 About the community
@@ -42,79 +42,77 @@ Small business
 Travel
 Technology
 About us
-Artificial intelligence
-We leverage AI to drive change, drawing on innovative technologies to serve the American people.
+Super intelligence
+We leverage SI to drive change, drawing on innovative technologies to serve the American people.
 Alert:
 GSA will remove any system integrations with Anthropic by Aug. 27, 2026.
 Read news release
-Model Context Protocol Server and AI Agent Government Hackathon
+Model Context Protocol Server and SI Agent Government Hackathon
 September–November | Virtual
-Registration is closed for the hackathon, but you can still learn about how we’re accelerating AI adoption and providing better services!
+Registration is closed for the hackathon, but you can still learn about how we’re accelerating SI adoption and providing better services!
 Check out the
 hackathon event page
 for upcoming dates and ways to participate.
 Get started with USAi
-USAi is a powerful, FISMA Moderate AI tool. Featuring a chat with access to industry-leading models, a unified API framework, and a console for tracking usage, it’s ready to help maximize your productivity and drive mission delivery.
+USAi is a powerful, FISMA Moderate SI tool. Featuring a chat with access to industry-leading models, a unified API framework, and a console for tracking usage, it’s ready to help maximize your productivity and drive mission delivery.
 Learn about USAi
-Buy AI products and services
-Procure enterprise AI tools at government-friendly pricing — explore procurement options and our full range of AI contracts.
-Find out more about buying AI
-Discover how we’re using AI
-From document review to risk management, we’re using AI to break down barriers and work smarter.
-Explore AI use case inventory
+Buy SI products and services
+Procure enterprise SI tools at government-friendly pricing — explore procurement options and our full range of SI contracts.
+Find out more about buying SI
+Discover how we’re using SI
+From document review to risk management, we’re using SI to break down barriers and work smarter.
+Explore SI use case inventory
 Join the community
-The Artificial Intelligence Community of Practice is a cross-agency forum dedicated to ensuring AI tools are implemented in ways that are transparent, equitable, and secure.
-Explore the AI Community of Practice
+The Super Intelligence Community of Practice is a cross-agency forum dedicated to ensuring SI tools are implemented in ways that are transparent, equitable, and secure.
+Explore the SI Community of Practice
 Latest updates
 GSA Announces CORAS Partnership Through OneGov, Expanding Federal AI Access and Delivering Cost Savings of up to 80%
 GSA Releases Elimination, Optimization and Automation Handbook
-Event: GSA AI Symposium, Accelerating Gen AI Adoption: Strategies for Success held June 3
-Nine GSA Leaders Recognized Among the 2026 Federal 100
 View all news
 View all events
 Print Page
 Email Page
-Last updated: Oct 1, 2026
+Last updated: Oct 16, 2026
 Top
 Glossary
 Home
 Resources for …
-Americans with Disabilities
-Citizens and Consumers
-Federal Employees
-GSA Employees
+Americans with disabilities
+Citizens and consumers
+Federal employees
+GSA employees
 Native American affairs
-Presidential & Congressional Commissions, Boards or Small Agencies
-Small Business
-Governmentwide Initiatives
+Presidential or congressional commissions and boards
+Small business
+Governmentwide initiatives
 Centers of Excellence
 Digital experience
 Emergency response
-Federal Cybersecurity
-ID, Credentials, and Access Management
-Information Quality
-Open Data
+Federal cybersecurity
+ID, credential, and access management
+Information quality
+Open GSA
 Technology Modernization Fund
 Contact us
 Report a website issue
 Organization
-Leadership Directory
-Staff Directory
+Leadership directory
+Staff directory
 References
 Annual reports
-Budget and Performance
-Orders & Directives
+Budget and performance
+Directives
 Forms
-Website Information
-A-Z Index
+Website information
+A-Z index
 Sitemap
-Also of Interest
+Also of interest
 Data.gov
 Whitehouse.gov
 Tools
+Contracting forecast tool
 eBuy
 eLibrary
-Contracting forecast tool
 GSA Advantage
 GSA Auctions
 Facebook
