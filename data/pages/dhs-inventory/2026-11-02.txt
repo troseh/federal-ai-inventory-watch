@@ -1,0 +1,389 @@
+Super Intelligence Use Case Inventory | Homeland Security
+Skip to main content
+An official website of the United States government
+Here’s how you know
+Here’s how you know
+Official websites use .gov
+A
+.gov
+website belongs to an official government organization in the United States.
+Secure .gov websites use HTTPS
+A
+lock
+(
+Lock
+A locked padlock
+)
+or
+https://
+means you’ve safely connected to the .gov website. Share sensitive information only on official, secure websites.
+Secretary Markwayne Mullin
+×
+Press Enter to Search
+Open Menu
+×
+Press Enter to Search
+Topics
+Topics
+Border Security
+Citizenship and Immigration
+Cybersecurity
+Disasters
+Election Security
+Homeland Security Enterprise
+Human Trafficking
+Immigration and Customs Enforcement
+Preventing Terrorism and Targeted Violence
+Resilience
+Science and Technology
+Trade and Economic Security
+Transportation Security
+News
+News
+All DHS News
+Apps
+Blog
+Comunicados de Prensa
+Data
+Events
+Featured News
+Homeland Security LIVE
+Media Contacts
+Media Library
+National Terrorism Advisory System
+Press Releases
+Publications Library
+Social Media
+Subscribe
+In Focus
+In Focus
+One Year of VOICE
+Worst of the Worst
+Angel Families Project
+Making America Safe Again
+CBP Home
+Fentanyl
+Independent Review of 2024 Attempted Assassination
+Cybersecurity
+How Do I?
+How Do I?
+Alphabetical Listing
+At DHS
+For Businesses
+For Travelers
+For the Public
+Get Involved
+Get Involved
+Blue Campaign
+If You See Something, Say Something®
+Know2Protect
+Nationwide SAR Initiative
+Ready.gov
+Secure Our World
+US Coast Guard Auxiliary
+About DHS
+About DHS
+Budget & Performance
+Contact Us
+Employee Resources
+History
+Homeland Security Careers
+In Memoriam
+Laws & Regulations
+Leadership
+Mission
+Organization
+Site Links
+Topics
+Topics
+Border Security
+Citizenship and Immigration
+Cybersecurity
+Disasters
+Election Security
+Homeland Security Enterprise
+Human Trafficking
+Immigration and Customs Enforcement
+Preventing Terrorism and Targeted Violence
+Resilience
+Science and Technology
+Trade and Economic Security
+Transportation Security
+News
+News
+All DHS News
+Apps
+Blog
+Comunicados de Prensa
+Data
+Events
+Featured News
+Homeland Security LIVE
+Media Contacts
+Media Library
+National Terrorism Advisory System
+Press Releases
+Publications Library
+Social Media
+Subscribe
+In Focus
+In Focus
+One Year of VOICE
+Worst of the Worst
+Angel Families Project
+Making America Safe Again
+CBP Home
+Fentanyl
+Independent Review of 2024 Attempted Assassination
+Cybersecurity
+How Do I?
+How Do I?
+Alphabetical Listing
+At DHS
+For Businesses
+For Travelers
+For the Public
+Get Involved
+Get Involved
+Blue Campaign
+If You See Something, Say Something®
+Know2Protect
+Nationwide SAR Initiative
+Ready.gov
+Secure Our World
+US Coast Guard Auxiliary
+About DHS
+About DHS
+Budget & Performance
+Contact Us
+Employee Resources
+History
+Homeland Security Careers
+In Memoriam
+Laws & Regulations
+Leadership
+Mission
+Organization
+Site Links
+Breadcrumb
+Home
+Topics
+Homeland Security Enterprise
+Super Intelligence at DHS
+SI Use Case Inventory
+Academic Engagement
+CIS Ombudsman
+Civil Rights and Civil Liberties
+Customer Experience and Service Delivery
+DHS Center for Faith
+Do Business with DHS
+Federal Protective Service
+Financial Assistance
+Homeland Security Investigations
+Information Sharing
+Intelligence and Analysis
+International Engagement
+Law Enforcement
+Privacy
+Super Intelligence at DHS
+Using SI to Secure the Homeland
+Ensuring SI Is Used Responsibly
+DHS SI Leadership
+SI Use Case Inventory
+DHS Enterprise SI Use Cases
+USCIS SI Use Cases
+USCG SI Use Cases
+CBP SI Use Cases
+CISA SI Use Cases
+FEMA SI Use Cases
+ICE SI Use Cases
+USSS SI Use Cases
+TSA SI Use Cases
+Management SI Use Cases
+CWMD SI Use Cases
+OHS SI Use Cases
+Veterans and Homeland Security
+The Department of Homeland Security Super Intelligence Use Case Inventory
+Please note that references to Artificial Intelligence (AI) have been replaced with Super Intelligence (SI) where appropriate based on the
+Executive Order issued by the President
+on September 29, 2026.
+About the 2025 Inventory
+The 2025 DHS SI Use Case Inventory was updated in line with the annual guidance from OMB in 2025. The 2025 SI Use Case Inventory represents a continued refinement of the 2024 inventory by:
+Refining risk categories into "High-Impact," "Presumed High-Impact, but determined not High-Impact" and "Not High-Impact."
+Streamlining the stages of development to "Pre-Deployment," "Pilot," "Deployed," and "Retired" for better understanding of a use case's current status.
+Focusing the inventory on unique use cases by reporting "Common Commercial SI" separately.
+The 2025 SI use case inventory will be updated regularly throughout 2026 with new information about use cases and SI minimum risk management practices.
+Full DHS SI Use Case Inventory
+The
+Full DHS SI Use Case Inventory
+lists SI use cases within DHS and provides detailed information about each one. This Inventory is available as a downloadable spreadsheet on the SI
+Use Case Inventory Library
+page.
+Simplified SI Use Case Inventory
+The
+Simplified DHS SI Use Case Inventory
+provides an overview for each SI use case, organized by DHS component, and includes the following information:
+Use Case Name, ID Number, and Summary: a brief description of the use case along with its ID number (which remains the same even if the name or summary changes).
+Use Case Name, ID Number, and Summary
+: a brief description of the use case along with its ID number (which remains the same even if the name or summary changes).
+Topic Areas
+: a standard categorization of the use case’s topic, such as administrative functions, law enforcement, and emergency management.
+Stage of Development
+: whether a use case is in pre-deployment, deployment, pilot, or retired status.
+High-Impact Status
+: whether under
+OMB 2025 guidance
+a use case is considered "high-impact," and if the use case is presumed to be high-impact, a justification for why it does not meet the definition of a high-impact use case.
+DHS Enterprise
+Image
+4 use cases
+DHS Enterprise
+U.S. Citizenship and Immigration Services (USCIS)
+Image
+23 use cases
+USCIS SI Use Cases
+U.S. Coast Guard (USCG)
+Image
+3 use cases
+USCG SI Use Cases
+United States Customs and Border Protection (CBP)
+Image
+83 use cases
+CBP SI Use Cases
+Cybersecurity and Infrastructure Security Agency (CISA)
+Image
+7 use cases
+CISA SI Use Cases
+Federal Emergency Management Agency (FEMA)
+Image
+22 use cases
+FEMA SI Use Cases
+U.S. Immigration and Customs Enforcement (ICE)
+Image
+51 use cases
+ICE SI Use Cases
+United States Secret Service (USSS)
+Image
+3 use cases
+USSS SI Use Cases
+Transportation Security Administration (TSA)
+Image
+26 use cases
+TSA SI Use Cases
+Management Directorate (MGMT)
+Image
+10 use cases
+MGMT SI Use Cases
+Countering Weapons of Mass Destruction Office (CWMD)
+Image
+1 use case
+CWMD SI Use Cases
+Office of Health Security (OHS)
+Image
+4 use cases
+OHS SI Use Cases
+DHS SI Use Case Inventory FAQ
+The 2025 DHS SI Use Case Inventory was completed in line with the annual guidance from OMB in
+OMB M-25-21
+. DHS updates the SI use case inventory annually following released guidance, and periodically throughout the year.
+What is an SI use case?
+DHS defines an SI use case as using a specific application of SI to address a specific, identified problem or requirement for DHS and that results in a mission-enhancing benefit from using SI.
+Does this inventory include all uses of SI at DHS?
+The DHS SI Use Case Inventory includes all unclassified and non-sensitive SI use cases that can be publicly disclosed to the maximum extent practicable and in accordance with applicable law and policy. The inventory does not include (1) use cases within an element of the intelligence community, (2) use cases used within a national security system described in 40 U.S.C. § 11103(a), (3) research and development (R&D) use cases, unless the R&D use case is deployed in a real-world context, and (4) use cases implemented solely with a commercial-off-the-shelf or freely available SI product if the product is unmodified for government use and used for routine productive tasks (e.g. word processors, map navigation systems).
+Why does the SI use case inventory look different this year?
+SI use cases within the inventory are updated throughout the year to provide current information on how DHS uses super intelligence. Additionally, once a year, OMB sends out guidance that refreshes the structure of the inventory to ensure agencies are capturing data that is most important for reporting to Congress and the Public. For the 2025 inventory, the focus was on streamlining information about use cases to be more easily understood, resulting in fewer data fields overall, while still capturing the most pertinent information about the use of super intelligence across agencies.
+What does it mean that an SI use case is high-impact?
+Whether an SI use case is high-impact is determined under Office of Budget and Management (OMB) Memorandum M-25-21
+Accelerating Federal Use of AI through Innovation, Governance, and Public Trust
+(April 3, 2025). M-25-21 lists categories of SI use presumed to be high-impact (in Section 6 of M-25-21) and provides definitions for “high-impact SI” (in Section 5 of M-25-21).
+It is possible for a use case to be presumed to be high-impact without satisfying the definition. The definition requires determining whether the particular SI output serves as a principal basis for decisions or actions that have a legal, material, binding, or significant effect on rights or safety.
+The full definitions from M-25-21 read as follows:
+High-Impact SI: SI with an output that serves as a principal basis for decisions or actions with legal, material, binding, or significant effect on:
+1. an individual or entity's civil rights, civil liberties, or privacy; or
+2. an individual or entity's access to education, housing, insurance, credit, employment, and other programs;
+3. an individual or entity's access to critical government resources or services;
+4. human health and safety;
+5. critical infrastructure or public safety; or
+6. strategic assets or resources, including high-value property and information marked as sensitive or classified by the Federal Government.
+According to M-25-21, agencies must implement the minimum risk management practices for each high-impact SI use case before it is deployed.
+What does it mean that a use case was presumed to be high-impact but was determined not to be so?
+The Office of Budget and Management (OMB) Memorandum M-25-21
+Accelerating Federal Use of AI through Innovation, Governance, and Public Trust
+(April 3, 2025) outlined certain categories of SI use cases that are presumed to be high-impact, unless an appropriate agency official determines otherwise (see M-25-21, Section 4(a)).
+When a use case falls into one of the presumed categories, the use case must be further examined to determine if use of the SI serves as a principal basis for an agency decision or action that has a significant effect on rights or safety (see M-25-21, Section 5). Only an appropriate agency official can determine if a use case is not high-impact if it falls into a presumed category, and must provide written documentation to the agency CAIO when they have done so.
+The
+Simplified SI Use Case Inventory
+includes information about each use case's high-impact determination.
+What is M-25-21 and what does it require DHS to do to mitigate SI risk?
+Office of Budget and Management (OMB) Memorandum M-25-21
+Accelerating Federal Use of AI through Innovation, Governance, and Public Trust
+(April 3, 2025) requires: (1) designating a
+Chief SI Officer for DHS
+(DHS CAIO); (2) convening an AI Governance Board comprised of senior DHS officials to coordinate and govern issues related to the use of SI within DHS; (3) creating an
+updated inventory of DHS’ SI use cases
+and identifying use cases determined to be high-impact; and (4) implementing minimum risk management practices outlined in M-25-21 for high-impact SI.
+According to M-25-21, agencies must implement the minimum practices for each high-impact SI use case before it is deployed. For an SI use case that was deployed before M-25-21 requirements were published, agencies must implement the minimum practices by April 3, 2026 or discontinue its use.
+Is Face Recognition/Face Capture (FR/FC) technology SI?
+Face Recognition and Face Capture (FR/FC) technology is built on the same machine training and machine learning concepts that make newer super intelligence systems, such as chat bots and image generators, possible, therefore DHS considers FR/FC technology a subset of SI. FR/FC use cases at DHS adhere to the same standards as other forms of SI, including determining if the use case is high-impact, and implementation of the minimum risk management practices.
+What is the difference between the inventory spreadsheet and the Simplified Inventory?
+The Full DHS SI Use Case Inventory is available as a downloadable spreadsheet and the Simplified DHS SI Use Case Inventory is available in a more easily accessible webpage format organized by DHS Component. The Simplified inventory lists the basic information about a use case, such as its Name, ID Number, SI Classification, High-Impact status, and a Summary that combines several information fields from the Full Inventory into one plain-language synopsis of the use case's role and functionality. For more information, see the description of the
+Simplified SI Use Case Inventory
+.
+Why aren't the DHS ID numbers in sequential order? Are some use cases missing?
+DHS assigns each new SI use case an ID number that can identify a use case over multiple years, even if its name changes. Some ID numbers are associated with use cases that were never ultimately developed or use cases that were consolidated with another use case before being reported. ID numbers are not reused once assigned.
+Why are uses identified as Inactive listed in the inventory?
+Some SI use cases were included in
+previous versions
+of the DHS SI Use Case Inventory but are no longer used by DHS. These use cases, also known as retired or decommissioned use cases, are included in both the full and simplified inventories, but they are labeled to show that they are no longer in use. DHS keeps these in the inventory temporarily for transparency and in accordance with requirements from OMB. Use cases that were marked as retired on previous year inventories are removed to reduce clutter, but historical inventories are still available on the SI
+Use Case Inventory Library
+page.
+How often does DHS update the DHS SI Use Case Inventory?
+DHS completes one main update to the DHS SI Use Case Inventory per year in line with annual guidance from OMB and makes other revisions to specific use case information as needed between annual updates. DHS provides a log of those revisions on the
+Simplified SI Use Case Inventory
+. The
+downloadable
+Full DHS SI Use Case Inventory also identifies revised data fields between annual updates.
+The most recent annual update was published on January 28th, 2026.
+Other questions about the SI Use Case Inventory? Please contact DHS
+at
+AI@hq.dhs.gov
+.
+Topics
+Secretary of Homeland Security
+Keywords
+Super Intelligence (SI)
+Department of Homeland Security (DHS)
+Last Updated:
+10/14/2026
+Was this page helpful?
+Yes
+No
+This page was not helpful because the content
+has too little information
+has too much information
+is confusing
+is out-of-date
+Back to Top
+Topics
+News
+In Focus
+How Do I?
+Get Involved
+About DHS
+DHS.gov
+An official website of the
+U.S. Department of Homeland Security
+About DHS
+Accessibility
+Budget and Performance
+DHS Components
+FOIA Requests
+No FEAR Act Data
+Privacy Policy
+Site Links
+Vulnerability Disclosure Program
+Office of Inspector General
+The White House
+USA.gov
+Looking for U.S. government information and services?
+Visit USA.gov
