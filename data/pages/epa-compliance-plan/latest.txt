@@ -99,32 +99,41 @@ t.
 Data
 Open Sidenav Menu
 Close Sidenav Menu
-Data Governance
+About Data and Data Governance
+expand or collapse the child menu
+Data Governance Bodies
 expand or collapse the child menu
 Data Governance Advisory Council
-Data Standards
+EPA Data Stewardship
+Foundations of Open Data
+expand or collapse the child menu
+Federal Statutes & Directives
+EPA Data Management Policies & Procedures
+Data Standards Used at EPA
 expand or collapse the child menu
 Federal, National, and International Data Standards
 Learn About Data Standards
 Tribes Services
-expand or collapse the child menu
-Tribal Identifier Data Standard
-Tribes Names Service
-Enterprise Data Catalog
-Open Data Policies
-expand or collapse the child menu
+Transparency in Scientific Research
 Open Data Plan
 21st Century IDEA
-Super Intelligence
+Scientific Research
+Discovering EPA Data
 expand or collapse the child menu
-SI Compliance
-SI Inventory
-Where to Find EPA Data
+Collecting EPA Data
+Exploring and Analyzing EPA Data
+Finding EPA Data
+Sharing EPA Data
 expand or collapse the child menu
 APIs
 expand or collapse the child menu
 API Strategy
 Data Registries
+Downloadable Data
+Super Intelligence
+expand or collapse the child menu
+SI Compliance
+SI Inventory
 Contact Us About EPA Data
 Contact Us About EPA Data
 to ask a question, provide feedback, or report a problem.

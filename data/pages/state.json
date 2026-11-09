@@ -1,6 +1,6 @@
 {
   "commerce-ai-hub": {
-    "fail_streak": 1,
+    "fail_streak": 2,
     "last_changed": "2026-07-20",
     "manual": false,
     "source": "wayback:20260713154532"
@@ -33,13 +33,13 @@
   },
   "doe-compliance-plan": {
     "fail_streak": 0,
-    "last_changed": "2026-11-02",
+    "last_changed": "2026-11-09",
     "manual": false,
     "source": "direct"
   },
   "doe-inventory": {
     "fail_streak": 0,
-    "last_changed": "2026-11-02",
+    "last_changed": "2026-11-09",
     "manual": false,
     "source": "direct"
   },
@@ -62,13 +62,13 @@
     "source": "direct"
   },
   "dol-ai-hub": {
-    "fail_streak": 1,
+    "fail_streak": 2,
     "last_changed": "2026-10-19",
     "manual": false,
     "source": "wayback:20261012215544"
   },
   "dol-inventory": {
-    "fail_streak": 1,
+    "fail_streak": 0,
     "last_changed": "2026-09-21",
     "manual": false,
     "source": "wayback:20260914182342"
@@ -79,7 +79,7 @@
     "manual": true
   },
   "ed-ai-guidance": {
-    "fail_streak": 1,
+    "fail_streak": 0,
     "last_changed": "2026-10-05",
     "manual": false,
     "source": "wayback:20260914035639"
@@ -92,7 +92,7 @@
   },
   "epa-compliance-plan": {
     "fail_streak": 0,
-    "last_changed": "2026-10-19",
+    "last_changed": "2026-11-09",
     "manual": false,
     "source": "direct"
   },
@@ -103,7 +103,7 @@
     "source": "direct"
   },
   "hhs-inventory-csv": {
-    "fail_streak": 2,
+    "fail_streak": 3,
     "last_changed": "2026-09-14",
     "manual": false,
     "source": "wayback:20260903135523"
@@ -128,7 +128,7 @@
   },
   "nasa-ai-hub": {
     "fail_streak": 0,
-    "last_changed": "2026-11-02",
+    "last_changed": "2026-11-09",
     "manual": false,
     "source": "direct"
   },
@@ -139,7 +139,7 @@
     "source": "direct"
   },
   "nrc-ai-hub": {
-    "fail_streak": 1,
+    "fail_streak": 2,
     "last_changed": "2026-10-19",
     "manual": false,
     "source": "wayback:20260928200705"
@@ -186,13 +186,13 @@
     "source": "direct"
   },
   "usda-compliance-plan": {
-    "fail_streak": 1,
+    "fail_streak": 2,
     "last_changed": "2026-07-09",
     "manual": false,
     "source": "wayback:20260709174031"
   },
   "usda-inventory": {
-    "fail_streak": 0,
+    "fail_streak": 1,
     "last_changed": "2026-09-07",
     "manual": false,
     "source": "wayback:20260903135648"
@@ -210,7 +210,7 @@
     "source": "direct"
   },
   "vaoig-compliance-plan": {
-    "fail_streak": 26,
+    "fail_streak": 27,
     "manual": false
   }
 }
